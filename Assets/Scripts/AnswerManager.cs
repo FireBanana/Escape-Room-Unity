@@ -5,8 +5,6 @@ using UnityEngine;
 public class AnswerManager : MonoBehaviour
 {
     public static AnswerManager Instance;
-    
-    [HideInInspector] public int Score;
 
     private void Awake()
     {
@@ -15,8 +13,10 @@ public class AnswerManager : MonoBehaviour
 
     public void AnswerQuestion(bool isCorrect)
     {
+        var Score = MainGameManager.Instance.Score;
         Score = isCorrect ? Score + 100 : Score - 200;
-        //Send Packet
+        MainGameManager.Instance.Score = Score;
+        MainGameManager.Instance.NetworkHandlerInstance.SendPointsUpdate(MainGameManager.Instance.TeamName, Score);
     }
     
     

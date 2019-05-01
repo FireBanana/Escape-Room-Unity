@@ -8,7 +8,6 @@ using System.Net;
 using UnityEngine;
 using Newtonsoft.Json;
 using System.IO;
-using Unity_Escape_Room_Server_WPF.PacketCommands;
 
 
 public class NetworkHandler : IDisposable
@@ -60,6 +59,15 @@ public class NetworkHandler : IDisposable
                 }
             }
         });
+    }
+
+    public void SendPointsUpdate(string teamName, int points)
+    {
+        var packet = new PointsUpdatePacket(teamName, points);
+        
+        var serializedPacket = JsonConvert.SerializeObject(packet);
+        var buff = Encoding.ASCII.GetBytes(serializedPacket);
+        client.GetStream().Write(buff, 0, buff.Length);
     }
 
     public void Dispose()

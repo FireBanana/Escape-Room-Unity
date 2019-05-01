@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unity_Escape_Room_Server_WPF.PacketCommands
+public class AuthenticationResponsePacket : Packet
 {
-    class AuthenticationResponsePacket
+
+    public AuthenticationResponsePacket(string teamName)
     {
+        PacketId = "authenticationResponse";
+        TeamName = teamName;
     }
 }
+

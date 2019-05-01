@@ -8,7 +8,9 @@ using UnityEngine;
 public class MainGameManager : MonoBehaviour
 {
     public static MainGameManager Instance;
-    private NetworkHandler networkHandler;
+    [HideInInspector] public NetworkHandler NetworkHandlerInstance;
+    [HideInInspector] public string TeamName;
+    [HideInInspector] public int Score;
 
     private ConcurrentQueue<Action> CallbackQueue = new ConcurrentQueue<Action>();
 
@@ -21,7 +23,7 @@ public class MainGameManager : MonoBehaviour
 
     private void Start()
     {
-        networkHandler = new NetworkHandler();
+        NetworkHandlerInstance = new NetworkHandler();
 
         StartCoroutine(CallbackQueueRoutine());
     }
@@ -34,10 +36,11 @@ public class MainGameManager : MonoBehaviour
             return;
         }
 
-        networkHandler.SendAuthentication(AuthenticationInputField.text, () =>
+        NetworkHandlerInstance.SendAuthentication(AuthenticationInputField.text, () =>
         {
             CallbackQueue.Enqueue(() =>
             {
+                TeamName = AuthenticationInputField.text;
                 NavigationManager.Instance.ActivateInitalScreen();
             });
             print("Callback received");
@@ -65,6 +68,6 @@ public class MainGameManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        networkHandler.Dispose();
+        NetworkHandlerInstance.Dispose();
     }
 }

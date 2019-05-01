@@ -7,8 +7,6 @@ using System.Threading.Tasks;
 
 public class AuthenticationPacket : Packet
 {
-    public string TeamName;
-
     public AuthenticationPacket(string teamName)
     {
         PacketId = "authentication";
