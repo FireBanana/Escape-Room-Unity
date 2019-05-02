@@ -61,6 +61,7 @@
               <e p="AuthenticationResponsePacket.cs" t="Include" />
               <e p="HelpRequestPacket.cs" t="Include" />
               <e p="HintRequestPacket.cs" t="Include" />
+              <e p="HintResponsePacket.cs" t="Include" />
               <e p="PauseGamePacket.cs" t="Include" />
               <e p="PointsUpdatePacket.cs" t="Include" />
             </e>

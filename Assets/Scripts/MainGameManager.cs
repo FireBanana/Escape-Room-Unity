@@ -2,6 +2,9 @@
 using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Net.Sockets;
+using System.Text;
+using Newtonsoft.Json;
 using TMPro;
 using UnityEngine;
 
@@ -15,6 +18,8 @@ public class MainGameManager : MonoBehaviour
     private ConcurrentQueue<Action> CallbackQueue = new ConcurrentQueue<Action>();
 
     [Header("Fields")] public TMP_InputField AuthenticationInputField;
+
+    [Space] public GameObject PauseScreen;
 
     private void Awake()
     {
@@ -45,6 +50,25 @@ public class MainGameManager : MonoBehaviour
             });
             print("Callback received");
         });
+    }
+
+    public void AddToCallbackQueue(Action method)
+    {
+        CallbackQueue.Enqueue(method);
+    }
+
+    public void ToggleGame(bool isPaused)
+    {
+        //Pause timer
+        //show screen
+        if (isPaused)
+        {
+            PauseScreen.SetActive(true);
+        }
+        else
+        {
+            PauseScreen.SetActive(false);
+        }
     }
 
     IEnumerator CallbackQueueRoutine()
