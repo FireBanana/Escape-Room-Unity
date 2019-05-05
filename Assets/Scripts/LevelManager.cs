@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class LevelManager : MonoBehaviour
     }
 
     public List<QuestionHolder> QuestionHolderList;
+    public List<Button> LevelButtons;
     public GameObject QrHolder;
     
     private int currentSelectedLevel;
@@ -30,10 +32,33 @@ public class LevelManager : MonoBehaviour
         QuestionHolderList[currentSelectedLevel].gameObject.SetActive(true);
     }
 
+    public void UnlockLevel(int level)
+    {
+        if (level == 6)
+        {
+            DialogManager.Instance.EnableDialogue("Simulation Terminated", "", "OK", DialogManager.Instance.DisableDialogue);
+            return;
+        }
+        
+        LevelButtons[level].interactable = true;
+        DialogManager.Instance.EnableDialogue("Level Unlocked!", "You have unlocked a new level!", "OK", DialogManager.Instance.DisableDialogue);
+    }
+
     public void SelectQr()
     {
         QuestionHolderList[currentSelectedLevel].gameObject.SetActive(false);
         currentSelectedLevel = -1;
         QrHolder.SetActive(true);
+        QrManager.Instance.QrCallback = result =>
+        {
+            if (result == "QR CODE OF DOOR HERE")
+            {
+                //continue
+            }
+            else
+            {
+                TutorialManager.Instance.ShowQrFailed();
+            }
+        };
     }
 }

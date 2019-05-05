@@ -20,11 +20,17 @@ public class NetworkHandler : IDisposable
     TcpClient client;
 
     private CancellationTokenSource PacketListenerCancellationSource = new CancellationTokenSource();
+    private bool isDebug;
 
     public delegate void AuthenticationCallback();
 
-    public NetworkHandler()
+    public NetworkHandler(bool debug)
     {
+        isDebug = debug;
+        
+        if(isDebug)
+            return;
+        
         try
         {
             client = new TcpClient(ipAddress, PORT);
@@ -81,7 +87,7 @@ public class NetworkHandler : IDisposable
                                         MainGameManager.Instance.AddToCallbackQueue(() =>
                                         {
                                             DialogManager.Instance.EnableDialogue("Hint Received!",
-                                                hintResponsePacket.Hint, "OK", null);
+                                                hintResponsePacket.Hint, "OK",  DialogManager.Instance.DisableDialogue);
                                         });
 
                                         break;
@@ -107,6 +113,9 @@ public class NetworkHandler : IDisposable
 
     public void SendAuthentication(string teamName, AuthenticationCallback callback)
     {
+        if(isDebug)
+            return;
+        
         var packet = new AuthenticationPacket(teamName);
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
@@ -136,8 +145,23 @@ public class NetworkHandler : IDisposable
         });
     }
 
+    public void SendHintRequest(string teamName)
+    {
+        if(isDebug)
+            return;
+        
+        var packet = new HintRequestPacket(teamName);
+
+        var serializedPacket = JsonConvert.SerializeObject(packet);
+        var buff = Encoding.ASCII.GetBytes(serializedPacket);
+        client.GetStream().Write(buff, 0, buff.Length);
+    }
+
     public void SendPointsUpdate(string teamName, int points)
     {
+        if(isDebug)
+            return;
+        
         var packet = new PointsUpdatePacket(teamName, points);
 
         var serializedPacket = JsonConvert.SerializeObject(packet);

@@ -15,6 +15,16 @@ public class AnswerManager : MonoBehaviour
     {
         var Score = MainGameManager.Instance.Score;
         Score = isCorrect ? Score + 100 : Score - 200;
+
+        if (isCorrect)
+        {
+            DialogManager.Instance.EnableDialogue("Congratulations!", "You got 100 points", "OK", DialogManager.Instance.DisableDialogue);
+        }
+        else
+        {
+            DialogManager.Instance.EnableDialogue("Wrong!", "200 points have been deducted", "OK", DialogManager.Instance.DisableDialogue);
+        }
+        
         MainGameManager.Instance.Score = Score;
         MainGameManager.Instance.NetworkHandlerInstance.SendPointsUpdate(MainGameManager.Instance.TeamName, Score);
     }

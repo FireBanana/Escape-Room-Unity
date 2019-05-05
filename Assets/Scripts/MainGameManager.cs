@@ -18,8 +18,9 @@ public class MainGameManager : MonoBehaviour
     private ConcurrentQueue<Action> CallbackQueue = new ConcurrentQueue<Action>();
 
     [Header("Fields")] public TMP_InputField AuthenticationInputField;
-
+    
     [Space] public GameObject PauseScreen;
+    public bool IsDebug;
 
     private void Awake()
     {
@@ -28,7 +29,7 @@ public class MainGameManager : MonoBehaviour
 
     private void Start()
     {
-        NetworkHandlerInstance = new NetworkHandler();
+        NetworkHandlerInstance = new NetworkHandler(IsDebug);
 
         StartCoroutine(CallbackQueueRoutine());
     }

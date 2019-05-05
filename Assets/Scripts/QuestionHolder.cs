@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuestionHolder : MonoBehaviour
 {
     [Header("Question Bodies")] public List<GameObject> QuestionBodies;
+    public List<Button> FinalButtons;
     private int currentActiveBodyId = -1;
 
     public void SelectQuestion(int id)
