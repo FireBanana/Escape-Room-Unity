@@ -277,8 +277,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="396" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="395" />
     <option name="y" value="470" />
     <option name="width" value="1455" />
     <option name="height" value="1030" />
