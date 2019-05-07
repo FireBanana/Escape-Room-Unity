@@ -21512,7 +21512,7 @@ MonoBehaviour:
   Score: 0
   AuthenticationInputField: {fileID: 1320230988}
   PauseScreen: {fileID: 787806748}
-  IsDebug: 1
+  IsDebug: 0
 --- !u!114 &733449000
 MonoBehaviour:
   m_ObjectHideFlags: 0
