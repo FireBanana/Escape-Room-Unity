@@ -44,7 +44,7 @@ public class NetworkHandler : IDisposable
 
     public void StartPacketListener(TcpClient client)
     {
-        var task = Task.Factory.StartNew(() =>
+            var task = Task.Factory.StartNew(() =>
             {
                 PacketListenerCancellationSource.Token.ThrowIfCancellationRequested();
                 while (true)
@@ -58,10 +58,10 @@ public class NetworkHandler : IDisposable
                     {
                         try
                         {
-                            var buffer = new byte[client.ReceiveBufferSize];
-                            
                             if(!client.GetStream().DataAvailable)
                                 continue;
+                            
+                            var buffer = new byte[client.ReceiveBufferSize];
                             
                             client.GetStream().Read(buffer, 0, buffer.Length);
                             try
@@ -94,17 +94,19 @@ public class NetworkHandler : IDisposable
                             }
                             catch (Exception e)
                             {
+                                MainGameManager.Instance.AddToCallbackQueue(() => {Debug.LogError(e.ToString());});
                                 break;
                             }
                         }
                         catch (Exception e)
                         {
+                            MainGameManager.Instance.AddToCallbackQueue(() => {Debug.LogError(e.ToString());});
                             break;
                         }
                     }
                 }
                 Debug.Log("ended");
-            }, PacketListenerCancellationSource.Token
+            }, PacketListenerCancellationSource.Token, TaskCreationOptions.DenyChildAttach, TaskScheduler.Default
         );
     }
 

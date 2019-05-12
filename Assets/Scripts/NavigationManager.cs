@@ -38,8 +38,8 @@ public class NavigationManager : MonoBehaviour
         MainScreen.SetActive(true);
 
         dialogManager.EnableDialogue("Great Job!",
-            "You have successfully calibrated the functional aspects of the game.\nPlease select the QR tab on the top right and scan the code located on the door.",
-            "Oops, we didn't open the door!", false, () =>
+            "You have successfully calibrated the functional aspects of the game.\nPlease select the QR tab on the top right and scan the code located on the door or press the button below to go back if you haven't opened the door!",
+            "Oops, we didn't open the door!", true, () =>
             {
                 ActivateInitalScreen();
                 dialogManager.DisableDialogue();

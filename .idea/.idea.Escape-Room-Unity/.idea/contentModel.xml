@@ -21,6 +21,13 @@
             <e p="readme.txt" t="Include" />
           </e>
         </e>
+        <e p="MobileConsole" t="Include">
+          <e p="readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="MobileConsole.cs" t="Include" />
+            <e p="Style.cs" t="Include" />
+          </e>
+        </e>
         <e p="QRcode" t="Include">
           <e p="CamMat" t="Include">
             <e p="WebCam.shader" t="Include" />
