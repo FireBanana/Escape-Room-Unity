@@ -16,17 +16,25 @@ public class LevelManager : MonoBehaviour
     public List<Button> LevelButtons;
     public GameObject QrHolder;
     
-    private int currentSelectedLevel;
+    private int currentSelectedLevel = -2; //None
 
     public void SelectLevel(int levelIndex)
     {
         if(levelIndex == currentSelectedLevel)
             return;
-        
-        if(currentSelectedLevel == -1)
+
+        if (currentSelectedLevel == -1)
+        {
             QrHolder.SetActive(false);
+            NavigationManager.Instance.DeactivateQr();
+        }
         else
             QuestionHolderList[currentSelectedLevel].gameObject.SetActive(false);
+        
+        if (levelIndex == -2)
+        {
+            return;
+        }
         
         currentSelectedLevel = levelIndex;
         QuestionHolderList[currentSelectedLevel].gameObject.SetActive(true);
@@ -52,8 +60,16 @@ public class LevelManager : MonoBehaviour
             return;
         }
         
-        QuestionHolderList[currentSelectedLevel].gameObject.SetActive(false);
+        if(currentSelectedLevel != -2)
+            QuestionHolderList[currentSelectedLevel].gameObject.SetActive(false);
         currentSelectedLevel = -1;
         QrHolder.SetActive(true);
+        QrManager.Instance.QrDecoder.StartWork();
+    }
+
+    public void DeselectQr()
+    {
+        QrHolder.SetActive(false);
+        currentSelectedLevel = -2;
     }
 }

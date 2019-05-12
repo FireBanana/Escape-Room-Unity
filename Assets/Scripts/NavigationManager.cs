@@ -51,4 +51,10 @@ public class NavigationManager : MonoBehaviour
         MainBackground.SetActive(false);
         LevelManager.Instance.SelectQr();
     }
+
+    public void DeactivateQr()
+    {
+        MainBackground.SetActive(true);
+        LevelManager.Instance.DeselectQr();
+    }
 }
