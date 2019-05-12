@@ -6746,7 +6746,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 733448997}
-          m_MethodName: DisableDialogue
+          m_MethodName: OnBackgroundClick
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -30645,7 +30645,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400.06427, y: -30.405}
+  m_AnchoredPosition: {x: 400.06424, y: -30.405}
   m_SizeDelta: {x: 108.7, y: 42.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1085054102
@@ -38199,7 +38199,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 627.2071, y: -30.405}
+  m_AnchoredPosition: {x: 627.20703, y: -30.405}
   m_SizeDelta: {x: 108.7, y: 42.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1371260371
@@ -45576,7 +45576,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 740.7785, y: -30.405}
+  m_AnchoredPosition: {x: 740.77844, y: -30.405}
   m_SizeDelta: {x: 108.7, y: 42.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1658348382
@@ -56448,7 +56448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 513.6357, y: -30.405}
+  m_AnchoredPosition: {x: 513.6356, y: -30.405}
   m_SizeDelta: {x: 108.7, y: 42.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2068467103

@@ -18,7 +18,7 @@ public class HintManager : MonoBehaviour
         if (hintCount >= 3)
         {
             DialogManager.Instance.EnableDialogue("Hint Request", "You have exceeded your maximum hint requests. Additional hint will deduct 50 points from your score. Press OK to continue to request a hint, or press outside this dialog to return back.",
-                "OK", () =>
+                "OK", true, () =>
                 {
                     var Score = MainGameManager.Instance.Score;
                     Score -= 50;

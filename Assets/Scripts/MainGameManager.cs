@@ -72,6 +72,12 @@ public class MainGameManager : MonoBehaviour
         }
     }
 
+    public void UpdatePoints(int points)
+    {
+        Score += points;
+        NetworkHandlerInstance.SendPointsUpdate(TeamName, Score);
+    }
+
     IEnumerator CallbackQueueRoutine()
     {
         //add loop to handle all commands at once

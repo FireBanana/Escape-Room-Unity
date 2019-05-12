@@ -12,15 +12,18 @@ public class DialogManager : MonoBehaviour
     public GameObject DialogueHolder;
     public TextMeshProUGUI TitleText, BodyText, ButtonText;
     public Button DialogueBtn;
+
+    private bool enableBackgroundClick;
     
     private void Awake()
     {
         Instance = this;
     }
 
-    public void EnableDialogue(string title, string body, string buttonText, Action buttonMethod)
+    public void EnableDialogue(string title, string body, string buttonText, bool allowBackClick, Action buttonMethod)
     {
         DialogueHolder.SetActive(true);
+        enableBackgroundClick = allowBackClick;
         
         TitleText.text = title;
         BodyText.text = body;
@@ -33,6 +36,15 @@ public class DialogManager : MonoBehaviour
     {
         DialogueBtn.onClick.RemoveAllListeners();
         DialogueHolder.SetActive(false);
+    }
+
+    public void OnBackgroundClick()
+    {
+        if (enableBackgroundClick)
+        {
+            DialogueBtn.onClick.RemoveAllListeners();
+            DialogueHolder.SetActive(false);
+        }
     }
 
     public void DialogueOnClicked()

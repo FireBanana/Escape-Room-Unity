@@ -51,7 +51,6 @@ public class NetworkHandler : IDisposable
                 {
                     if (PacketListenerCancellationSource.Token.IsCancellationRequested)
                     {
-                        Debug.Log("break requested");
                         break;
                     }
                     
@@ -87,7 +86,7 @@ public class NetworkHandler : IDisposable
                                         MainGameManager.Instance.AddToCallbackQueue(() =>
                                         {
                                             DialogManager.Instance.EnableDialogue("Hint Received!",
-                                                hintResponsePacket.Hint, "OK",  DialogManager.Instance.DisableDialogue);
+                                                hintResponsePacket.Hint, "OK", true,  DialogManager.Instance.DisableDialogue);
                                         });
 
                                         break;
@@ -95,13 +94,11 @@ public class NetworkHandler : IDisposable
                             }
                             catch (Exception e)
                             {
-                                File.WriteAllText(@"C:\Users\Owais\Desktop\log.txt", e.ToString());
                                 break;
                             }
                         }
                         catch (Exception e)
                         {
-                            File.WriteAllText(@"C:\Users\Owais\Desktop\log.txt", e.ToString());
                             break;
                         }
                     }
@@ -163,6 +160,18 @@ public class NetworkHandler : IDisposable
             return;
         
         var packet = new PointsUpdatePacket(teamName, points);
+
+        var serializedPacket = JsonConvert.SerializeObject(packet);
+        var buff = Encoding.ASCII.GetBytes(serializedPacket);
+        client.GetStream().Write(buff, 0, buff.Length);
+    }
+
+    public void SendGameEnd(string teamName, string finalChoice, string finalTime)
+    {
+        if(isDebug)
+            return;
+        
+        var packet = new GameEndPacket(teamName, finalChoice, finalTime);
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);
