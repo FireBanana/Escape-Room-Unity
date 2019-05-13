@@ -22,6 +22,9 @@ public class MainGameManager : MonoBehaviour
     [Space] public GameObject PauseScreen;
     public bool IsDebug;
 
+    [HideInInspector]public float ElapsedTime;
+    private bool timerStarted;
+
     private void Awake()
     {
         Instance = this;
@@ -32,6 +35,14 @@ public class MainGameManager : MonoBehaviour
         NetworkHandlerInstance = new NetworkHandler(IsDebug);
 
         StartCoroutine(CallbackQueueRoutine());
+    }
+
+    private void Update()
+    {
+        if (timerStarted)
+        {
+            ElapsedTime += Time.deltaTime;
+        }
     }
 
     public void AuthenticateTeam()
@@ -49,6 +60,7 @@ public class MainGameManager : MonoBehaviour
                 TeamName = AuthenticationInputField.text;
                 NavigationManager.Instance.ActivateInitalScreen();
             });
+            timerStarted = true;
             print("Callback received");
         });
     }

@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class NavigationManager : MonoBehaviour
 {
@@ -9,6 +12,10 @@ public class NavigationManager : MonoBehaviour
     [Header("UI Screens")] public GameObject LoginScreen;
     public GameObject InitialScreen;
     public GameObject MainScreen;
+    public GameObject GameEndScreen;
+
+    [Header("Game End Screen items")] public TextMeshProUGUI ScoreText;
+    public TextMeshProUGUI TimeText;
 
     public GameObject MainBackground;
 
@@ -44,6 +51,20 @@ public class NavigationManager : MonoBehaviour
                 ActivateInitalScreen();
                 dialogManager.DisableDialogue();
             });
+    }
+
+    public void ActivateGameEndScreen()
+    {
+        MainBackground.SetActive(false);
+        MainScreen.SetActive(false);
+        GameEndScreen.SetActive(true);
+
+        var span = TimeSpan.FromSeconds(MainGameManager.Instance.ElapsedTime);
+
+        MainGameManager.Instance.NetworkHandlerInstance.SendGameEnd(MainGameManager.Instance.TeamName, AnswerManager.Instance.FinalChoice, span.Minutes + ":" + span.Seconds);
+        
+        ScoreText.text = "Your final score is: " + MainGameManager.Instance.Score;
+        TimeText.text = "Your final time is: " + span.Minutes + ":" + span.Seconds;
     }
 
     public void ActivateQr()

@@ -6,7 +6,8 @@ public class AnswerManager : MonoBehaviour
 {
     public static AnswerManager Instance;
     private bool finalQuestionAnswered;
-
+    [HideInInspector] public string FinalChoice;
+    
     public bool FinalQuestionAnswered
     {
         get { return finalQuestionAnswered; }
@@ -35,16 +36,17 @@ public class AnswerManager : MonoBehaviour
         MainGameManager.Instance.NetworkHandlerInstance.SendPointsUpdate(MainGameManager.Instance.TeamName, Score);
     }
 
-    public void AnswerFinalQuestion()
+    public void AnswerFinalQuestion(string value)
     {
         finalQuestionAnswered = true;
+        FinalChoice = value;
         DialogManager.Instance.DisableDialogue();
         if (QrManager.Instance.IsExitCodeScanned())
         {
             DialogManager.Instance.EnableDialogue("Simulation Terminated", "You have made your final decision and successfully unlocked the escape door. Please exit the simulation area and await final instructions.",
                 "OK", false, () =>
                 {
-                    //Open Final Screen
+                    NavigationManager.Instance.ActivateGameEndScreen();
                     DialogManager.Instance.DisableDialogue();
                 });
         }

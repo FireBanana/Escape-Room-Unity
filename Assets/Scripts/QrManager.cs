@@ -70,7 +70,7 @@ public class QrManager : MonoBehaviour
                         "You are awarded points for solving the exit code. Do you wish to exit now and end the simulation or do you wish to continue collecting data to add to your score? Click outside this dialog to continue or click the end button to end simulation.\nNOTE: Each minute your remain in the simulation costs 25 points from your score. But you can gain many more points by continuing!",
                         "End", true, () =>
                         {
-                            //Open Final Screen
+                            NavigationManager.Instance.ActivateGameEndScreen();
                             print("GAME END");
                             DialogManager.Instance.DisableDialogue();
                         });
@@ -81,7 +81,7 @@ public class QrManager : MonoBehaviour
                         "You have made your decision and succesafully unlocked the escape door. Please exit the simulation arena and await final instructions.",
                         "End", false, () =>
                         {
-                            //Open Final Screen
+                            NavigationManager.Instance.ActivateGameEndScreen();
                             print("GAME END");
                             DialogManager.Instance.DisableDialogue();
                         });
