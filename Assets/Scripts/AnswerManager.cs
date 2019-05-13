@@ -38,6 +38,7 @@ public class AnswerManager : MonoBehaviour
     public void AnswerFinalQuestion()
     {
         finalQuestionAnswered = true;
+        DialogManager.Instance.DisableDialogue();
         if (QrManager.Instance.IsExitCodeScanned())
         {
             DialogManager.Instance.EnableDialogue("Simulation Terminated", "You have made your final decision and successfully unlocked the escape door. Please exit the simulation area and await final instructions.",

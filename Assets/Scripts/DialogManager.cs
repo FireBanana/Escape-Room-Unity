@@ -22,6 +22,12 @@ public class DialogManager : MonoBehaviour
 
     public void EnableDialogue(string title, string body, string buttonText, bool allowBackClick, Action buttonMethod)
     {
+        if (DialogueHolder.activeInHierarchy)
+        {
+            print("Dialogue active, but tried to open: \n\n" + title);
+            return;
+        }
+        
         DialogueHolder.SetActive(true);
         enableBackgroundClick = allowBackClick;
         

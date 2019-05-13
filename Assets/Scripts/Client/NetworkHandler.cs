@@ -105,8 +105,10 @@ public class NetworkHandler : IDisposable
                         }
                     }
                 }
+                client.GetStream().Close();
+                client.Close();
                 Debug.Log("ended");
-            }, PacketListenerCancellationSource.Token, TaskCreationOptions.DenyChildAttach, TaskScheduler.Default
+            }, PacketListenerCancellationSource.Token, TaskCreationOptions.RunContinuationsAsynchronously, TaskScheduler.Default
         );
     }
 

@@ -41,40 +41,57 @@ public class QrManager : MonoBehaviour
                 return;
             }
             
-            var pair = CheckScan(formattedString[0]);
-            print(formattedString[0] + " " + pair.Key + " " + pair.Value);
-
-            if (formattedString[0] == "Exit")
+            if (formattedString[0] == "Entrance" && !qrScannedDictionary["Entrance"])
             {
-                if (AnswerManager.Instance.FinalQuestionAnswered)
-                {
-                    DialogManager.Instance.EnableDialogue("Exit Code Success",
-                        "You are awarded points for solving the exit code. Do you wish to exit now and end the simulation or do you wish to continue collecting data to add to your score? Click outside this dialog to continue or click the end button to end simulation.\nNOTE: Each minute your remain in the simulation costs 25 points from your score. But you can gain many more points by continuing!",
-                        "End", true, () =>
-                        {
-                            //Open Final Screen
-                            DialogManager.Instance.DisableDialogue();
-                        });
-                }
-
-                MainGameManager.Instance.UpdatePoints(pair.Value);
-                LevelManager.Instance.SelectLevel(0);
-                DialogManager.Instance.DisableDialogue();
-            }
-
-            if (formattedString[0] == "Entrance")
-            {
-                LevelManager.Instance.UnlockLevel(0);
+                LevelManager.Instance.SelectLevel(-2);
                 DialogManager.Instance.EnableDialogue("Excellent!", "You just scored 100 points for scanning your first QR code!\nAnytime you find a QR, click on the \"Scan Qr\" tab again to adjust your score. Now click the level 1 tab to begin collecting data.", "OK", false,
                     () =>
                     {
-                        MainGameManager.Instance.UpdatePoints(pair.Value);
-                        LevelManager.Instance.SelectLevel(-2);
+                        qrScannedDictionary["Entrance"] = true;
+                        LevelManager.Instance.UnlockLevel(0);
+                        MainGameManager.Instance.UpdatePoints(qrDictionary["Entrance"]);
                         DialogManager.Instance.DisableDialogue();
                     });
                 
                 return;
             }
+            
+            if (formattedString[0] == "Exit")
+            {
+                MainGameManager.Instance.UpdatePoints(qrDictionary["Exit"]);
+                LevelManager.Instance.SelectLevel(-2);
+                DialogManager.Instance.DisableDialogue();
+                qrScannedDictionary["Exit"] = true;
+                
+                if (!AnswerManager.Instance.FinalQuestionAnswered)
+                {
+                    DialogManager.Instance.DisableDialogue();
+                    DialogManager.Instance.EnableDialogue("Exit Code Success",
+                        "You are awarded points for solving the exit code. Do you wish to exit now and end the simulation or do you wish to continue collecting data to add to your score? Click outside this dialog to continue or click the end button to end simulation.\nNOTE: Each minute your remain in the simulation costs 25 points from your score. But you can gain many more points by continuing!",
+                        "End", true, () =>
+                        {
+                            //Open Final Screen
+                            print("GAME END");
+                            DialogManager.Instance.DisableDialogue();
+                        });
+                }
+                else
+                {
+                    DialogManager.Instance.EnableDialogue("Simulation Terminated",
+                        "You have made your decision and succesafully unlocked the escape door. Please exit the simulation arena and await final instructions.",
+                        "End", false, () =>
+                        {
+                            //Open Final Screen
+                            print("GAME END");
+                            DialogManager.Instance.DisableDialogue();
+                        });
+                }
+                
+                return;
+            }
+            
+            var pair = CheckScan(formattedString[0]);
+            print(formattedString[0] + " " + pair.Key + " " + pair.Value);
 
             if (!pair.Key)
             {
@@ -84,7 +101,7 @@ public class QrManager : MonoBehaviour
                         () =>
                         {
                             MainGameManager.Instance.UpdatePoints(pair.Value);
-                            LevelManager.Instance.SelectLevel(0);
+                            LevelManager.Instance.SelectLevel(-2);
                             DialogManager.Instance.DisableDialogue();
                         });
                 else
@@ -92,7 +109,7 @@ public class QrManager : MonoBehaviour
                         () =>
                         {
                             MainGameManager.Instance.UpdatePoints(pair.Value);
-                            LevelManager.Instance.SelectLevel(0);
+                            LevelManager.Instance.SelectLevel(-2);
                             DialogManager.Instance.DisableDialogue();
                         });
             }
@@ -107,7 +124,7 @@ public class QrManager : MonoBehaviour
                     DialogManager.Instance.EnableDialogue("Code Already Scanned",
                         "You have already scanned this QR code", "OK", false, () =>
                         {
-                            LevelManager.Instance.SelectLevel(0);
+                            LevelManager.Instance.SelectLevel(-2);
                             DialogManager.Instance.DisableDialogue();
                         });
                 }
@@ -139,7 +156,7 @@ public class QrManager : MonoBehaviour
 
     public bool IsExitCodeScanned()
     {
-        return qrScannedDictionary["exit"];
+        return qrScannedDictionary["Exit"];
     }
 
     void InstantiateQrData()
