@@ -43,6 +43,8 @@ public class NavigationManager : MonoBehaviour
         InitialScreen.SetActive(false);
         MainBackground.SetActive(true);
         MainScreen.SetActive(true);
+        //remove
+        LevelManager.Instance.UnlockLevel(0);
 
         dialogManager.EnableDialogue("Great Job!",
             "You have successfully calibrated the functional aspects of the game.\nPlease select the QR tab on the top right and scan the code located on the door or press the button below to go back if you haven't opened the door!",

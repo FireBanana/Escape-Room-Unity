@@ -26,6 +26,7 @@ public class QrManager : MonoBehaviour
 
     private void QrScanned(string value)
     {
+        return;
         var formattedString = value.Split('/');
         try
         {
