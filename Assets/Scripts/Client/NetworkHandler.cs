@@ -12,7 +12,7 @@ using System.Threading;
 using EscapeRoomServer.PacketCommands;
 
 
-public class NetworkHandler : IDisposable
+public class NetworkHandler
 {
     const int PORT = 2000;
 
@@ -27,10 +27,10 @@ public class NetworkHandler : IDisposable
     public NetworkHandler(bool debug)
     {
         isDebug = debug;
-        
-        if(isDebug)
+
+        if (isDebug)
             return;
-        
+
         try
         {
             client = new TcpClient(ipAddress, PORT);
@@ -44,25 +44,26 @@ public class NetworkHandler : IDisposable
 
     public void StartPacketListener(TcpClient client)
     {
-            var task = Task.Factory.StartNew(() =>
+        var task = Task.Factory.StartNew(() =>
             {
-                PacketListenerCancellationSource.Token.ThrowIfCancellationRequested();
+                //PacketListenerCancellationSource.Token.ThrowIfCancellationRequested();
                 while (true)
                 {
                     if (PacketListenerCancellationSource.Token.IsCancellationRequested)
                     {
+                        Debug.Log("Cancelling");
                         break;
                     }
-                    
+
                     if (client.Connected)
                     {
                         try
                         {
-                            if(!client.GetStream().DataAvailable)
+                            if (!client.GetStream().DataAvailable)
                                 continue;
-                            
+
                             var buffer = new byte[client.ReceiveBufferSize];
-                            
+
                             client.GetStream().Read(buffer, 0, buffer.Length);
                             try
                             {
@@ -86,7 +87,8 @@ public class NetworkHandler : IDisposable
                                         MainGameManager.Instance.AddToCallbackQueue(() =>
                                         {
                                             DialogManager.Instance.EnableDialogue("Hint Received!",
-                                                hintResponsePacket.Hint, "OK", true,  DialogManager.Instance.DisableDialogue);
+                                                hintResponsePacket.Hint, "OK", true,
+                                                DialogManager.Instance.DisableDialogue);
                                         });
 
                                         break;
@@ -94,29 +96,33 @@ public class NetworkHandler : IDisposable
                             }
                             catch (Exception e)
                             {
-                                MainGameManager.Instance.AddToCallbackQueue(() => {Debug.LogError(e.ToString());});
+                                Debug.LogError(e.ToString());
                                 break;
                             }
                         }
                         catch (Exception e)
                         {
-                            MainGameManager.Instance.AddToCallbackQueue(() => {Debug.LogError(e.ToString());});
+                            Debug.LogError(e.ToString());
                             break;
                         }
                     }
                 }
+
+                Debug.Log("ended");
+                SendDisconnect(MainGameManager.Instance.TeamName);
                 client.GetStream().Close();
                 client.Close();
-                Debug.Log("ended");
-            }, PacketListenerCancellationSource.Token, TaskCreationOptions.RunContinuationsAsynchronously, TaskScheduler.Default
+                
+            }, PacketListenerCancellationSource.Token, TaskCreationOptions.None,
+            TaskScheduler.Default
         );
     }
 
     public void SendAuthentication(string teamName, AuthenticationCallback callback)
     {
-        if(isDebug)
+        if (isDebug)
             return;
-        
+
         var packet = new AuthenticationPacket(teamName);
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
@@ -148,9 +154,9 @@ public class NetworkHandler : IDisposable
 
     public void SendHintRequest(string teamName)
     {
-        if(isDebug)
+        if (isDebug)
             return;
-        
+
         var packet = new HintRequestPacket(teamName);
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
@@ -160,9 +166,9 @@ public class NetworkHandler : IDisposable
 
     public void SendPointsUpdate(string teamName, int points)
     {
-        if(isDebug)
+        if (isDebug)
             return;
-        
+
         var packet = new PointsUpdatePacket(teamName, points);
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
@@ -172,11 +178,19 @@ public class NetworkHandler : IDisposable
 
     public void SendGameEnd(string teamName, string finalChoice, string finalTime)
     {
-        if(isDebug)
+        if (isDebug)
             return;
-        
+
         var packet = new GameEndPacket(teamName, finalChoice, finalTime);
 
+        var serializedPacket = JsonConvert.SerializeObject(packet);
+        var buff = Encoding.ASCII.GetBytes(serializedPacket);
+        client.GetStream().Write(buff, 0, buff.Length);
+    }
+
+    public void SendDisconnect(string teamName)
+    {
+        var packet = new GameQuitPacket(teamName);
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);
         client.GetStream().Write(buff, 0, buff.Length);

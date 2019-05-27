@@ -10,6 +10,8 @@ using UnityEngine;
 
 public class MainGameManager : MonoBehaviour
 {
+    public const int MAXIMUM_TIME = 2700;
+    
     public static MainGameManager Instance;
     [HideInInspector] public NetworkHandler NetworkHandlerInstance;
     [HideInInspector] public string TeamName;
@@ -41,7 +43,16 @@ public class MainGameManager : MonoBehaviour
     {
         if (timerStarted)
         {
-            ElapsedTime += Time.deltaTime;
+            if (ElapsedTime < MAXIMUM_TIME)
+            {
+                ElapsedTime += Time.deltaTime;
+            }
+            else
+            {
+                NavigationManager.Instance.ActivateGameEndScreen();
+                print("GAME END");
+                DialogManager.Instance.DisableDialogue();
+            }
         }
     }
 

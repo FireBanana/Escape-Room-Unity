@@ -82,6 +82,7 @@
               <e p="AuthenticationPacket.cs" t="Include" />
               <e p="AuthenticationResponsePacket.cs" t="Include" />
               <e p="GameEndPacket.cs" t="Include" />
+              <e p="GameQuitPacket.cs" t="Include" />
               <e p="HelpRequestPacket.cs" t="Include" />
               <e p="HintRequestPacket.cs" t="Include" />
               <e p="HintResponsePacket.cs" t="Include" />
