@@ -9,7 +9,6 @@ using UnityEngine;
 using Newtonsoft.Json;
 using System.IO;
 using System.Threading;
-using EscapeRoomServer.PacketCommands;
 
 
 public class NetworkHandler
@@ -20,6 +19,7 @@ public class NetworkHandler
     TcpClient client;
 
     private CancellationTokenSource PacketListenerCancellationSource = new CancellationTokenSource();
+    private Task networkTask;
     private bool isDebug;
 
     public delegate void AuthenticationCallback();
@@ -44,9 +44,8 @@ public class NetworkHandler
 
     public void StartPacketListener(TcpClient client)
     {
-        var task = Task.Factory.StartNew(() =>
+       networkTask = Task.Factory.StartNew(() =>
             {
-                //PacketListenerCancellationSource.Token.ThrowIfCancellationRequested();
                 while (true)
                 {
                     if (PacketListenerCancellationSource.Token.IsCancellationRequested)
@@ -54,6 +53,7 @@ public class NetworkHandler
                         Debug.Log("Cancelling");
                         break;
                     }
+
 
                     if (client.Connected)
                     {
@@ -109,7 +109,6 @@ public class NetworkHandler
                 }
 
                 Debug.Log("ended");
-                SendDisconnect(MainGameManager.Instance.TeamName);
                 client.GetStream().Close();
                 client.Close();
                 
@@ -164,6 +163,18 @@ public class NetworkHandler
         client.GetStream().Write(buff, 0, buff.Length);
     }
 
+    public void SendHelpRequest(string teamName)
+    {
+        if (isDebug)
+            return;
+
+        var packet = new HelpRequestPacket(teamName);
+
+        var serializedPacket = JsonConvert.SerializeObject(packet);
+        var buff = Encoding.ASCII.GetBytes(serializedPacket);
+        client.GetStream().Write(buff, 0, buff.Length);
+    }
+
     public void SendPointsUpdate(string teamName, int points)
     {
         if (isDebug)
@@ -198,6 +209,7 @@ public class NetworkHandler
 
     public void Dispose()
     {
+        SendDisconnect(MainGameManager.Instance.TeamName);
         PacketListenerCancellationSource.Cancel();
     }
 }

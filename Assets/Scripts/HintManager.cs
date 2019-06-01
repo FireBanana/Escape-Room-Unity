@@ -40,4 +40,15 @@ public class HintManager : MonoBehaviour
         hintCount++;
         MainGameManager.Instance.NetworkHandlerInstance.SendHintRequest(MainGameManager.Instance.TeamName);
     }
+
+    public void SendHelpRequest()
+    {
+        DialogManager.Instance.EnableDialogue("Help Request", "Please wait for the HintBot to display the \"Ready For Hint\" text on the scoreboard, then speak your question",
+            "OK", true, () =>
+            {
+                DialogManager.Instance.DisableDialogue();
+            });
+        
+        MainGameManager.Instance.NetworkHandlerInstance.SendHelpRequest(MainGameManager.Instance.TeamName);
+    }
 }

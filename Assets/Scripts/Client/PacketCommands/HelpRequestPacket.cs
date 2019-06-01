@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EscapeRoomServer.PacketCommands
+public class HelpRequestPacket : Packet
 {
-    public class HelpRequestPacket : Packet
+    public HelpRequestPacket(string teamName)
     {
-        public HelpRequestPacket()
-        {
-            PacketId = "helpRequest";
-        }
+        TeamName = teamName;
     }
 }
