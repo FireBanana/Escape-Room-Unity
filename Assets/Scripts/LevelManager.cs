@@ -18,6 +18,8 @@ public class LevelManager : MonoBehaviour
     
     private int currentSelectedLevel = -2; //None
     private bool firstTimeSelected;
+    
+    List<int> openedLevel = new List<int>();
 
     public void SelectLevel(int levelIndex)
     {
@@ -64,6 +66,11 @@ public class LevelManager : MonoBehaviour
 
     public void UnlockLevel(int level)
     {
+        if(openedLevel.Contains(level))
+            return;
+        
+        openedLevel.Add(level);
+        
         if (level == 6)
         {
             //DialogManager.Instance.EnableDialogue("Simulation Terminated", "", "OK", DialogManager.Instance.DisableDialogue);

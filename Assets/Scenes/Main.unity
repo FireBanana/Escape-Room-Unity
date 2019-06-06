@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 6932426}
   - component: {fileID: 6932425}
   - component: {fileID: 6932424}
+  - component: {fileID: 6932427}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -204,10 +205,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 6932427}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -252,6 +253,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6932422}
   m_CullTransparentMesh: 0
+--- !u!114 &6932427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6932422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 11
+  IsCorrect: 0
 --- !u!1 &9261070
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,6 +437,7 @@ GameObject:
   - component: {fileID: 9460826}
   - component: {fileID: 9460825}
   - component: {fileID: 9460824}
+  - component: {fileID: 9460827}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -494,10 +510,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 9460827}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -542,6 +558,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9460822}
   m_CullTransparentMesh: 0
+--- !u!114 &9460827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9460822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 52
+  IsCorrect: 0
 --- !u!1 &12150394
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,6 +584,7 @@ GameObject:
   - component: {fileID: 12150398}
   - component: {fileID: 12150397}
   - component: {fileID: 12150396}
+  - component: {fileID: 12150399}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -626,10 +657,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 12150399}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -674,6 +705,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12150394}
   m_CullTransparentMesh: 0
+--- !u!114 &12150399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12150394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 52
+  IsCorrect: 0
 --- !u!1 &23920690
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,6 +731,7 @@ GameObject:
   - component: {fileID: 23920694}
   - component: {fileID: 23920693}
   - component: {fileID: 23920692}
+  - component: {fileID: 23920695}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -758,10 +804,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 23920695}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -806,6 +852,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23920690}
   m_CullTransparentMesh: 0
+--- !u!114 &23920695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23920690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 34
+  IsCorrect: 0
 --- !u!1 &31778400
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,6 +1142,7 @@ GameObject:
   - component: {fileID: 33290992}
   - component: {fileID: 33290991}
   - component: {fileID: 33290990}
+  - component: {fileID: 33290993}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -1154,10 +1215,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 33290993}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1213,6 +1274,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33290988}
   m_CullTransparentMesh: 0
+--- !u!114 &33290993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33290988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 15
+  IsCorrect: 0
 --- !u!1 &36599678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2108,6 +2183,7 @@ GameObject:
   - component: {fileID: 56181677}
   - component: {fileID: 56181676}
   - component: {fileID: 56181675}
+  - component: {fileID: 56181678}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -2180,10 +2256,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 56181678}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2228,6 +2304,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56181673}
   m_CullTransparentMesh: 0
+--- !u!114 &56181678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56181673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 41
+  IsCorrect: 0
 --- !u!1 &65706888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2398,6 +2488,7 @@ GameObject:
   - component: {fileID: 80468729}
   - component: {fileID: 80468728}
   - component: {fileID: 80468727}
+  - component: {fileID: 80468730}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -2470,10 +2561,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 80468730}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2518,6 +2609,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80468725}
   m_CullTransparentMesh: 0
+--- !u!114 &80468730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80468725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 12
+  IsCorrect: 0
 --- !u!1 &86025345
 GameObject:
   m_ObjectHideFlags: 0
@@ -2529,6 +2634,7 @@ GameObject:
   - component: {fileID: 86025346}
   - component: {fileID: 86025349}
   - component: {fileID: 86025348}
+  - component: {fileID: 86025350}
   - component: {fileID: 86025347}
   m_Layer: 5
   m_Name: Answer4Btn
@@ -2602,10 +2708,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 86025350}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2650,6 +2756,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86025345}
   m_CullTransparentMesh: 0
+--- !u!114 &86025350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86025345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 22
+  IsCorrect: 0
 --- !u!1 &93001305
 GameObject:
   m_ObjectHideFlags: 0
@@ -2662,6 +2782,7 @@ GameObject:
   - component: {fileID: 93001309}
   - component: {fileID: 93001308}
   - component: {fileID: 93001307}
+  - component: {fileID: 93001310}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -2734,10 +2855,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 93001310}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2782,6 +2903,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93001305}
   m_CullTransparentMesh: 0
+--- !u!114 &93001310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93001305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 13
+  IsCorrect: 0
 --- !u!1 &95462320
 GameObject:
   m_ObjectHideFlags: 0
@@ -2951,6 +3086,7 @@ GameObject:
   - component: {fileID: 96027646}
   - component: {fileID: 96027649}
   - component: {fileID: 96027648}
+  - component: {fileID: 96027650}
   - component: {fileID: 96027647}
   m_Layer: 5
   m_Name: Answer2Btn
@@ -3024,10 +3160,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 96027650}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3072,6 +3208,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96027645}
   m_CullTransparentMesh: 0
+--- !u!114 &96027650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96027645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 21
+  IsCorrect: 0
 --- !u!1 &115683382
 GameObject:
   m_ObjectHideFlags: 0
@@ -4251,6 +4401,7 @@ GameObject:
   - component: {fileID: 154456579}
   - component: {fileID: 154456578}
   - component: {fileID: 154456577}
+  - component: {fileID: 154456580}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -4323,10 +4474,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 154456580}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4371,6 +4522,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154456575}
   m_CullTransparentMesh: 0
+--- !u!114 &154456580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154456575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 32
+  IsCorrect: 0
 --- !u!1 &163286008
 GameObject:
   m_ObjectHideFlags: 0
@@ -5121,6 +5286,7 @@ GameObject:
   - component: {fileID: 179131809}
   - component: {fileID: 179131808}
   - component: {fileID: 179131807}
+  - component: {fileID: 179131810}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -5193,10 +5359,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 179131810}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5252,6 +5418,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179131805}
   m_CullTransparentMesh: 0
+--- !u!114 &179131810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179131805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 65
+  IsCorrect: 0
 --- !u!1 &185251279
 GameObject:
   m_ObjectHideFlags: 0
@@ -5450,6 +5630,7 @@ GameObject:
   - component: {fileID: 187453532}
   - component: {fileID: 187453531}
   - component: {fileID: 187453530}
+  - component: {fileID: 187453533}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -5522,10 +5703,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 187453533}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5570,6 +5751,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187453528}
   m_CullTransparentMesh: 0
+--- !u!114 &187453533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187453528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 32
+  IsCorrect: 0
 --- !u!1 &194513480
 GameObject:
   m_ObjectHideFlags: 0
@@ -5740,6 +5935,7 @@ GameObject:
   - component: {fileID: 197800765}
   - component: {fileID: 197800764}
   - component: {fileID: 197800763}
+  - component: {fileID: 197800766}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -5812,10 +6008,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 197800766}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5871,6 +6067,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197800761}
   m_CullTransparentMesh: 0
+--- !u!114 &197800766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197800761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 55
+  IsCorrect: 0
 --- !u!1 &201979573
 GameObject:
   m_ObjectHideFlags: 0
@@ -5883,6 +6093,7 @@ GameObject:
   - component: {fileID: 201979577}
   - component: {fileID: 201979576}
   - component: {fileID: 201979575}
+  - component: {fileID: 201979578}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -5955,10 +6166,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 201979578}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6003,6 +6214,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 201979573}
   m_CullTransparentMesh: 0
+--- !u!114 &201979578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201979573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 14
+  IsCorrect: 0
 --- !u!1 &206468544
 GameObject:
   m_ObjectHideFlags: 0
@@ -6220,6 +6445,7 @@ GameObject:
   - component: {fileID: 226249626}
   - component: {fileID: 226249625}
   - component: {fileID: 226249624}
+  - component: {fileID: 226249627}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -6292,10 +6518,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 226249627}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6351,6 +6577,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226249622}
   m_CullTransparentMesh: 0
+--- !u!114 &226249627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226249622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 55
+  IsCorrect: 0
 --- !u!1 &226502939
 GameObject:
   m_ObjectHideFlags: 0
@@ -6521,6 +6761,7 @@ GameObject:
   - component: {fileID: 232983373}
   - component: {fileID: 232983372}
   - component: {fileID: 232983371}
+  - component: {fileID: 232983374}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -6593,10 +6834,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 232983374}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6641,6 +6882,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232983369}
   m_CullTransparentMesh: 0
+--- !u!114 &232983374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232983369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 14
+  IsCorrect: 0
 --- !u!1 &235577062
 GameObject:
   m_ObjectHideFlags: 0
@@ -7074,6 +7329,7 @@ GameObject:
   - component: {fileID: 244217784}
   - component: {fileID: 244217783}
   - component: {fileID: 244217782}
+  - component: {fileID: 244217785}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -7146,10 +7402,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 244217785}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7194,6 +7450,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244217780}
   m_CullTransparentMesh: 0
+--- !u!114 &244217785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244217780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 42
+  IsCorrect: 0
 --- !u!1 &255421239
 GameObject:
   m_ObjectHideFlags: 0
@@ -7363,6 +7633,7 @@ GameObject:
   - component: {fileID: 257274733}
   - component: {fileID: 257274736}
   - component: {fileID: 257274735}
+  - component: {fileID: 257274737}
   - component: {fileID: 257274734}
   m_Layer: 5
   m_Name: Answer2Btn
@@ -7436,10 +7707,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 257274737}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -7484,6 +7755,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257274732}
   m_CullTransparentMesh: 0
+--- !u!114 &257274737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257274732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 23
+  IsCorrect: 0
 --- !u!1 &257637414
 GameObject:
   m_ObjectHideFlags: 0
@@ -8379,6 +8664,7 @@ GameObject:
   - component: {fileID: 288880238}
   - component: {fileID: 288880237}
   - component: {fileID: 288880236}
+  - component: {fileID: 288880239}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -8451,10 +8737,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 288880239}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8499,6 +8785,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288880234}
   m_CullTransparentMesh: 0
+--- !u!114 &288880239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288880234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 42
+  IsCorrect: 0
 --- !u!1 &292603972
 GameObject:
   m_ObjectHideFlags: 0
@@ -8511,6 +8811,7 @@ GameObject:
   - component: {fileID: 292603976}
   - component: {fileID: 292603975}
   - component: {fileID: 292603974}
+  - component: {fileID: 292603977}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -8583,10 +8884,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 292603977}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8642,6 +8943,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292603972}
   m_CullTransparentMesh: 0
+--- !u!114 &292603977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292603972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 45
+  IsCorrect: 0
 --- !u!1 &310656453
 GameObject:
   m_ObjectHideFlags: 0
@@ -8811,6 +9126,7 @@ GameObject:
   - component: {fileID: 311185251}
   - component: {fileID: 311185254}
   - component: {fileID: 311185253}
+  - component: {fileID: 311185255}
   - component: {fileID: 311185252}
   m_Layer: 5
   m_Name: Answer2Btn
@@ -8884,10 +9200,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 311185255}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8932,6 +9248,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311185250}
   m_CullTransparentMesh: 0
+--- !u!114 &311185255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311185250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 24
+  IsCorrect: 0
 --- !u!1 &314176276
 GameObject:
   m_ObjectHideFlags: 0
@@ -8943,6 +9273,7 @@ GameObject:
   - component: {fileID: 314176277}
   - component: {fileID: 314176280}
   - component: {fileID: 314176279}
+  - component: {fileID: 314176281}
   - component: {fileID: 314176278}
   m_Layer: 5
   m_Name: Answer1Btn
@@ -9016,10 +9347,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 314176281}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9064,6 +9395,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314176276}
   m_CullTransparentMesh: 0
+--- !u!114 &314176281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314176276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 24
+  IsCorrect: 0
 --- !u!1 &314983678
 GameObject:
   m_ObjectHideFlags: 0
@@ -9391,6 +9736,7 @@ GameObject:
   - component: {fileID: 332874997}
   - component: {fileID: 332875000}
   - component: {fileID: 332874999}
+  - component: {fileID: 332875001}
   - component: {fileID: 332874998}
   m_Layer: 5
   m_Name: Answer4Btn
@@ -9464,10 +9810,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 332875001}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9523,6 +9869,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332874996}
   m_CullTransparentMesh: 0
+--- !u!114 &332875001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332874996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 25
+  IsCorrect: 0
 --- !u!1 &334555856
 GameObject:
   m_ObjectHideFlags: 0
@@ -10234,6 +10594,7 @@ GameObject:
   - component: {fileID: 340039092}
   - component: {fileID: 340039091}
   - component: {fileID: 340039090}
+  - component: {fileID: 340039093}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -10306,10 +10667,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 340039093}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10354,6 +10715,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340039088}
   m_CullTransparentMesh: 0
+--- !u!114 &340039093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340039088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 11
+  IsCorrect: 0
 --- !u!1 &348107877
 GameObject:
   m_ObjectHideFlags: 0
@@ -11405,6 +11780,7 @@ GameObject:
   - component: {fileID: 374337189}
   - component: {fileID: 374337188}
   - component: {fileID: 374337187}
+  - component: {fileID: 374337190}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -11477,10 +11853,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 374337190}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -11525,6 +11901,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374337185}
   m_CullTransparentMesh: 0
+--- !u!114 &374337190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374337185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 44
+  IsCorrect: 0
 --- !u!1 &375985843
 GameObject:
   m_ObjectHideFlags: 0
@@ -11536,6 +11926,7 @@ GameObject:
   - component: {fileID: 375985844}
   - component: {fileID: 375985847}
   - component: {fileID: 375985846}
+  - component: {fileID: 375985848}
   - component: {fileID: 375985845}
   m_Layer: 5
   m_Name: Answer3Btn
@@ -11609,10 +12000,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 375985848}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -11657,6 +12048,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375985843}
   m_CullTransparentMesh: 0
+--- !u!114 &375985848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375985843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 24
+  IsCorrect: 0
 --- !u!1 &382235646
 GameObject:
   m_ObjectHideFlags: 0
@@ -11985,6 +12390,7 @@ GameObject:
   - component: {fileID: 392618914}
   - component: {fileID: 392618913}
   - component: {fileID: 392618912}
+  - component: {fileID: 392618915}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -12057,10 +12463,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 392618915}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12116,6 +12522,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392618910}
   m_CullTransparentMesh: 0
+--- !u!114 &392618915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392618910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 35
+  IsCorrect: 0
 --- !u!1 &396027115
 GameObject:
   m_ObjectHideFlags: 0
@@ -12286,6 +12706,7 @@ GameObject:
   - component: {fileID: 396583819}
   - component: {fileID: 396583818}
   - component: {fileID: 396583817}
+  - component: {fileID: 396583820}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -12358,10 +12779,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 396583820}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12406,6 +12827,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396583815}
   m_CullTransparentMesh: 0
+--- !u!114 &396583820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396583815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 43
+  IsCorrect: 0
 --- !u!1 &400037899
 GameObject:
   m_ObjectHideFlags: 0
@@ -12418,6 +12853,7 @@ GameObject:
   - component: {fileID: 400037903}
   - component: {fileID: 400037902}
   - component: {fileID: 400037901}
+  - component: {fileID: 400037904}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -12490,10 +12926,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 400037904}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12538,6 +12974,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400037899}
   m_CullTransparentMesh: 0
+--- !u!114 &400037904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400037899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 31
+  IsCorrect: 0
 --- !u!1 &403254035
 GameObject:
   m_ObjectHideFlags: 0
@@ -12549,6 +12999,7 @@ GameObject:
   - component: {fileID: 403254036}
   - component: {fileID: 403254039}
   - component: {fileID: 403254038}
+  - component: {fileID: 403254040}
   - component: {fileID: 403254037}
   m_Layer: 5
   m_Name: Answer3Btn
@@ -12622,10 +13073,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 403254040}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -12670,6 +13121,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403254035}
   m_CullTransparentMesh: 0
+--- !u!114 &403254040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403254035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 23
+  IsCorrect: 0
 --- !u!1 &408735538
 GameObject:
   m_ObjectHideFlags: 0
@@ -13342,6 +13807,7 @@ GameObject:
   - component: {fileID: 433392065}
   - component: {fileID: 433392064}
   - component: {fileID: 433392063}
+  - component: {fileID: 433392066}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -13414,10 +13880,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 433392066}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -13473,6 +13939,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433392061}
   m_CullTransparentMesh: 0
+--- !u!114 &433392066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433392061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 65
+  IsCorrect: 0
 --- !u!1 &438178336
 GameObject:
   m_ObjectHideFlags: 0
@@ -13485,6 +13965,7 @@ GameObject:
   - component: {fileID: 438178340}
   - component: {fileID: 438178339}
   - component: {fileID: 438178338}
+  - component: {fileID: 438178341}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -13557,10 +14038,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 438178341}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -13605,6 +14086,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438178336}
   m_CullTransparentMesh: 0
+--- !u!114 &438178341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438178336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 14
+  IsCorrect: 0
 --- !u!1 &440810349
 GameObject:
   m_ObjectHideFlags: 0
@@ -15318,6 +15813,7 @@ GameObject:
   - component: {fileID: 477099310}
   - component: {fileID: 477099309}
   - component: {fileID: 477099308}
+  - component: {fileID: 477099311}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -15390,10 +15886,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 477099311}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -15438,6 +15934,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 477099306}
   m_CullTransparentMesh: 0
+--- !u!114 &477099311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477099306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 43
+  IsCorrect: 0
 --- !u!1 &484893487
 GameObject:
   m_ObjectHideFlags: 0
@@ -15765,6 +16275,7 @@ GameObject:
   - component: {fileID: 491925065}
   - component: {fileID: 491925068}
   - component: {fileID: 491925067}
+  - component: {fileID: 491925069}
   - component: {fileID: 491925066}
   m_Layer: 5
   m_Name: Answer2Btn
@@ -15838,10 +16349,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 491925069}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -15897,6 +16408,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491925064}
   m_CullTransparentMesh: 0
+--- !u!114 &491925069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491925064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 25
+  IsCorrect: 0
 --- !u!1 &497835060
 GameObject:
   m_ObjectHideFlags: 0
@@ -16751,6 +17276,7 @@ GameObject:
   - component: {fileID: 539905519}
   - component: {fileID: 539905518}
   - component: {fileID: 539905517}
+  - component: {fileID: 539905520}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -16823,10 +17349,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 539905520}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16871,6 +17397,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 539905515}
   m_CullTransparentMesh: 0
+--- !u!114 &539905520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539905515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 64
+  IsCorrect: 0
 --- !u!1 &543956899
 GameObject:
   m_ObjectHideFlags: 0
@@ -17356,6 +17896,7 @@ GameObject:
   - component: {fileID: 550701988}
   - component: {fileID: 550701991}
   - component: {fileID: 550701990}
+  - component: {fileID: 550701992}
   - component: {fileID: 550701989}
   m_Layer: 5
   m_Name: Answer3Btn
@@ -17429,10 +17970,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 550701992}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -17488,6 +18029,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550701987}
   m_CullTransparentMesh: 0
+--- !u!114 &550701992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550701987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 25
+  IsCorrect: 0
 --- !u!1 &570600026
 GameObject:
   m_ObjectHideFlags: 0
@@ -18854,6 +19409,7 @@ GameObject:
   - component: {fileID: 637051266}
   - component: {fileID: 637051265}
   - component: {fileID: 637051264}
+  - component: {fileID: 637051267}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -18926,10 +19482,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 637051267}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -18974,6 +19530,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637051262}
   m_CullTransparentMesh: 0
+--- !u!114 &637051267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637051262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 44
+  IsCorrect: 0
 --- !u!1 &641628447
 GameObject:
   m_ObjectHideFlags: 0
@@ -19144,6 +19714,7 @@ GameObject:
   - component: {fileID: 642695046}
   - component: {fileID: 642695045}
   - component: {fileID: 642695044}
+  - component: {fileID: 642695047}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -19216,10 +19787,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 642695047}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -19264,6 +19835,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642695042}
   m_CullTransparentMesh: 0
+--- !u!114 &642695047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642695042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 52
+  IsCorrect: 0
 --- !u!1 &645414293
 GameObject:
   m_ObjectHideFlags: 0
@@ -20896,6 +21481,7 @@ GameObject:
   - component: {fileID: 704396639}
   - component: {fileID: 704396642}
   - component: {fileID: 704396641}
+  - component: {fileID: 704396643}
   - component: {fileID: 704396640}
   m_Layer: 5
   m_Name: Answer1Btn
@@ -20969,10 +21555,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 704396643}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -21017,6 +21603,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704396638}
   m_CullTransparentMesh: 0
+--- !u!114 &704396643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704396638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 21
+  IsCorrect: 0
 --- !u!1 &707517827
 GameObject:
   m_ObjectHideFlags: 0
@@ -21187,6 +21787,7 @@ GameObject:
   - component: {fileID: 708671083}
   - component: {fileID: 708671082}
   - component: {fileID: 708671081}
+  - component: {fileID: 708671084}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -21259,10 +21860,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 708671084}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -21307,6 +21908,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708671079}
   m_CullTransparentMesh: 0
+--- !u!114 &708671084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708671079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 44
+  IsCorrect: 0
 --- !u!1 &708725092
 GameObject:
   m_ObjectHideFlags: 0
@@ -22023,6 +22638,7 @@ GameObject:
   - component: {fileID: 745727522}
   - component: {fileID: 745727521}
   - component: {fileID: 745727520}
+  - component: {fileID: 745727523}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -22095,10 +22711,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 745727523}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -22143,6 +22759,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745727518}
   m_CullTransparentMesh: 0
+--- !u!114 &745727523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745727518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 61
+  IsCorrect: 0
 --- !u!1 &752591040
 GameObject:
   m_ObjectHideFlags: 0
@@ -23771,6 +24401,7 @@ GameObject:
   - component: {fileID: 797829224}
   - component: {fileID: 797829223}
   - component: {fileID: 797829222}
+  - component: {fileID: 797829225}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -23843,10 +24474,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 797829225}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -23902,6 +24533,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797829220}
   m_CullTransparentMesh: 0
+--- !u!114 &797829225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797829220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 35
+  IsCorrect: 0
 --- !u!1 &802791615
 GameObject:
   m_ObjectHideFlags: 0
@@ -24930,6 +25575,7 @@ GameObject:
   - component: {fileID: 848790670}
   - component: {fileID: 848790673}
   - component: {fileID: 848790672}
+  - component: {fileID: 848790674}
   - component: {fileID: 848790671}
   m_Layer: 5
   m_Name: Answer1Btn
@@ -25003,10 +25649,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 848790674}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -25051,6 +25697,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848790669}
   m_CullTransparentMesh: 0
+--- !u!114 &848790674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848790669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 22
+  IsCorrect: 0
 --- !u!1 &849516709
 GameObject:
   m_ObjectHideFlags: 0
@@ -25063,6 +25723,7 @@ GameObject:
   - component: {fileID: 849516713}
   - component: {fileID: 849516712}
   - component: {fileID: 849516711}
+  - component: {fileID: 849516714}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -25135,10 +25796,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 849516714}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -25183,6 +25844,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 849516709}
   m_CullTransparentMesh: 0
+--- !u!114 &849516714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849516709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 64
+  IsCorrect: 0
 --- !u!1 &849590980
 GameObject:
   m_ObjectHideFlags: 0
@@ -25353,6 +26028,7 @@ GameObject:
   - component: {fileID: 850067802}
   - component: {fileID: 850067801}
   - component: {fileID: 850067800}
+  - component: {fileID: 850067803}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -25425,10 +26101,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 850067803}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -25473,6 +26149,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850067798}
   m_CullTransparentMesh: 0
+--- !u!114 &850067803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850067798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 33
+  IsCorrect: 0
 --- !u!1 &879172235
 GameObject:
   m_ObjectHideFlags: 0
@@ -25616,6 +26306,7 @@ GameObject:
   - component: {fileID: 887846593}
   - component: {fileID: 887846596}
   - component: {fileID: 887846595}
+  - component: {fileID: 887846597}
   - component: {fileID: 887846594}
   m_Layer: 5
   m_Name: Answer3Btn
@@ -25689,10 +26380,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 887846597}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -25737,6 +26428,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887846592}
   m_CullTransparentMesh: 0
+--- !u!114 &887846597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887846592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 22
+  IsCorrect: 0
 --- !u!1 &896957381
 GameObject:
   m_ObjectHideFlags: 0
@@ -26000,6 +26705,7 @@ GameObject:
   - component: {fileID: 901311240}
   - component: {fileID: 901311239}
   - component: {fileID: 901311238}
+  - component: {fileID: 901311241}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -26072,10 +26778,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 901311241}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -26120,6 +26826,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901311236}
   m_CullTransparentMesh: 0
+--- !u!114 &901311241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901311236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 62
+  IsCorrect: 0
 --- !u!1 &904579580
 GameObject:
   m_ObjectHideFlags: 0
@@ -27069,6 +27789,7 @@ GameObject:
   - component: {fileID: 943103173}
   - component: {fileID: 943103172}
   - component: {fileID: 943103171}
+  - component: {fileID: 943103174}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -27141,10 +27862,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 943103174}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27189,6 +27910,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943103169}
   m_CullTransparentMesh: 0
+--- !u!114 &943103174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943103169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 13
+  IsCorrect: 0
 --- !u!1 &965530411
 GameObject:
   m_ObjectHideFlags: 0
@@ -27200,6 +27935,7 @@ GameObject:
   - component: {fileID: 965530412}
   - component: {fileID: 965530415}
   - component: {fileID: 965530414}
+  - component: {fileID: 965530416}
   - component: {fileID: 965530413}
   m_Layer: 5
   m_Name: Answer1Btn
@@ -27273,10 +28009,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 965530416}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27332,6 +28068,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965530411}
   m_CullTransparentMesh: 0
+--- !u!114 &965530416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965530411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 25
+  IsCorrect: 0
 --- !u!1 &965912551
 GameObject:
   m_ObjectHideFlags: 0
@@ -27424,6 +28174,7 @@ GameObject:
   - component: {fileID: 967201489}
   - component: {fileID: 967201488}
   - component: {fileID: 967201487}
+  - component: {fileID: 967201490}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -27496,10 +28247,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 967201490}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27544,6 +28295,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967201485}
   m_CullTransparentMesh: 0
+--- !u!114 &967201490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967201485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 63
+  IsCorrect: 0
 --- !u!1 &968125227
 GameObject:
   m_ObjectHideFlags: 0
@@ -27556,6 +28321,7 @@ GameObject:
   - component: {fileID: 968125231}
   - component: {fileID: 968125230}
   - component: {fileID: 968125229}
+  - component: {fileID: 968125232}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -27628,10 +28394,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 968125232}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27676,6 +28442,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968125227}
   m_CullTransparentMesh: 0
+--- !u!114 &968125232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968125227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 41
+  IsCorrect: 0
 --- !u!1 &975391356
 GameObject:
   m_ObjectHideFlags: 0
@@ -27688,6 +28468,7 @@ GameObject:
   - component: {fileID: 975391360}
   - component: {fileID: 975391359}
   - component: {fileID: 975391358}
+  - component: {fileID: 975391361}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -27760,10 +28541,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 975391361}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27808,6 +28589,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975391356}
   m_CullTransparentMesh: 0
+--- !u!114 &975391361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975391356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 53
+  IsCorrect: 0
 --- !u!1 &978695703
 GameObject:
   m_ObjectHideFlags: 0
@@ -27820,6 +28615,7 @@ GameObject:
   - component: {fileID: 978695707}
   - component: {fileID: 978695706}
   - component: {fileID: 978695705}
+  - component: {fileID: 978695708}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -27892,10 +28688,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 978695708}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -27940,6 +28736,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978695703}
   m_CullTransparentMesh: 0
+--- !u!114 &978695708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978695703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 54
+  IsCorrect: 0
 --- !u!1 &980041329
 GameObject:
   m_ObjectHideFlags: 0
@@ -27952,6 +28762,7 @@ GameObject:
   - component: {fileID: 980041333}
   - component: {fileID: 980041332}
   - component: {fileID: 980041331}
+  - component: {fileID: 980041334}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -28024,10 +28835,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 980041334}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -28072,6 +28883,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980041329}
   m_CullTransparentMesh: 0
+--- !u!114 &980041334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980041329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 33
+  IsCorrect: 0
 --- !u!1 &990015440
 GameObject:
   m_ObjectHideFlags: 0
@@ -28624,6 +29449,7 @@ GameObject:
   - component: {fileID: 995894202}
   - component: {fileID: 995894201}
   - component: {fileID: 995894200}
+  - component: {fileID: 995894203}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -28696,10 +29522,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 995894203}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -28744,6 +29570,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995894198}
   m_CullTransparentMesh: 0
+--- !u!114 &995894203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995894198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 43
+  IsCorrect: 0
 --- !u!1 &1001548041
 GameObject:
   m_ObjectHideFlags: 0
@@ -29113,6 +29953,7 @@ GameObject:
   - component: {fileID: 1015901533}
   - component: {fileID: 1015901532}
   - component: {fileID: 1015901531}
+  - component: {fileID: 1015901534}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -29185,10 +30026,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1015901534}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -29233,6 +30074,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015901529}
   m_CullTransparentMesh: 0
+--- !u!114 &1015901534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015901529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 64
+  IsCorrect: 0
 --- !u!1 &1024179666
 GameObject:
   m_ObjectHideFlags: 0
@@ -29760,6 +30615,7 @@ GameObject:
   - component: {fileID: 1051017088}
   - component: {fileID: 1051017087}
   - component: {fileID: 1051017086}
+  - component: {fileID: 1051017089}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -29832,10 +30688,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1051017089}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -29880,6 +30736,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051017084}
   m_CullTransparentMesh: 0
+--- !u!114 &1051017089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051017084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 62
+  IsCorrect: 0
 --- !u!1 &1052733757
 GameObject:
   m_ObjectHideFlags: 0
@@ -30050,6 +30920,7 @@ GameObject:
   - component: {fileID: 1053596953}
   - component: {fileID: 1053596952}
   - component: {fileID: 1053596951}
+  - component: {fileID: 1053596954}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -30122,10 +30993,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1053596954}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30181,6 +31052,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053596949}
   m_CullTransparentMesh: 0
+--- !u!114 &1053596954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053596949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 15
+  IsCorrect: 0
 --- !u!1 &1059152405
 GameObject:
   m_ObjectHideFlags: 0
@@ -30193,6 +31078,7 @@ GameObject:
   - component: {fileID: 1059152409}
   - component: {fileID: 1059152408}
   - component: {fileID: 1059152407}
+  - component: {fileID: 1059152410}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -30265,10 +31151,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1059152410}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30324,6 +31210,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059152405}
   m_CullTransparentMesh: 0
+--- !u!114 &1059152410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059152405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 45
+  IsCorrect: 0
 --- !u!1 &1059889333
 GameObject:
   m_ObjectHideFlags: 0
@@ -30494,6 +31394,7 @@ GameObject:
   - component: {fileID: 1062953877}
   - component: {fileID: 1062953876}
   - component: {fileID: 1062953875}
+  - component: {fileID: 1062953878}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -30566,10 +31467,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1062953878}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30614,6 +31515,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062953873}
   m_CullTransparentMesh: 0
+--- !u!114 &1062953878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062953873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 64
+  IsCorrect: 0
 --- !u!1 &1066751620
 GameObject:
   m_ObjectHideFlags: 0
@@ -30626,6 +31541,7 @@ GameObject:
   - component: {fileID: 1066751624}
   - component: {fileID: 1066751623}
   - component: {fileID: 1066751622}
+  - component: {fileID: 1066751625}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -30698,10 +31614,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1066751625}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -30746,6 +31662,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066751620}
   m_CullTransparentMesh: 0
+--- !u!114 &1066751625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066751620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 51
+  IsCorrect: 0
 --- !u!1 &1066760930
 GameObject:
   m_ObjectHideFlags: 0
@@ -30925,6 +31855,7 @@ GameObject:
   - component: {fileID: 1073212438}
   - component: {fileID: 1073212437}
   - component: {fileID: 1073212436}
+  - component: {fileID: 1073212439}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -30997,10 +31928,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1073212439}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31045,6 +31976,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073212434}
   m_CullTransparentMesh: 0
+--- !u!114 &1073212439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073212434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 12
+  IsCorrect: 0
 --- !u!1 &1080314712
 GameObject:
   m_ObjectHideFlags: 0
@@ -32116,6 +33061,7 @@ GameObject:
   - component: {fileID: 1119671641}
   - component: {fileID: 1119671640}
   - component: {fileID: 1119671639}
+  - component: {fileID: 1119671642}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -32188,10 +33134,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1119671642}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32247,6 +33193,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119671637}
   m_CullTransparentMesh: 0
+--- !u!114 &1119671642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119671637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 35
+  IsCorrect: 0
 --- !u!1 &1128267430
 GameObject:
   m_ObjectHideFlags: 0
@@ -32259,6 +33219,7 @@ GameObject:
   - component: {fileID: 1128267434}
   - component: {fileID: 1128267433}
   - component: {fileID: 1128267432}
+  - component: {fileID: 1128267435}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -32331,10 +33292,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1128267435}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32379,6 +33340,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128267430}
   m_CullTransparentMesh: 0
+--- !u!114 &1128267435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128267430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 63
+  IsCorrect: 0
 --- !u!1 &1128387666
 GameObject:
   m_ObjectHideFlags: 0
@@ -32391,6 +33366,7 @@ GameObject:
   - component: {fileID: 1128387670}
   - component: {fileID: 1128387669}
   - component: {fileID: 1128387668}
+  - component: {fileID: 1128387671}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -32463,10 +33439,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1128387671}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32511,6 +33487,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128387666}
   m_CullTransparentMesh: 0
+--- !u!114 &1128387671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128387666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 13
+  IsCorrect: 0
 --- !u!1 &1132436470
 GameObject:
   m_ObjectHideFlags: 0
@@ -32822,6 +33812,7 @@ GameObject:
   - component: {fileID: 1151758574}
   - component: {fileID: 1151758573}
   - component: {fileID: 1151758572}
+  - component: {fileID: 1151758575}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -32894,10 +33885,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1151758575}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -32942,6 +33933,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151758570}
   m_CullTransparentMesh: 0
+--- !u!114 &1151758575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151758570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 43
+  IsCorrect: 0
 --- !u!1 &1153231389
 GameObject:
   m_ObjectHideFlags: 0
@@ -32953,6 +33958,7 @@ GameObject:
   - component: {fileID: 1153231390}
   - component: {fileID: 1153231393}
   - component: {fileID: 1153231392}
+  - component: {fileID: 1153231394}
   - component: {fileID: 1153231391}
   m_Layer: 5
   m_Name: Answer4Btn
@@ -33026,10 +34032,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1153231394}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -33074,6 +34080,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153231389}
   m_CullTransparentMesh: 0
+--- !u!114 &1153231394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153231389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 24
+  IsCorrect: 0
 --- !u!1 &1153940313
 GameObject:
   m_ObjectHideFlags: 0
@@ -33179,6 +34199,7 @@ GameObject:
   - component: {fileID: 1158679278}
   - component: {fileID: 1158679277}
   - component: {fileID: 1158679276}
+  - component: {fileID: 1158679279}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -33251,10 +34272,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 23920695}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -33299,6 +34320,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158679274}
   m_CullTransparentMesh: 0
+--- !u!114 &1158679279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158679274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 33
+  IsCorrect: 0
 --- !u!1 &1164052208
 GameObject:
   m_ObjectHideFlags: 0
@@ -35565,6 +36600,7 @@ GameObject:
   - component: {fileID: 1248056174}
   - component: {fileID: 1248056173}
   - component: {fileID: 1248056172}
+  - component: {fileID: 1248056175}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -35637,10 +36673,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1248056175}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -35685,6 +36721,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248056170}
   m_CullTransparentMesh: 0
+--- !u!114 &1248056175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248056170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 51
+  IsCorrect: 0
 --- !u!1 &1253240741
 GameObject:
   m_ObjectHideFlags: 0
@@ -35988,6 +37038,7 @@ GameObject:
   - component: {fileID: 1263425967}
   - component: {fileID: 1263425966}
   - component: {fileID: 1263425965}
+  - component: {fileID: 1263425968}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -36060,10 +37111,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1263425968}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36108,6 +37159,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263425963}
   m_CullTransparentMesh: 0
+--- !u!114 &1263425968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263425963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 44
+  IsCorrect: 0
 --- !u!1 &1264577087
 GameObject:
   m_ObjectHideFlags: 0
@@ -36120,6 +37185,7 @@ GameObject:
   - component: {fileID: 1264577091}
   - component: {fileID: 1264577090}
   - component: {fileID: 1264577089}
+  - component: {fileID: 1264577092}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -36192,10 +37258,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1264577092}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36240,6 +37306,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1264577087}
   m_CullTransparentMesh: 0
+--- !u!114 &1264577092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264577087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 11
+  IsCorrect: 0
 --- !u!1 &1267722216
 GameObject:
   m_ObjectHideFlags: 0
@@ -36358,6 +37438,7 @@ GameObject:
   - component: {fileID: 1274614109}
   - component: {fileID: 1274614108}
   - component: {fileID: 1274614107}
+  - component: {fileID: 1274614110}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -36430,10 +37511,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1274614110}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36478,6 +37559,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274614105}
   m_CullTransparentMesh: 0
+--- !u!114 &1274614110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274614105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 31
+  IsCorrect: 0
 --- !u!1 &1274877631
 GameObject:
   m_ObjectHideFlags: 0
@@ -37278,6 +38373,7 @@ GameObject:
   - component: {fileID: 1307627821}
   - component: {fileID: 1307627820}
   - component: {fileID: 1307627819}
+  - component: {fileID: 1307627822}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -37350,10 +38446,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1307627822}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -37398,6 +38494,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307627817}
   m_CullTransparentMesh: 0
+--- !u!114 &1307627822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307627817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 54
+  IsCorrect: 0
 --- !u!1 &1310537760
 GameObject:
   m_ObjectHideFlags: 0
@@ -38336,6 +39446,7 @@ GameObject:
   - component: {fileID: 1349188530}
   - component: {fileID: 1349188529}
   - component: {fileID: 1349188528}
+  - component: {fileID: 1349188531}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -38408,10 +39519,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1349188531}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -38467,6 +39578,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1349188526}
   m_CullTransparentMesh: 0
+--- !u!114 &1349188531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349188526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 35
+  IsCorrect: 0
 --- !u!1 &1356308564
 GameObject:
   m_ObjectHideFlags: 0
@@ -39064,6 +40189,7 @@ GameObject:
   - component: {fileID: 1376703068}
   - component: {fileID: 1376703067}
   - component: {fileID: 1376703066}
+  - component: {fileID: 1376703069}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -39136,10 +40262,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1376703069}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -39184,6 +40310,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376703064}
   m_CullTransparentMesh: 0
+--- !u!114 &1376703069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376703064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 34
+  IsCorrect: 0
 --- !u!1 &1388780454
 GameObject:
   m_ObjectHideFlags: 0
@@ -39196,6 +40336,7 @@ GameObject:
   - component: {fileID: 1388780458}
   - component: {fileID: 1388780457}
   - component: {fileID: 1388780456}
+  - component: {fileID: 1388780459}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -39268,10 +40409,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1388780459}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -39316,6 +40457,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388780454}
   m_CullTransparentMesh: 0
+--- !u!114 &1388780459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388780454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 13
+  IsCorrect: 0
 --- !u!1 &1390474594
 GameObject:
   m_ObjectHideFlags: 0
@@ -39328,6 +40483,7 @@ GameObject:
   - component: {fileID: 1390474598}
   - component: {fileID: 1390474597}
   - component: {fileID: 1390474596}
+  - component: {fileID: 1390474599}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -39400,10 +40556,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1390474599}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -39459,6 +40615,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1390474594}
   m_CullTransparentMesh: 0
+--- !u!114 &1390474599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390474594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 55
+  IsCorrect: 0
 --- !u!1 &1390573059
 GameObject:
   m_ObjectHideFlags: 0
@@ -39945,6 +41115,7 @@ GameObject:
   - component: {fileID: 1398664369}
   - component: {fileID: 1398664368}
   - component: {fileID: 1398664367}
+  - component: {fileID: 1398664370}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -40017,10 +41188,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1398664370}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -40076,6 +41247,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398664365}
   m_CullTransparentMesh: 0
+--- !u!114 &1398664370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398664365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 15
+  IsCorrect: 0
 --- !u!1 &1416366376
 GameObject:
   m_ObjectHideFlags: 0
@@ -40088,6 +41273,7 @@ GameObject:
   - component: {fileID: 1416366380}
   - component: {fileID: 1416366379}
   - component: {fileID: 1416366378}
+  - component: {fileID: 1416366381}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -40160,10 +41346,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1416366381}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -40219,6 +41405,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416366376}
   m_CullTransparentMesh: 0
+--- !u!114 &1416366381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416366376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 55
+  IsCorrect: 0
 --- !u!1 &1435700874
 GameObject:
   m_ObjectHideFlags: 0
@@ -41174,6 +42374,7 @@ GameObject:
   - component: {fileID: 1488604845}
   - component: {fileID: 1488604848}
   - component: {fileID: 1488604847}
+  - component: {fileID: 1488604849}
   - component: {fileID: 1488604846}
   m_Layer: 5
   m_Name: Answer4Btn
@@ -41247,10 +42448,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1488604849}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -41295,6 +42496,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488604844}
   m_CullTransparentMesh: 0
+--- !u!114 &1488604849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488604844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 23
+  IsCorrect: 0
 --- !u!1 &1498873456
 GameObject:
   m_ObjectHideFlags: 0
@@ -41558,6 +42773,7 @@ GameObject:
   - component: {fileID: 1507035343}
   - component: {fileID: 1507035342}
   - component: {fileID: 1507035341}
+  - component: {fileID: 1507035344}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -41630,10 +42846,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1507035344}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -41678,6 +42894,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507035339}
   m_CullTransparentMesh: 0
+--- !u!114 &1507035344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507035339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 61
+  IsCorrect: 0
 --- !u!1 &1512127815
 GameObject:
   m_ObjectHideFlags: 0
@@ -41689,6 +42919,7 @@ GameObject:
   - component: {fileID: 1512127816}
   - component: {fileID: 1512127819}
   - component: {fileID: 1512127818}
+  - component: {fileID: 1512127820}
   - component: {fileID: 1512127817}
   m_Layer: 5
   m_Name: Answer2Btn
@@ -41762,10 +42993,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1512127820}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -41810,6 +43041,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512127815}
   m_CullTransparentMesh: 0
+--- !u!114 &1512127820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512127815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 22
+  IsCorrect: 0
 --- !u!1 &1513915000
 GameObject:
   m_ObjectHideFlags: 0
@@ -41822,6 +43067,7 @@ GameObject:
   - component: {fileID: 1513915004}
   - component: {fileID: 1513915003}
   - component: {fileID: 1513915002}
+  - component: {fileID: 1513915005}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -41894,10 +43140,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1513915005}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -41942,6 +43188,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1513915000}
   m_CullTransparentMesh: 0
+--- !u!114 &1513915005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513915000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 53
+  IsCorrect: 0
 --- !u!1 &1520029477
 GameObject:
   m_ObjectHideFlags: 0
@@ -42058,6 +43318,7 @@ GameObject:
   - component: {fileID: 1520707987}
   - component: {fileID: 1520707986}
   - component: {fileID: 1520707985}
+  - component: {fileID: 1520707988}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -42130,10 +43391,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1520707988}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -42178,6 +43439,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520707983}
   m_CullTransparentMesh: 0
+--- !u!114 &1520707988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520707983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 51
+  IsCorrect: 0
 --- !u!1 &1526027668
 GameObject:
   m_ObjectHideFlags: 0
@@ -42598,6 +43873,7 @@ GameObject:
   - component: {fileID: 1548599619}
   - component: {fileID: 1548599622}
   - component: {fileID: 1548599621}
+  - component: {fileID: 1548599623}
   - component: {fileID: 1548599620}
   m_Layer: 5
   m_Name: Answer1Btn
@@ -42671,10 +43947,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1548599623}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -42719,6 +43995,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548599618}
   m_CullTransparentMesh: 0
+--- !u!114 &1548599623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548599618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 23
+  IsCorrect: 0
 --- !u!1 &1550872204
 GameObject:
   m_ObjectHideFlags: 0
@@ -43047,6 +44337,7 @@ GameObject:
   - component: {fileID: 1572499226}
   - component: {fileID: 1572499225}
   - component: {fileID: 1572499224}
+  - component: {fileID: 1572499227}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -43119,10 +44410,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1572499227}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -43167,6 +44458,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572499222}
   m_CullTransparentMesh: 0
+--- !u!114 &1572499227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572499222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 52
+  IsCorrect: 0
 --- !u!1 &1573292280
 GameObject:
   m_ObjectHideFlags: 0
@@ -43653,6 +44958,7 @@ GameObject:
   - component: {fileID: 1582275569}
   - component: {fileID: 1582275568}
   - component: {fileID: 1582275567}
+  - component: {fileID: 1582275570}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -43725,10 +45031,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1582275570}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -43773,6 +45079,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582275565}
   m_CullTransparentMesh: 0
+--- !u!114 &1582275570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582275565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 34
+  IsCorrect: 0
 --- !u!1 &1582915982
 GameObject:
   m_ObjectHideFlags: 0
@@ -43943,6 +45263,7 @@ GameObject:
   - component: {fileID: 1585915662}
   - component: {fileID: 1585915661}
   - component: {fileID: 1585915660}
+  - component: {fileID: 1585915663}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -44015,10 +45336,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1585915663}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -44063,6 +45384,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585915658}
   m_CullTransparentMesh: 0
+--- !u!114 &1585915663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585915658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 11
+  IsCorrect: 0
 --- !u!1 &1586112550
 GameObject:
   m_ObjectHideFlags: 0
@@ -44326,6 +45661,7 @@ GameObject:
   - component: {fileID: 1592340009}
   - component: {fileID: 1592340008}
   - component: {fileID: 1592340007}
+  - component: {fileID: 1592340010}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -44398,10 +45734,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1592340010}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -44446,6 +45782,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592340005}
   m_CullTransparentMesh: 0
+--- !u!114 &1592340010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592340005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 53
+  IsCorrect: 0
 --- !u!1 &1592998951
 GameObject:
   m_ObjectHideFlags: 0
@@ -44457,6 +45807,7 @@ GameObject:
   - component: {fileID: 1592998952}
   - component: {fileID: 1592998955}
   - component: {fileID: 1592998954}
+  - component: {fileID: 1592998956}
   - component: {fileID: 1592998953}
   m_Layer: 5
   m_Name: Answer3Btn
@@ -44530,10 +45881,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1592998956}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -44578,6 +45929,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592998951}
   m_CullTransparentMesh: 0
+--- !u!114 &1592998956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592998951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 21
+  IsCorrect: 0
 --- !u!1 &1596950258
 GameObject:
   m_ObjectHideFlags: 0
@@ -44841,6 +46206,7 @@ GameObject:
   - component: {fileID: 1623202911}
   - component: {fileID: 1623202910}
   - component: {fileID: 1623202909}
+  - component: {fileID: 1623202912}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -44913,10 +46279,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1623202912}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -44961,6 +46327,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623202907}
   m_CullTransparentMesh: 0
+--- !u!114 &1623202912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623202907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 53
+  IsCorrect: 0
 --- !u!1 &1627154157
 GameObject:
   m_ObjectHideFlags: 0
@@ -45521,6 +46901,7 @@ GameObject:
   - component: {fileID: 1643986730}
   - component: {fileID: 1643986729}
   - component: {fileID: 1643986728}
+  - component: {fileID: 1643986731}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -45593,10 +46974,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1643986731}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -45641,6 +47022,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643986726}
   m_CullTransparentMesh: 0
+--- !u!114 &1643986731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643986726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 12
+  IsCorrect: 0
 --- !u!1 &1649945595
 GameObject:
   m_ObjectHideFlags: 0
@@ -46581,6 +47976,7 @@ GameObject:
   - component: {fileID: 1669097068}
   - component: {fileID: 1669097067}
   - component: {fileID: 1669097066}
+  - component: {fileID: 1669097069}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -46653,10 +48049,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1669097069}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -46712,6 +48108,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669097064}
   m_CullTransparentMesh: 0
+--- !u!114 &1669097069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669097064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 15
+  IsCorrect: 0
 --- !u!1 &1669943446
 GameObject:
   m_ObjectHideFlags: 0
@@ -47015,6 +48425,7 @@ GameObject:
   - component: {fileID: 1677904247}
   - component: {fileID: 1677904246}
   - component: {fileID: 1677904245}
+  - component: {fileID: 1677904248}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -47087,10 +48498,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1677904248}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -47135,6 +48546,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677904243}
   m_CullTransparentMesh: 0
+--- !u!114 &1677904248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677904243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 62
+  IsCorrect: 0
 --- !u!1 &1691137035
 GameObject:
   m_ObjectHideFlags: 0
@@ -47147,6 +48572,7 @@ GameObject:
   - component: {fileID: 1691137039}
   - component: {fileID: 1691137038}
   - component: {fileID: 1691137037}
+  - component: {fileID: 1691137040}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -47219,10 +48645,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1691137040}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -47278,6 +48704,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691137035}
   m_CullTransparentMesh: 0
+--- !u!114 &1691137040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691137035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 45
+  IsCorrect: 0
 --- !u!1 &1702235117
 GameObject:
   m_ObjectHideFlags: 0
@@ -47718,6 +49158,7 @@ GameObject:
   - component: {fileID: 1730285819}
   - component: {fileID: 1730285818}
   - component: {fileID: 1730285817}
+  - component: {fileID: 1730285820}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -47790,10 +49231,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1730285820}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -47838,6 +49279,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1730285815}
   m_CullTransparentMesh: 0
+--- !u!114 &1730285820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730285815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 33
+  IsCorrect: 0
 --- !u!1 &1752523906
 GameObject:
   m_ObjectHideFlags: 0
@@ -48884,6 +50339,7 @@ GameObject:
   - component: {fileID: 1793971462}
   - component: {fileID: 1793971461}
   - component: {fileID: 1793971460}
+  - component: {fileID: 1793971463}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -48956,10 +50412,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1793971463}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -49004,6 +50460,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793971458}
   m_CullTransparentMesh: 0
+--- !u!114 &1793971463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793971458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 32
+  IsCorrect: 0
 --- !u!1 &1799781356
 GameObject:
   m_ObjectHideFlags: 0
@@ -49016,6 +50486,7 @@ GameObject:
   - component: {fileID: 1799781360}
   - component: {fileID: 1799781359}
   - component: {fileID: 1799781358}
+  - component: {fileID: 1799781361}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -49088,10 +50559,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1799781361}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -49136,6 +50607,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1799781356}
   m_CullTransparentMesh: 0
+--- !u!114 &1799781361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799781356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 61
+  IsCorrect: 0
 --- !u!1 &1806717467
 GameObject:
   m_ObjectHideFlags: 0
@@ -49646,6 +51131,7 @@ GameObject:
   - component: {fileID: 1818106920}
   - component: {fileID: 1818106919}
   - component: {fileID: 1818106918}
+  - component: {fileID: 1818106921}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -49718,10 +51204,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1818106921}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -49766,6 +51252,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818106916}
   m_CullTransparentMesh: 0
+--- !u!114 &1818106921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818106916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 62
+  IsCorrect: 0
 --- !u!1 &1849313307
 GameObject:
   m_ObjectHideFlags: 0
@@ -49884,6 +51384,7 @@ GameObject:
   - component: {fileID: 1851315536}
   - component: {fileID: 1851315535}
   - component: {fileID: 1851315534}
+  - component: {fileID: 1851315537}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -49956,10 +51457,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1851315537}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50004,6 +51505,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851315532}
   m_CullTransparentMesh: 0
+--- !u!114 &1851315537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851315532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 63
+  IsCorrect: 0
 --- !u!1 &1857517347
 GameObject:
   m_ObjectHideFlags: 0
@@ -50016,6 +51531,7 @@ GameObject:
   - component: {fileID: 1857517351}
   - component: {fileID: 1857517350}
   - component: {fileID: 1857517349}
+  - component: {fileID: 1857517352}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -50088,10 +51604,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1857517352}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50136,6 +51652,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857517347}
   m_CullTransparentMesh: 0
+--- !u!114 &1857517352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857517347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 63
+  IsCorrect: 0
 --- !u!1 &1860428007
 GameObject:
   m_ObjectHideFlags: 0
@@ -50148,6 +51678,7 @@ GameObject:
   - component: {fileID: 1860428011}
   - component: {fileID: 1860428010}
   - component: {fileID: 1860428009}
+  - component: {fileID: 1860428012}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -50220,10 +51751,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1860428012}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50268,6 +51799,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860428007}
   m_CullTransparentMesh: 0
+--- !u!114 &1860428012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860428007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 31
+  IsCorrect: 0
 --- !u!1 &1861598560
 GameObject:
   m_ObjectHideFlags: 0
@@ -50515,6 +52060,7 @@ GameObject:
   - component: {fileID: 1880794579}
   - component: {fileID: 1880794578}
   - component: {fileID: 1880794577}
+  - component: {fileID: 1880794580}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -50587,10 +52133,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1880794580}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50646,6 +52192,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880794575}
   m_CullTransparentMesh: 0
+--- !u!114 &1880794580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880794575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 65
+  IsCorrect: 0
 --- !u!1 &1885203394
 GameObject:
   m_ObjectHideFlags: 0
@@ -50815,6 +52375,7 @@ GameObject:
   - component: {fileID: 1887741840}
   - component: {fileID: 1887741843}
   - component: {fileID: 1887741842}
+  - component: {fileID: 1887741844}
   - component: {fileID: 1887741841}
   m_Layer: 5
   m_Name: Answer4Btn
@@ -50888,10 +52449,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1887741844}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50936,6 +52497,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887741839}
   m_CullTransparentMesh: 0
+--- !u!114 &1887741844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887741839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 21
+  IsCorrect: 0
 --- !u!1 &1891438346
 GameObject:
   m_ObjectHideFlags: 0
@@ -50948,6 +52523,7 @@ GameObject:
   - component: {fileID: 1891438350}
   - component: {fileID: 1891438349}
   - component: {fileID: 1891438348}
+  - component: {fileID: 1891438351}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -51020,10 +52596,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1891438351}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -51068,6 +52644,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1891438346}
   m_CullTransparentMesh: 0
+--- !u!114 &1891438351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891438346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 61
+  IsCorrect: 0
 --- !u!1 &1892666727
 GameObject:
   m_ObjectHideFlags: 0
@@ -51396,6 +52986,7 @@ GameObject:
   - component: {fileID: 1909268245}
   - component: {fileID: 1909268244}
   - component: {fileID: 1909268243}
+  - component: {fileID: 1909268246}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -51468,10 +53059,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1909268246}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -51516,6 +53107,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1909268241}
   m_CullTransparentMesh: 0
+--- !u!114 &1909268246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909268241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 42
+  IsCorrect: 0
 --- !u!1 &1916913155
 GameObject:
   m_ObjectHideFlags: 0
@@ -52120,6 +53725,7 @@ GameObject:
   - component: {fileID: 1923940869}
   - component: {fileID: 1923940868}
   - component: {fileID: 1923940867}
+  - component: {fileID: 1923940870}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -52192,10 +53798,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1923940870}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -52251,6 +53857,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923940865}
   m_CullTransparentMesh: 0
+--- !u!114 &1923940870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923940865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 65
+  IsCorrect: 0
 --- !u!1 &1935242042
 GameObject:
   m_ObjectHideFlags: 0
@@ -52527,6 +54147,7 @@ GameObject:
   - component: {fileID: 1940769548}
   - component: {fileID: 1940769547}
   - component: {fileID: 1940769546}
+  - component: {fileID: 1940769549}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -52599,10 +54220,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1940769549}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -52647,6 +54268,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940769544}
   m_CullTransparentMesh: 0
+--- !u!114 &1940769549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940769544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 41
+  IsCorrect: 0
 --- !u!1 &1941638486
 GameObject:
   m_ObjectHideFlags: 0
@@ -52923,6 +54558,7 @@ GameObject:
   - component: {fileID: 1951522239}
   - component: {fileID: 1951522238}
   - component: {fileID: 1951522237}
+  - component: {fileID: 1951522240}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -52995,10 +54631,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1951522240}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -53043,6 +54679,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1951522235}
   m_CullTransparentMesh: 0
+--- !u!114 &1951522240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951522235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 12
+  IsCorrect: 0
 --- !u!1 &1954273128
 GameObject:
   m_ObjectHideFlags: 0
@@ -53899,6 +55549,7 @@ GameObject:
   - component: {fileID: 1983126478}
   - component: {fileID: 1983126477}
   - component: {fileID: 1983126476}
+  - component: {fileID: 1983126479}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -53971,10 +55622,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1983126479}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -54019,6 +55670,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983126474}
   m_CullTransparentMesh: 0
+--- !u!114 &1983126479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983126474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 31
+  IsCorrect: 0
 --- !u!1 &1984601848
 GameObject:
   m_ObjectHideFlags: 0
@@ -54451,6 +56116,7 @@ GameObject:
   - component: {fileID: 1994125916}
   - component: {fileID: 1994125915}
   - component: {fileID: 1994125914}
+  - component: {fileID: 1994125917}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -54523,10 +56189,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1994125917}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -54571,6 +56237,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994125912}
   m_CullTransparentMesh: 0
+--- !u!114 &1994125917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994125912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 42
+  IsCorrect: 0
 --- !u!1 &2006015568
 GameObject:
   m_ObjectHideFlags: 0
@@ -55711,6 +57391,7 @@ GameObject:
   - component: {fileID: 2021977813}
   - component: {fileID: 2021977812}
   - component: {fileID: 2021977811}
+  - component: {fileID: 2021977814}
   m_Layer: 5
   m_Name: Answer4Btn
   m_TagString: Untagged
@@ -55783,10 +57464,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2021977814}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -55831,6 +57512,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021977809}
   m_CullTransparentMesh: 0
+--- !u!114 &2021977814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021977809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 34
+  IsCorrect: 0
 --- !u!1 &2024686491
 GameObject:
   m_ObjectHideFlags: 0
@@ -56001,6 +57696,7 @@ GameObject:
   - component: {fileID: 2028462246}
   - component: {fileID: 2028462245}
   - component: {fileID: 2028462244}
+  - component: {fileID: 2028462247}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -56073,10 +57769,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2028462247}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -56121,6 +57817,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028462242}
   m_CullTransparentMesh: 0
+--- !u!114 &2028462247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028462242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 51
+  IsCorrect: 0
 --- !u!1 &2029602670
 GameObject:
   m_ObjectHideFlags: 0
@@ -56449,6 +58159,7 @@ GameObject:
   - component: {fileID: 2037113556}
   - component: {fileID: 2037113555}
   - component: {fileID: 2037113554}
+  - component: {fileID: 2037113557}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -56521,10 +58232,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2037113557}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -56569,6 +58280,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2037113552}
   m_CullTransparentMesh: 0
+--- !u!114 &2037113557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037113552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 41
+  IsCorrect: 0
 --- !u!1 &2040472118
 GameObject:
   m_ObjectHideFlags: 0
@@ -56739,6 +58464,7 @@ GameObject:
   - component: {fileID: 2040560796}
   - component: {fileID: 2040560795}
   - component: {fileID: 2040560794}
+  - component: {fileID: 2040560797}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -56811,10 +58537,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2040560797}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -56859,6 +58585,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2040560792}
   m_CullTransparentMesh: 0
+--- !u!114 &2040560797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040560792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 14
+  IsCorrect: 0
 --- !u!1 &2050895391
 GameObject:
   m_ObjectHideFlags: 0
@@ -57268,6 +59008,7 @@ GameObject:
   - component: {fileID: 2071953989}
   - component: {fileID: 2071953988}
   - component: {fileID: 2071953987}
+  - component: {fileID: 2071953990}
   m_Layer: 5
   m_Name: Answer1Btn
   m_TagString: Untagged
@@ -57340,10 +59081,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2071953990}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -57388,6 +59129,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071953985}
   m_CullTransparentMesh: 0
+--- !u!114 &2071953990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071953985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 32
+  IsCorrect: 0
 --- !u!1 &2083157612
 GameObject:
   m_ObjectHideFlags: 0
@@ -57558,6 +59313,7 @@ GameObject:
   - component: {fileID: 2092132262}
   - component: {fileID: 2092132261}
   - component: {fileID: 2092132260}
+  - component: {fileID: 2092132263}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -57630,10 +59386,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2092132263}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -57678,6 +59434,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092132258}
   m_CullTransparentMesh: 0
+--- !u!114 &2092132263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092132258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 54
+  IsCorrect: 0
 --- !u!1 &2093205712
 GameObject:
   m_ObjectHideFlags: 0
@@ -58368,6 +60138,7 @@ GameObject:
   - component: {fileID: 2112146875}
   - component: {fileID: 2112146874}
   - component: {fileID: 2112146873}
+  - component: {fileID: 2112146876}
   m_Layer: 5
   m_Name: Answer3Btn
   m_TagString: Untagged
@@ -58440,10 +60211,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2112146876}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -58488,6 +60259,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2112146871}
   m_CullTransparentMesh: 0
+--- !u!114 &2112146876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112146871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 54
+  IsCorrect: 0
 --- !u!1 &2120960154
 GameObject:
   m_ObjectHideFlags: 0
@@ -58658,6 +60443,7 @@ GameObject:
   - component: {fileID: 2123600871}
   - component: {fileID: 2123600870}
   - component: {fileID: 2123600869}
+  - component: {fileID: 2123600872}
   m_Layer: 5
   m_Name: Answer2Btn
   m_TagString: Untagged
@@ -58730,10 +60516,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 733448995}
         m_MethodName: AnswerQuestion
-        m_Mode: 6
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2123600872}
+          m_ObjectArgumentAssemblyTypeName: AnswerButton, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -58789,6 +60575,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123600867}
   m_CullTransparentMesh: 0
+--- !u!114 &2123600872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123600867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309704dd72476344a7089462c6f79db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 45
+  IsCorrect: 0
 --- !u!1 &2134439327
 GameObject:
   m_ObjectHideFlags: 0

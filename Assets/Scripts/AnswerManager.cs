@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AnswerManager : MonoBehaviour
 {
     public static AnswerManager Instance;
     private bool finalQuestionAnswered;
     [HideInInspector] public string FinalChoice;
+
+    private List<int> usedButtonIds = new List<int>();
     
     public bool FinalQuestionAnswered
     {
@@ -18,12 +22,17 @@ public class AnswerManager : MonoBehaviour
         Instance = this;
     }
 
-    public void AnswerQuestion(bool isCorrect)
+    public void AnswerQuestion(AnswerButton ab)
     {
+        if (usedButtonIds.Contains(ab.Id))
+            return;
+        
+        usedButtonIds.Add(ab.Id);
+        
         var Score = MainGameManager.Instance.Score;
-        Score = isCorrect ? Score + 100 : Score - 200;
+        Score = ab.IsCorrect ? Score + 100 : Score - 200;
 
-        if (isCorrect)
+        if (ab.IsCorrect)
         {
             DialogManager.Instance.EnableDialogue("Congratulations!", "You got 100 points", "OK", true, DialogManager.Instance.DisableDialogue);
         }
@@ -35,6 +44,7 @@ public class AnswerManager : MonoBehaviour
         MainGameManager.Instance.Score = Score;
         MainGameManager.Instance.NetworkHandlerInstance.SendPointsUpdate(MainGameManager.Instance.TeamName, Score);
     }
+    
 
     public void AnswerFinalQuestion(string value)
     {
