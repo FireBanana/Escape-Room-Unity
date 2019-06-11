@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 52
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &12150394
 GameObject:
   m_ObjectHideFlags: 0
@@ -2769,7 +2769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 22
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &93001305
 GameObject:
   m_ObjectHideFlags: 0
@@ -2916,7 +2916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 13
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &95462320
 GameObject:
   m_ObjectHideFlags: 0
@@ -6895,7 +6895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 14
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &235577062
 GameObject:
   m_ObjectHideFlags: 0
@@ -9882,7 +9882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 25
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &334555856
 GameObject:
   m_ObjectHideFlags: 0
@@ -11914,7 +11914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 44
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &375985843
 GameObject:
   m_ObjectHideFlags: 0
@@ -13952,7 +13952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 65
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &438178336
 GameObject:
   m_ObjectHideFlags: 0
@@ -26162,7 +26162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 33
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &879172235
 GameObject:
   m_ObjectHideFlags: 0
@@ -26839,7 +26839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 62
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &904579580
 GameObject:
   m_ObjectHideFlags: 0
@@ -31065,7 +31065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 15
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1059152405
 GameObject:
   m_ObjectHideFlags: 0
@@ -31223,7 +31223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 45
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1059889333
 GameObject:
   m_ObjectHideFlags: 0
@@ -31528,7 +31528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 64
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1066751620
 GameObject:
   m_ObjectHideFlags: 0
@@ -33206,7 +33206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 35
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1128267430
 GameObject:
   m_ObjectHideFlags: 0
@@ -33353,7 +33353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 63
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1128387666
 GameObject:
   m_ObjectHideFlags: 0
@@ -33946,7 +33946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 43
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1153231389
 GameObject:
   m_ObjectHideFlags: 0
@@ -34093,7 +34093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 24
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1153940313
 GameObject:
   m_ObjectHideFlags: 0
@@ -37319,7 +37319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 11
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1267722216
 GameObject:
   m_ObjectHideFlags: 0
@@ -37572,7 +37572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 31
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1274877631
 GameObject:
   m_ObjectHideFlags: 0
@@ -38507,7 +38507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 54
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1310537760
 GameObject:
   m_ObjectHideFlags: 0
@@ -40628,7 +40628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 55
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1390573059
 GameObject:
   m_ObjectHideFlags: 0
@@ -42509,7 +42509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 23
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1498873456
 GameObject:
   m_ObjectHideFlags: 0
@@ -42907,7 +42907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 61
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1512127815
 GameObject:
   m_ObjectHideFlags: 0
@@ -43452,7 +43452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 51
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1526027668
 GameObject:
   m_ObjectHideFlags: 0
@@ -45795,7 +45795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 53
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1592998951
 GameObject:
   m_ObjectHideFlags: 0
@@ -50473,7 +50473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 32
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1799781356
 GameObject:
   m_ObjectHideFlags: 0
@@ -52510,7 +52510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 21
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1891438346
 GameObject:
   m_ObjectHideFlags: 0
@@ -53120,7 +53120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 42
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1916913155
 GameObject:
   m_ObjectHideFlags: 0
@@ -54281,7 +54281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 41
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1941638486
 GameObject:
   m_ObjectHideFlags: 0
@@ -57525,7 +57525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 34
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &2024686491
 GameObject:
   m_ObjectHideFlags: 0

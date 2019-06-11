@@ -25,9 +25,13 @@ public class AnswerManager : MonoBehaviour
     public void AnswerQuestion(AnswerButton ab)
     {
         if (usedButtonIds.Contains(ab.Id))
+        {
+            DialogManager.Instance.EnableDialogue("Already Answered", "This question was already answered and cannot be answered again", "OK", true, DialogManager.Instance.DisableDialogue);
             return;
-        
-        usedButtonIds.Add(ab.Id);
+        }
+
+        if(ab.IsCorrect)
+            usedButtonIds.Add(ab.Id);
         
         var Score = MainGameManager.Instance.Score;
         Score = ab.IsCorrect ? Score + 100 : Score - 200;
