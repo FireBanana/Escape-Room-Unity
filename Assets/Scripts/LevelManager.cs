@@ -15,6 +15,7 @@ public class LevelManager : MonoBehaviour
     public List<QuestionHolder> QuestionHolderList;
     public List<Button> LevelButtons;
     public GameObject QrHolder;
+    public GameObject QrMask;
     
     private int currentSelectedLevel = -2; //None
     private bool firstTimeSelected;
@@ -92,12 +93,14 @@ public class LevelManager : MonoBehaviour
         if(currentSelectedLevel >= 0)
             QuestionHolderList[currentSelectedLevel].gameObject.SetActive(false);
         currentSelectedLevel = -1;
+        QrMask.SetActive(true);
         QrHolder.SetActive(true);
         QrManager.Instance.QrDecoder.StartWork();
     }
 
     public void DeselectQr()
     {
+        QrMask.SetActive(false);
         QrHolder.SetActive(false);
     }
 }

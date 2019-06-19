@@ -58,35 +58,76 @@ public class QrManager : MonoBehaviour
             
             if (formattedString[0] == "Exit")
             {
-                MainGameManager.Instance.UpdatePoints(qrDictionary["Exit"]);
-                LevelManager.Instance.SelectLevel(-2);
-                DialogManager.Instance.DisableDialogue();
-                qrScannedDictionary["Exit"] = true;
-                
-                if (!AnswerManager.Instance.FinalQuestionAnswered)
+
+                if (!qrScannedDictionary["Exit"])
                 {
+                    MainGameManager.Instance.UpdatePoints(qrDictionary["Exit"]);
+                    LevelManager.Instance.SelectLevel(-2);
                     DialogManager.Instance.DisableDialogue();
-                    DialogManager.Instance.EnableDialogue("Exit Code Success",
-                        "You are awarded points for solving the exit code. Do you wish to exit now and end the simulation or do you wish to continue collecting data to add to your score? Click outside this dialog to continue or click the end button to end simulation.\nNOTE: Each minute your remain in the simulation costs 25 points from your score. But you can gain many more points by continuing!",
-                        "End", true, () =>
-                        {
-                            NavigationManager.Instance.ActivateGameEndScreen();
-                            print("GAME END");
-                            DialogManager.Instance.DisableDialogue();
-                        });
+                    qrScannedDictionary["Exit"] = true;
+
+                    if (!AnswerManager.Instance.FinalQuestionAnswered)
+                    {
+                        DialogManager.Instance.DisableDialogue();
+
+                        DialogManager.Instance.EnableDoubleDialogue("Exit Code Success",
+                            "You are awarded points for solving the exit code. Do you wish to exit now and end the simulation or do you wish to continue collecting data to add to your score? Click continue to play further or click the end button to end simulation.\nNOTE: Each minute your remain in the simulation costs 25 points from your score. But you can gain many more points by continuing!",
+                            "Continue", "Exit", false,
+                            () => { DialogManager.Instance.DisableDialogue(); },
+                            () =>
+                            {
+                                NavigationManager.Instance.ActivateGameEndScreen();
+                                print("GAME END");
+                                DialogManager.Instance.DisableDialogue();
+                            });
+
+                    }
+                    else
+                    {
+                        DialogManager.Instance.EnableDialogue("Simulation Terminated",
+                            "You have made your decision and successfully unlocked the escape door. Please exit the simulation arena and await final instructions.",
+                            "End", false, () =>
+                            {
+                                NavigationManager.Instance.ActivateGameEndScreen();
+                                print("GAME END");
+                                DialogManager.Instance.DisableDialogue();
+                            });
+                    }
                 }
                 else
                 {
-                    DialogManager.Instance.EnableDialogue("Simulation Terminated",
-                        "You have made your decision and succesafully unlocked the escape door. Please exit the simulation arena and await final instructions.",
-                        "End", false, () =>
-                        {
-                            NavigationManager.Instance.ActivateGameEndScreen();
-                            print("GAME END");
-                            DialogManager.Instance.DisableDialogue();
-                        });
+                    LevelManager.Instance.SelectLevel(-2);
+                    DialogManager.Instance.DisableDialogue();
+
+                    if (!AnswerManager.Instance.FinalQuestionAnswered)
+                    {
+                        DialogManager.Instance.DisableDialogue();
+
+                        DialogManager.Instance.EnableDoubleDialogue("Exit Code Success",
+                            "You have scanned the exit code. Do you wish to exit now and end the simulation or do you wish to continue collecting data to add to your score? Click continue to play further or click the end button to end simulation.\nNOTE: Each minute your remain in the simulation costs 25 points from your score. But you can gain many more points by continuing!",
+                            "Continue", "Exit", false,
+                            () => { DialogManager.Instance.DisableDialogue(); },
+                            () =>
+                            {
+                                NavigationManager.Instance.ActivateGameEndScreen();
+                                print("GAME END");
+                                DialogManager.Instance.DisableDialogue();
+                            });
+
+                    }
+                    else
+                    {
+                        DialogManager.Instance.EnableDialogue("Simulation Terminated",
+                            "You have made your decision and successfully unlocked the escape door. Please exit the simulation arena and await final instructions.",
+                            "End", false, () =>
+                            {
+                                NavigationManager.Instance.ActivateGameEndScreen();
+                                print("GAME END");
+                                DialogManager.Instance.DisableDialogue();
+                            });
+                    }
                 }
-                
+
                 return;
             }
             
