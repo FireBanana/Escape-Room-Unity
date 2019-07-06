@@ -7,10 +7,11 @@ using System.Text;
 using Newtonsoft.Json;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainGameManager : MonoBehaviour
 {
-    public const int MAXIMUM_TIME = 2700;
+    public const int MAXIMUM_TIME = 3600;
     
     public static MainGameManager Instance;
     [HideInInspector] public NetworkHandler NetworkHandlerInstance;
@@ -25,6 +26,7 @@ public class MainGameManager : MonoBehaviour
     public bool IsDebug;
 
     [HideInInspector]public float ElapsedTime;
+    private int previousMinute;
     private bool timerStarted;
 
     private void Awake()
@@ -35,7 +37,7 @@ public class MainGameManager : MonoBehaviour
     private void Start()
     {
         NetworkHandlerInstance = new NetworkHandler(IsDebug);
-
+        Score = 1500;
         StartCoroutine(CallbackQueueRoutine());
     }
 
@@ -45,10 +47,19 @@ public class MainGameManager : MonoBehaviour
         {
             if (ElapsedTime < MAXIMUM_TIME)
             {
+                //save min
                 ElapsedTime += Time.deltaTime;
+                var mins = Utilities.GetMinutes((int)ElapsedTime);
+
+                if (mins > previousMinute)
+                {
+                    previousMinute = mins;
+                    UpdatePoints(-25);
+                }
             }
             else
             {
+                timerStarted = false;
                 NavigationManager.Instance.ActivateGameEndScreen();
                 print("GAME END");
                 DialogManager.Instance.DisableDialogue();
@@ -106,7 +117,7 @@ public class MainGameManager : MonoBehaviour
         //add loop to handle all commands at once
         while (true)
         {
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1);
 
             if (!CallbackQueue.IsEmpty)
             {
@@ -123,5 +134,10 @@ public class MainGameManager : MonoBehaviour
     private void OnDestroy()
     {
         NetworkHandlerInstance.Dispose();
+    }
+
+    public void ResetGame()
+    {
+        SceneManager.LoadScene(0);
     }
 }

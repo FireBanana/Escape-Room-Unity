@@ -99,6 +99,7 @@
           <e p="QrManager.cs" t="Include" />
           <e p="QuestionHolder.cs" t="Include" />
           <e p="TutorialManager.cs" t="Include" />
+          <e p="Utilities.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Resources" t="Include">
