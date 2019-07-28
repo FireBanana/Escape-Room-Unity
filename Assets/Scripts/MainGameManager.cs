@@ -27,7 +27,9 @@ public class MainGameManager : MonoBehaviour
 
     [HideInInspector]public float ElapsedTime;
     private int previousMinute;
+    private int previousSecond;
     private bool timerStarted;
+    private bool gamePaused;
 
     private void Awake()
     {
@@ -39,11 +41,12 @@ public class MainGameManager : MonoBehaviour
         NetworkHandlerInstance = new NetworkHandler(IsDebug);
         Score = 1500;
         StartCoroutine(CallbackQueueRoutine());
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
     }
 
     private void Update()
     {
-        if (timerStarted)
+        if (timerStarted && !gamePaused)
         {
             if (ElapsedTime < MAXIMUM_TIME)
             {
@@ -55,6 +58,12 @@ public class MainGameManager : MonoBehaviour
                 {
                     previousMinute = mins;
                     UpdatePoints(-25);
+                }
+
+                if (Mathf.FloorToInt(ElapsedTime) > previousSecond)
+                {
+                    previousSecond = Mathf.FloorToInt(ElapsedTime);
+                    NetworkHandlerInstance.SendTimerHeartBeat(TeamName, Utilities.SecondsToFormattedString(previousSecond));
                 }
             }
             else
@@ -94,8 +103,8 @@ public class MainGameManager : MonoBehaviour
 
     public void ToggleGame(bool isPaused)
     {
-        //Pause timer
-        //show screen
+        gamePaused = isPaused;
+        
         if (isPaused)
         {
             PauseScreen.SetActive(true);

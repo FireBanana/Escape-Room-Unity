@@ -106,6 +106,10 @@ public class NetworkHandler
                             break;
                         }
                     }
+                    else
+                    {
+                        Debug.Log("Not Connected");
+                    }
                 }
 
                 Debug.Log("ended");
@@ -202,6 +206,14 @@ public class NetworkHandler
     public void SendDisconnect(string teamName)
     {
         var packet = new GameQuitPacket(teamName);
+        var serializedPacket = JsonConvert.SerializeObject(packet);
+        var buff = Encoding.ASCII.GetBytes(serializedPacket);
+        client.GetStream().Write(buff, 0, buff.Length);
+    }
+
+    public void SendTimerHeartBeat(string teamName, string time)
+    {
+        var packet = new ClientTimePacket(teamName, time);
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);
         client.GetStream().Write(buff, 0, buff.Length);
