@@ -8,6 +8,7 @@ public class HelpRequestPacket : Packet
 {
     public HelpRequestPacket(string teamName)
     {
+        PacketId = "helpRequest";
         TeamName = teamName;
     }
 }

@@ -179,12 +179,12 @@ public class NetworkHandler
         client.GetStream().Write(buff, 0, buff.Length);
     }
 
-    public void SendPointsUpdate(string teamName, int points)
+    public void SendPointsUpdate(string teamName, int points, bool isHidden)
     {
         if (isDebug)
             return;
 
-        var packet = new PointsUpdatePacket(teamName, points);
+        var packet = new PointsUpdatePacket(teamName, points, isHidden);
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);

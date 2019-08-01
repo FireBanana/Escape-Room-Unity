@@ -23,7 +23,7 @@ public class HintManager : MonoBehaviour
                     var Score = MainGameManager.Instance.Score;
                     Score -= 50;
                     MainGameManager.Instance.Score = Score;
-                    MainGameManager.Instance.NetworkHandlerInstance.SendPointsUpdate(MainGameManager.Instance.TeamName, Score);
+                    MainGameManager.Instance.NetworkHandlerInstance.SendPointsUpdate(MainGameManager.Instance.TeamName, Score, false);
                     DialogManager.Instance.DisableDialogue();
                 });
         }

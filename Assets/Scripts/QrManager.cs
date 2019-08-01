@@ -26,6 +26,7 @@ public class QrManager : MonoBehaviour
 
     private void QrScanned(string value)
     {
+        LevelManager.Instance.SelectLevel(-2);
         var formattedString = value.Split('/');
         try
         {
@@ -43,13 +44,13 @@ public class QrManager : MonoBehaviour
             
             if (formattedString[0] == "Entrance" && !qrScannedDictionary["Entrance"])
             {
-                LevelManager.Instance.SelectLevel(-2);
+                //
                 DialogManager.Instance.EnableDialogue("Excellent!", "You just scored 100 points for scanning your first QR code!\nAnytime you find a QR, click on the \"Scan Qr\" tab again to adjust your score. Now click the level 1 tab to begin collecting data.", "OK", false,
                     () =>
                     {
                         qrScannedDictionary["Entrance"] = true;
                         LevelManager.Instance.UnlockLevel(0);
-                        MainGameManager.Instance.UpdatePoints(qrDictionary["Entrance"]);
+                        MainGameManager.Instance.UpdatePoints(qrDictionary["Entrance"], false);
                         DialogManager.Instance.DisableDialogue();
                     });
                 
@@ -61,7 +62,7 @@ public class QrManager : MonoBehaviour
 
                 if (!qrScannedDictionary["Exit"])
                 {
-                    MainGameManager.Instance.UpdatePoints(qrDictionary["Exit"]);
+                    MainGameManager.Instance.UpdatePoints(qrDictionary["Exit"], false);
                     LevelManager.Instance.SelectLevel(-2);
                     DialogManager.Instance.DisableDialogue();
                     qrScannedDictionary["Exit"] = true;
@@ -141,7 +142,7 @@ public class QrManager : MonoBehaviour
                     DialogManager.Instance.EnableDialogue("Scan Success!", "You have been awarded points", "OK", false,
                         () =>
                         {
-                            MainGameManager.Instance.UpdatePoints(pair.Value);
+                            MainGameManager.Instance.UpdatePoints(pair.Value, pair.Value < 0);
                             LevelManager.Instance.SelectLevel(-2);
                             DialogManager.Instance.DisableDialogue();
                         });
@@ -149,7 +150,7 @@ public class QrManager : MonoBehaviour
                     DialogManager.Instance.EnableDialogue("Code Scanned", "You have scanned a QR code", "OK", false,
                         () =>
                         {
-                            MainGameManager.Instance.UpdatePoints(pair.Value);
+                            MainGameManager.Instance.UpdatePoints(pair.Value, pair.Value < 0);
                             LevelManager.Instance.SelectLevel(-2);
                             DialogManager.Instance.DisableDialogue();
                         });

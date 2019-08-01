@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 
 public class MainGameManager : MonoBehaviour
 {
-    public const int MAXIMUM_TIME = 3600;
+    public const int MAXIMUM_TIME = 300;
     
     public static MainGameManager Instance;
     [HideInInspector] public NetworkHandler NetworkHandlerInstance;
@@ -57,7 +57,7 @@ public class MainGameManager : MonoBehaviour
                 if (mins > previousMinute)
                 {
                     previousMinute = mins;
-                    UpdatePoints(-25);
+                    UpdatePoints(-25, false);
                 }
 
                 if (Mathf.FloorToInt(ElapsedTime) > previousSecond)
@@ -115,10 +115,10 @@ public class MainGameManager : MonoBehaviour
         }
     }
 
-    public void UpdatePoints(int points)
+    public void UpdatePoints(int points, bool isHidden)
     {
         Score += points;
-        NetworkHandlerInstance.SendPointsUpdate(TeamName, Score);
+        NetworkHandlerInstance.SendPointsUpdate(TeamName, Score, isHidden);
     }
 
     IEnumerator CallbackQueueRoutine()
