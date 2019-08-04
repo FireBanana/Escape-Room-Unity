@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 
 public class MainGameManager : MonoBehaviour
 {
-    public const int MAXIMUM_TIME = 300;
+    public const int MAXIMUM_TIME = 600;
     
     public static MainGameManager Instance;
     [HideInInspector] public NetworkHandler NetworkHandlerInstance;
@@ -147,6 +147,8 @@ public class MainGameManager : MonoBehaviour
 
     public void ResetGame()
     {
+        NetworkHandlerInstance.Dispose();
+        Instance = null;
         SceneManager.LoadScene(0);
     }
 }
