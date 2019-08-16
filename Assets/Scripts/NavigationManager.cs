@@ -64,7 +64,8 @@ public class NavigationManager : MonoBehaviour
         MainGameManager.Instance.NetworkHandlerInstance.SendGameEnd(MainGameManager.Instance.TeamName, AnswerManager.Instance.FinalChoice, ((int)MainGameManager.Instance.ElapsedTime).ToString());
         
         ScoreText.text = "Your final score is: " + MainGameManager.Instance.Score;
-        TimeText.text = "Your final time is: " + span.Minutes + ":" + span.Seconds;
+        TimeText.text = "Your final time is: " + Utilities.SecondsToFormattedString((int)MainGameManager.Instance.ElapsedTime);
+
     }
 
     public void ActivateQr()

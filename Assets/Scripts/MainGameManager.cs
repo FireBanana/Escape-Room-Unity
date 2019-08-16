@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 
 public class MainGameManager : MonoBehaviour
 {
-    public const int MAXIMUM_TIME = 600;
+    public const int MAXIMUM_TIME = 180;
     
     public static MainGameManager Instance;
     [HideInInspector] public NetworkHandler NetworkHandlerInstance;
@@ -57,7 +57,9 @@ public class MainGameManager : MonoBehaviour
                 if (mins > previousMinute)
                 {
                     previousMinute = mins;
-                    UpdatePoints(-25, false);
+                    
+                    if(ElapsedTime < MAXIMUM_TIME)
+                        StartCoroutine(SendPointUpdateWithDelay(-25));
                 }
 
                 if (Mathf.FloorToInt(ElapsedTime) > previousSecond)
@@ -68,12 +70,26 @@ public class MainGameManager : MonoBehaviour
             }
             else
             {
+                UpdatePoints(-25, false);
                 timerStarted = false;
                 NavigationManager.Instance.ActivateGameEndScreen();
                 print("GAME END");
                 DialogManager.Instance.DisableDialogue();
             }
         }
+    }
+
+    IEnumerator SendPointUpdateWithDelay(int points)
+    {
+        yield return new WaitForSeconds(0.1f);
+        UpdatePoints(points, false);
+        yield return null;
+    }
+
+    IEnumerator StartDelay()
+    {
+        yield return new WaitForSeconds(3);
+        timerStarted = true;
     }
 
     public void AuthenticateTeam()
@@ -91,7 +107,8 @@ public class MainGameManager : MonoBehaviour
                 TeamName = AuthenticationInputField.text;
                 NavigationManager.Instance.ActivateInitalScreen();
             });
-            timerStarted = true;
+
+            StartCoroutine(StartDelay());
             print("Callback received");
         });
     }
