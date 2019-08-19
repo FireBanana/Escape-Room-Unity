@@ -70,7 +70,7 @@ public class MainGameManager : MonoBehaviour
             }
             else
             {
-                UpdatePoints(-25, false);
+                //UpdatePoints(-25, false);
                 timerStarted = false;
                 NavigationManager.Instance.ActivateGameEndScreen();
                 print("GAME END");
