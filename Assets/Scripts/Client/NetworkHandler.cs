@@ -191,12 +191,12 @@ public class NetworkHandler
         client.GetStream().Write(buff, 0, buff.Length);
     }
 
-    public void SendGameEnd(string teamName, string finalChoice, string finalTime)
+    public void SendGameEnd(string teamName, string finalChoice, string finalTime, int finalScore)
     {
         if (isDebug)
             return;
 
-        var packet = new GameEndPacket(teamName, finalChoice, finalTime);
+        var packet = new GameEndPacket(teamName, finalChoice, finalTime, finalScore);
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);

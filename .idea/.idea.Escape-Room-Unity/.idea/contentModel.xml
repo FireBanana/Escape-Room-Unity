@@ -76,6 +76,7 @@
         <e p="Scripts" t="Include">
           <e p="AnswerButton.cs" t="Include" />
           <e p="AnswerManager.cs" t="Include" />
+          <e p="AudioManager.cs" t="Include" />
           <e p="Client" t="Include">
             <e p="NetworkHandler.cs" t="Include" />
             <e p="Packet.cs" t="Include" />

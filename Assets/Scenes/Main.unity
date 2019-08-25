@@ -302,7 +302,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &9261072
 MonoBehaviour:
@@ -356,8 +356,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 52
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &12150394
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,7 +1007,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32818214
 MonoBehaviour:
@@ -1029,7 +1029,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Polaroid instant camera
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -1061,8 +1061,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -1345,7 +1345,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What is the name of the person who is currently occupying and using this
+    cabin?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -1481,7 +1482,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &37087369
 MonoBehaviour:
@@ -1503,7 +1504,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Carrie
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -1535,8 +1536,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -1732,7 +1733,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &47505382
 MonoBehaviour:
@@ -1754,7 +1755,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Western Michigan University
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -1786,8 +1787,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -1867,7 +1868,7 @@ GameObject:
   - component: {fileID: 50863103}
   - component: {fileID: 50863102}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2317,7 +2318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 41
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &65706888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,7 +2623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 12
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &84571217
 GameObject:
   m_ObjectHideFlags: 0
@@ -2901,7 +2902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 22
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &93001305
 GameObject:
   m_ObjectHideFlags: 0
@@ -3048,7 +3049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 13
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &95462320
 GameObject:
   m_ObjectHideFlags: 0
@@ -3389,7 +3390,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &115683384
 MonoBehaviour:
@@ -3411,7 +3412,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: The People Under the Stairs
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -3443,8 +3444,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -3547,7 +3548,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &117172479
 MonoBehaviour:
@@ -3569,7 +3570,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Stalingrad2237
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -3601,8 +3602,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -3766,7 +3767,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &123813207
 MonoBehaviour:
@@ -3820,8 +3821,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -3901,7 +3902,7 @@ GameObject:
   - component: {fileID: 125872132}
   - component: {fileID: 125872131}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4082,7 +4083,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141925029
 MonoBehaviour:
@@ -4136,8 +4137,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -4240,7 +4241,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &144258640
 MonoBehaviour:
@@ -4262,7 +4263,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Glen, Nancy, Tina
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -4294,8 +4295,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -4398,7 +4399,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &149230974
 MonoBehaviour:
@@ -4452,8 +4453,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -4725,7 +4726,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: "How many \u201Ccreatures\u201D did Larry capture and where has he locked
+    them up?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -4944,7 +4946,7 @@ GameObject:
   - component: {fileID: 166097815}
   - component: {fileID: 166097814}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5125,7 +5127,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &173026593
 MonoBehaviour:
@@ -5147,7 +5149,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Greg, Marsha, Cindy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -5179,8 +5181,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -5441,7 +5443,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &177689500
 MonoBehaviour:
@@ -5463,7 +5465,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: A full scholarship for the robotics program at Lomonosov University
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -5495,8 +5497,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -6090,7 +6092,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &194513482
 MonoBehaviour:
@@ -6112,7 +6114,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Glen
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -6144,8 +6146,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -6307,15 +6309,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 733448998}
-        m_MethodName: UnlockLevel
-        m_Mode: 3
+      - m_Target: {fileID: 733448995}
+        m_MethodName: AnswerFinalQuestion
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: A
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -6600,7 +6602,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &213472560
 MonoBehaviour:
@@ -6654,8 +6656,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -6817,15 +6819,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 733448998}
-        m_MethodName: UnlockLevel
-        m_Mode: 3
+      - m_Target: {fileID: 733448995}
+        m_MethodName: AnswerFinalQuestion
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: C
           m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -6880,7 +6882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 55
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &226502939
 GameObject:
   m_ObjectHideFlags: 0
@@ -6916,7 +6918,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &226502941
 MonoBehaviour:
@@ -6970,8 +6972,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -7185,7 +7187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 14
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &235577062
 GameObject:
   m_ObjectHideFlags: 0
@@ -7198,8 +7200,8 @@ GameObject:
   - component: {fileID: 235577065}
   - component: {fileID: 235577064}
   m_Layer: 5
-  m_Name: BtnText
-  m_TagString: Untagged
+  m_Name: BtnStaticTxt
+  m_TagString: UneditedButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7506,7 +7508,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: Mentioned by Brenda on the security tape, who was assigned to this case
+    by The Fifth Wall Society?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -8187,7 +8190,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &261774150
 MonoBehaviour:
@@ -8241,8 +8244,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -8345,7 +8348,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &263196866
 MonoBehaviour:
@@ -8367,7 +8370,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Brenda
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -8399,8 +8402,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -8503,7 +8506,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &283829070
 MonoBehaviour:
@@ -8525,7 +8528,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Grand Valley State College
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -8557,8 +8560,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -8683,7 +8686,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What does Brenda finally realize?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -8819,7 +8822,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &286750823
 MonoBehaviour:
@@ -8841,7 +8844,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Thomas Dolby
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -8873,8 +8876,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -9304,7 +9307,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What is the name of the person who Larry recruited to help with conditioning
+    and training?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -9551,7 +9555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 24
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &314176276
 GameObject:
   m_ObjectHideFlags: 0
@@ -9892,7 +9896,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &331323111
 MonoBehaviour:
@@ -9914,7 +9918,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Yes, American Express
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -9946,8 +9950,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -10172,7 +10176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 25
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &334555856
 GameObject:
   m_ObjectHideFlags: 0
@@ -10301,7 +10305,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &335989613
 MonoBehaviour:
@@ -10355,8 +10359,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -10459,7 +10463,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336940956
 MonoBehaviour:
@@ -10481,7 +10485,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: No  evidence found
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -10513,8 +10517,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -10617,7 +10621,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &338326024
 MonoBehaviour:
@@ -10639,7 +10643,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: August 10th
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -10671,8 +10675,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -10776,7 +10780,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 286.49283, y: -30.405}
+  m_AnchoredPosition: {x: 324.35, y: -30.405}
   m_SizeDelta: {x: 108.7, y: 42.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &339704006
@@ -11018,7 +11022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 11
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &348107877
 GameObject:
   m_ObjectHideFlags: 0
@@ -11294,6 +11298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IngameDebugConsole
       objectReference: {fileID: 0}
+    - target: {fileID: 132536, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 22457152, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -11384,107 +11392,107 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22428984, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22428984, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22428984, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 354.04626
       objectReference: {fileID: 0}
     - target: {fileID: 22428984, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 22428984, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 141.6185
       objectReference: {fileID: 0}
     - target: {fileID: 22428984, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 22488670, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22488670, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22488670, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 212.42775
       objectReference: {fileID: 0}
     - target: {fileID: 22488670, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 22488670, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 141.6185
       objectReference: {fileID: 0}
     - target: {fileID: 22488670, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 22455554, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22455554, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22455554, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 495.66473
       objectReference: {fileID: 0}
     - target: {fileID: 22455554, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 22455554, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 141.6185
       objectReference: {fileID: 0}
     - target: {fileID: 22455554, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 22495692, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22495692, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22495692, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 637.28326
       objectReference: {fileID: 0}
     - target: {fileID: 22495692, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 22495692, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 141.6185
       objectReference: {fileID: 0}
     - target: {fileID: 22495692, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 22426080, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22426080, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22426080, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMin.y
@@ -11493,56 +11501,56 @@ PrefabInstance:
     - target: {fileID: 224856348943071238, guid: 67117722a812a2e46ab8cb8eafbf5f5e,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224856348943071238, guid: 67117722a812a2e46ab8cb8eafbf5f5e,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224856348943071238, guid: 67117722a812a2e46ab8cb8eafbf5f5e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 70.80925
       objectReference: {fileID: 0}
     - target: {fileID: 224856348943071238, guid: 67117722a812a2e46ab8cb8eafbf5f5e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 224856348943071238, guid: 67117722a812a2e46ab8cb8eafbf5f5e,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 141.6185
       objectReference: {fileID: 0}
     - target: {fileID: 224856348943071238, guid: 67117722a812a2e46ab8cb8eafbf5f5e,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 22468896, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22468896, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22468896, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 778.9018
       objectReference: {fileID: 0}
     - target: {fileID: 22468896, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 22468896, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 141.6185
       objectReference: {fileID: 0}
     - target: {fileID: 22468896, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67117722a812a2e46ab8cb8eafbf5f5e, type: 3}
@@ -12204,7 +12212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 44
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &375985843
 GameObject:
   m_ObjectHideFlags: 0
@@ -12387,7 +12395,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &382235648
 MonoBehaviour:
@@ -12409,7 +12417,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Jane Carpenter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -12441,8 +12449,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -12545,7 +12553,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392057558
 MonoBehaviour:
@@ -12567,7 +12575,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Steve Wosniak
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -12599,8 +12607,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -12861,7 +12869,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &396027117
 MonoBehaviour:
@@ -12883,7 +12891,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Challenger space shuttle explosion
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -12915,8 +12923,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -13424,7 +13432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 23
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &408735538
 GameObject:
   m_ObjectHideFlags: 0
@@ -13553,7 +13561,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &409132847
 MonoBehaviour:
@@ -13575,7 +13583,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Steve Jobs
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -13607,8 +13615,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -13804,7 +13812,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &420383996
 MonoBehaviour:
@@ -13826,7 +13834,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: All of the above
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -13858,8 +13866,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -13939,7 +13947,7 @@ GameObject:
   - component: {fileID: 425676526}
   - component: {fileID: 425676525}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14518,7 +14526,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &441070334
 MonoBehaviour:
@@ -14540,7 +14548,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Trans World Airlines (TWA)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -14572,8 +14580,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -14676,7 +14684,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &443812883
 MonoBehaviour:
@@ -14698,7 +14706,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: "Initiate Larry\u2019s fail safe plan"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -14730,8 +14738,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -14811,7 +14819,7 @@ GameObject:
   - component: {fileID: 446773585}
   - component: {fileID: 446773584}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15423,7 +15431,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: This person has booked an international flight with what airline?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -15652,7 +15660,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &471988837
 MonoBehaviour:
@@ -15674,7 +15682,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Chernobyl nuclear power plant disaster
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -15706,8 +15714,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -15990,7 +15998,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: "What\u2019s the key phrase for Larry\u2019s \u201CFail Safe\u201D plan
+    if things fall apart?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -16273,7 +16282,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &484893489
 MonoBehaviour:
@@ -16327,8 +16336,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -16431,7 +16440,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &489759009
 MonoBehaviour:
@@ -16453,7 +16462,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Kalamazoo College
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -16485,8 +16494,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -16957,7 +16966,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &525685931
 MonoBehaviour:
@@ -16979,7 +16988,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Leland City Club
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -17011,8 +17020,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -17115,7 +17124,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &536856694
 MonoBehaviour:
@@ -17137,7 +17146,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Paul Allen
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -17169,8 +17178,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -17273,7 +17282,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &537495221
 MonoBehaviour:
@@ -17327,8 +17336,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -17736,7 +17745,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &543956901
 MonoBehaviour:
@@ -17758,7 +17767,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Deer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -17790,8 +17799,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -17894,7 +17903,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &544129185
 MonoBehaviour:
@@ -17916,7 +17925,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Richard Velaine
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -17948,8 +17957,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -18332,7 +18341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 25
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &570600026
 GameObject:
   m_ObjectHideFlags: 0
@@ -18368,7 +18377,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &570600028
 MonoBehaviour:
@@ -18390,7 +18399,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Greg, Marsha, Cindy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -18422,8 +18431,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -18630,7 +18639,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &576295857
 MonoBehaviour:
@@ -18652,7 +18661,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: He wants unique pets
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -18684,8 +18693,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -18895,7 +18904,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &595600615
 MonoBehaviour:
@@ -18917,7 +18926,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Bill Gates
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -18949,8 +18958,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -19053,7 +19062,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &598938918
 MonoBehaviour:
@@ -19075,7 +19084,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: X, Y, Z
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -19107,8 +19116,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -20196,7 +20205,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What should be done now that your investigation is at an end?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -20490,7 +20499,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &655227106
 MonoBehaviour:
@@ -20512,7 +20521,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Smuggled with Russian touring circus
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -20544,8 +20553,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -20648,7 +20657,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &655965453
 MonoBehaviour:
@@ -20670,7 +20679,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Federal Express
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -20702,8 +20711,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -20828,7 +20837,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: "What was Brenda\u2019s initial suspicious theory on Larry\u2019s motives?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -21079,7 +21088,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: "Who\u2019s famous experiment did Brenda emulate to set up her own, to test
+    Larry?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -21215,7 +21225,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &679185382
 MonoBehaviour:
@@ -21237,7 +21247,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Continental Airlines
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -21269,8 +21279,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -21373,7 +21383,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680084835
 MonoBehaviour:
@@ -21395,7 +21405,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Uncle Walt
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -21427,8 +21437,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -21637,7 +21647,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &688445408
 MonoBehaviour:
@@ -21659,7 +21669,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Soldier2237
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -21691,8 +21701,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -21906,7 +21916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 21
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &707517827
 GameObject:
   m_ObjectHideFlags: 0
@@ -21942,7 +21952,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &707517829
 MonoBehaviour:
@@ -21964,7 +21974,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Bono, Madonna, Joan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -21996,8 +22006,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -22211,7 +22221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 44
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &708725092
 GameObject:
   m_ObjectHideFlags: 0
@@ -22343,7 +22353,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: Are there any financial institutions (banks, credit cards) this person is
+    using?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -22557,7 +22568,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729697913
 MonoBehaviour:
@@ -22579,7 +22590,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Fax machine
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -22611,8 +22622,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -22773,6 +22784,8 @@ GameObject:
   - component: {fileID: 733448997}
   - component: {fileID: 733449002}
   - component: {fileID: 733449001}
+  - component: {fileID: 733449004}
+  - component: {fileID: 733449003}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -22920,6 +22933,128 @@ MonoBehaviour:
   - {fileID: 708725092}
   - {fileID: 2006375503}
   - {fileID: 1066760930}
+--- !u!82 &733449003
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733448994}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &733449004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733448994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c52d218a3720d4b8a31899d1161b1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioList:
+  - {fileID: 8300000, guid: f412980a47b89b149b8bdad4d22fb9fe, type: 3}
+  - {fileID: 8300000, guid: 7ec969f1264af7d409e2dba4e3e6b7f6, type: 3}
+  - {fileID: 8300000, guid: 1cff2a221b9ed464dad8b481de0c48cd, type: 3}
+  - {fileID: 8300000, guid: 14d53f42941b3e94bb960c47dfc9c12d, type: 3}
+  - {fileID: 8300000, guid: 30daf96f09f35cd4d896d58b11371bcc, type: 3}
+  - {fileID: 8300000, guid: 5baecb6b0483bc04d86813438aa1774d, type: 3}
+  - {fileID: 8300000, guid: 52b37b30e291b38419ac4219830d3624, type: 3}
+  - {fileID: 8300000, guid: 86faf67cc3b98574e815ab8393a9c29f, type: 3}
+  - {fileID: 8300000, guid: 164ea9b78265073449fe843c4fd4c995, type: 3}
+  - {fileID: 8300000, guid: 710157aa6dffcd24ebaa5918be61cd85, type: 3}
+  - {fileID: 8300000, guid: 1293e2efc4ed8e645b3d7e93ec093611, type: 3}
+  - {fileID: 8300000, guid: f3f229542edd03b45ac32fc2f0af81cf, type: 3}
+  - {fileID: 8300000, guid: 7416bc2e563c95041ab19943785552cb, type: 3}
 --- !u!1 &745510845
 GameObject:
   m_ObjectHideFlags: 0
@@ -23176,7 +23311,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &752591042
 MonoBehaviour:
@@ -23198,7 +23333,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Noir Leather
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -23230,8 +23365,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -23559,7 +23694,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: Where was Tom Jones supposed to meet Larry before travelling to the USSR?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -23830,7 +23965,7 @@ GameObject:
   - component: {fileID: 773551847}
   - component: {fileID: 773551846}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24011,7 +24146,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &780011726
 MonoBehaviour:
@@ -24033,7 +24168,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Stanley Milgram
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -24065,8 +24200,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -24476,7 +24611,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &792925386
 MonoBehaviour:
@@ -24498,7 +24633,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Xerox copier
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -24530,8 +24665,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -24634,7 +24769,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &796171934
 MonoBehaviour:
@@ -24656,7 +24791,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Tiger Stadium box office
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -24688,8 +24823,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -24914,7 +25049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 35
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &802791615
 GameObject:
   m_ObjectHideFlags: 0
@@ -24950,7 +25085,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &802791617
 MonoBehaviour:
@@ -24972,7 +25107,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: 3, in the cellar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -25004,8 +25139,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -25229,7 +25364,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &805760422
 MonoBehaviour:
@@ -25251,7 +25386,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Using humanoids to spread disease
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -25283,8 +25418,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -25387,7 +25522,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &816367493
 MonoBehaviour:
@@ -25409,7 +25544,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: She must rescue the humanoids but needs help
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -25441,8 +25576,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -25567,7 +25702,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What code names has Larry assigned to the humanoids?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -25680,7 +25815,7 @@ GameObject:
   - component: {fileID: 826148494}
   - component: {fileID: 826148493}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26261,7 +26396,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &849590982
 MonoBehaviour:
@@ -26283,7 +26418,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: "Where\u2019s the beef?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -26315,8 +26450,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -26530,7 +26665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 33
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &879172235
 GameObject:
   m_ObjectHideFlags: 0
@@ -26809,7 +26944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 22
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &896957381
 GameObject:
   m_ObjectHideFlags: 0
@@ -27336,7 +27471,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905892935
 MonoBehaviour:
@@ -27358,7 +27493,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: July 4th
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -27390,8 +27525,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -27577,8 +27712,8 @@ GameObject:
   - component: {fileID: 925712840}
   - component: {fileID: 925712839}
   m_Layer: 5
-  m_Name: BtnText
-  m_TagString: Untagged
+  m_Name: BtnStaticTxt
+  m_TagString: UneditedButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27758,7 +27893,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &934068787
 MonoBehaviour:
@@ -27812,8 +27947,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -27916,7 +28051,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &934441357
 MonoBehaviour:
@@ -27970,8 +28105,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -28074,7 +28209,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &937087923
 MonoBehaviour:
@@ -28096,7 +28231,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Whitaker Parrish Trammell
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -28128,8 +28263,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -28449,7 +28584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 13
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &965530411
 GameObject:
   m_ObjectHideFlags: 0
@@ -29422,7 +29557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 33
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &990015440
 GameObject:
   m_ObjectHideFlags: 0
@@ -29458,7 +29593,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &990015442
 MonoBehaviour:
@@ -29512,8 +29647,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -29840,7 +29975,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &995851800
 MonoBehaviour:
@@ -29862,7 +29997,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Tony from work
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -29894,8 +30029,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -30251,7 +30386,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1005772202
 MonoBehaviour:
@@ -30273,7 +30408,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Philip Zimbardo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -30305,8 +30440,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -30721,7 +30856,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1024179668
 MonoBehaviour:
@@ -30743,7 +30878,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Report our findings to The Fifth Wall Society
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -30775,8 +30910,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -30879,7 +31014,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1030148785
 MonoBehaviour:
@@ -30901,7 +31036,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Sheriff Cronenberg
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -30933,8 +31068,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -31383,7 +31518,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1052733759
 MonoBehaviour:
@@ -31405,7 +31540,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Mr. T Cereal
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -31437,8 +31572,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -31821,7 +31956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 45
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1059889333
 GameObject:
   m_ObjectHideFlags: 0
@@ -32758,7 +32893,7 @@ GameObject:
   - component: {fileID: 1080863140}
   - component: {fileID: 1080863139}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32940,7 +33075,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400.06427, y: -30.405}
+  m_AnchoredPosition: {x: 456.85, y: -30.405}
   m_SizeDelta: {x: 108.7, y: 42.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1085054102
@@ -33343,7 +33478,7 @@ GameObject:
   - component: {fileID: 1100310433}
   - component: {fileID: 1100310432}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33524,7 +33659,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1116381214
 MonoBehaviour:
@@ -33546,7 +33681,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: "Yes, Citibank Diner\u2019s Club"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -33578,8 +33713,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -33804,7 +33939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 35
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1128267430
 GameObject:
   m_ObjectHideFlags: 0
@@ -34134,7 +34269,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1132436472
 MonoBehaviour:
@@ -34188,8 +34323,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -34691,7 +34826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 24
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1153940313
 GameObject:
   m_ObjectHideFlags: 0
@@ -34967,7 +35102,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1164052210
 MonoBehaviour:
@@ -35021,8 +35156,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -35647,7 +35782,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1177940316
 MonoBehaviour:
@@ -35669,7 +35804,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Brenda Roswel
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -35701,8 +35836,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -36465,7 +36600,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1208787715
 MonoBehaviour:
@@ -36487,7 +36622,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: The Shining
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -36519,8 +36654,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -36887,7 +37022,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1224070031
 MonoBehaviour:
@@ -36909,7 +37044,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Glen, Linda, Nancy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -36941,8 +37076,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -37917,7 +38052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 11
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1267722216
 GameObject:
   m_ObjectHideFlags: 0
@@ -38170,7 +38305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 31
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1274877631
 GameObject:
   m_ObjectHideFlags: 0
@@ -38239,7 +38374,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1278428853
 MonoBehaviour:
@@ -38261,7 +38396,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: 2, in the attic
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -38293,8 +38428,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -38858,7 +38993,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What device was Brenda showing to the young humanoid?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -39105,7 +39240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 54
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1310537760
 GameObject:
   m_ObjectHideFlags: 0
@@ -39435,7 +39570,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1322972453
 MonoBehaviour:
@@ -39457,7 +39592,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Berries
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -39489,8 +39624,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -39751,7 +39886,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1332969711
 MonoBehaviour:
@@ -39773,7 +39908,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Larry
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -39805,8 +39940,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -39909,7 +40044,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1346414660
 MonoBehaviour:
@@ -39931,7 +40066,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Michigan Central Train Depot
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -39963,8 +40098,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -40225,7 +40360,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1356308566
 MonoBehaviour:
@@ -40247,7 +40382,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Sherriff Cronenberg is being bribed to stay quiet
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -40279,8 +40414,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -40661,7 +40796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1371260370
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41088,7 +41223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1390474595
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41163,15 +41298,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 733448998}
-        m_MethodName: UnlockLevel
-        m_Mode: 3
+      - m_Target: {fileID: 733448995}
+        m_MethodName: AnswerFinalQuestion
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: A
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -41226,7 +41361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 55
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1390573059
 GameObject:
   m_ObjectHideFlags: 0
@@ -41420,7 +41555,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1392365979
 MonoBehaviour:
@@ -41442,7 +41577,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: "Burnin\u2019 down the house"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -41474,8 +41609,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -41600,7 +41735,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: "What is the account number for Larry\u2019s emergency stash?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -41953,15 +42088,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 733448998}
-        m_MethodName: UnlockLevel
-        m_Mode: 3
+      - m_Target: {fileID: 733448995}
+        m_MethodName: AnswerFinalQuestion
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: B
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -42338,7 +42473,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What film was depicted on the dust cover of the VHS tape that was hidden
+    under the stairs?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -42545,7 +42681,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What did Brenda name the three humanoids?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -42681,7 +42817,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1474926403
 MonoBehaviour:
@@ -42703,7 +42839,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: "Tina O\u2019Donnell"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -42735,8 +42871,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -43108,7 +43244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 23
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1498873456
 GameObject:
   m_ObjectHideFlags: 0
@@ -43237,7 +43373,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1500448082
 MonoBehaviour:
@@ -43259,7 +43395,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Training as a MIG fighter pilot
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -43291,8 +43427,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -44051,7 +44187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 51
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1526027668
 GameObject:
   m_ObjectHideFlags: 0
@@ -44202,7 +44338,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: "How does Larry plan to \u201Cship\u201D the humanoids?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -44315,7 +44451,7 @@ GameObject:
   - component: {fileID: 1548328330}
   - component: {fileID: 1548328329}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44643,7 +44779,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1550872206
 MonoBehaviour:
@@ -44665,7 +44801,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: "Billy Joel\u2019s Moscow concert meltdown"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -44697,8 +44833,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -44823,7 +44959,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What university is likely associated with this person?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -45070,7 +45206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 52
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1573292280
 GameObject:
   m_ObjectHideFlags: 0
@@ -45106,7 +45242,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1573292282
 MonoBehaviour:
@@ -45128,7 +45264,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Doug Hooper
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -45160,8 +45296,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -45264,7 +45400,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1575793137
 MonoBehaviour:
@@ -45286,7 +45422,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Dasvidaniya2234
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -45318,8 +45454,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -45422,7 +45558,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1579847699
 MonoBehaviour:
@@ -45444,7 +45580,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Rodents
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -45476,8 +45612,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -45704,7 +45840,7 @@ GameObject:
   - component: {fileID: 1582915985}
   - component: {fileID: 1582915984}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46032,7 +46168,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1586112552
 MonoBehaviour:
@@ -46054,7 +46190,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Grace Bible College
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -46086,8 +46222,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -46394,7 +46530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 53
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1592998951
 GameObject:
   m_ObjectHideFlags: 0
@@ -46599,7 +46735,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What were the humanoids eating when Larry captured them?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -46939,7 +47075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 53
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1627154157
 GameObject:
   m_ObjectHideFlags: 0
@@ -47291,7 +47427,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1639224768
 MonoBehaviour:
@@ -47313,7 +47449,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Mind control against Russians for the CIA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -47345,8 +47481,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -47692,7 +47828,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What was promised to Larry if he successfully delivered the humanoids?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -47811,7 +47947,7 @@ GameObject:
   - component: {fileID: 1652986431}
   - component: {fileID: 1652986430}
   m_Layer: 5
-  m_Name: BtnText
+  m_Name: BtnStaticTxt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47992,7 +48128,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1655111435
 MonoBehaviour:
@@ -48014,7 +48150,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Lewis Benson
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -48046,8 +48182,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -48150,7 +48286,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1656492788
 MonoBehaviour:
@@ -48204,8 +48340,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -48309,7 +48445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 740.7785, y: -30.405}
+  m_AnchoredPosition: {x: 721.85, y: -30.405}
   m_SizeDelta: {x: 108.7, y: 42.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1658348382
@@ -48440,7 +48576,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1662945501
 MonoBehaviour:
@@ -48462,7 +48598,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Glen, Nancy, Mary
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -48494,8 +48630,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -48911,7 +49047,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: "What 1986 event was \u201CTom Jones\u201D likely referencing that occurred
+    in Ukraine?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -49352,7 +49489,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1702235119
 MonoBehaviour:
@@ -49374,7 +49511,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Stalker2237
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -49406,8 +49543,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -49538,7 +49675,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: What is the date that Brenda gave as a cut-off when she would contact authorities?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -49927,7 +50064,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1752523908
 MonoBehaviour:
@@ -49981,8 +50118,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -50085,7 +50222,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1757673141
 MonoBehaviour:
@@ -50107,7 +50244,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Anthony Michael Hall
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -50139,8 +50276,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -50243,7 +50380,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1761511135
 MonoBehaviour:
@@ -50297,8 +50434,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -50402,7 +50539,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 172.92142, y: -30.405}
+  m_AnchoredPosition: {x: 191.85, y: -30.405}
   m_SizeDelta: {x: 108.7, y: 42.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1764063267
@@ -50639,7 +50776,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1780248340
 MonoBehaviour:
@@ -50661,7 +50798,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Yes, Bank of America
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -50693,8 +50830,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -50803,7 +50940,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1791742542
 MonoBehaviour:
@@ -50825,7 +50962,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Red Dawn
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -50857,8 +50994,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -51572,8 +51709,8 @@ GameObject:
   - component: {fileID: 1815471715}
   - component: {fileID: 1815471714}
   m_Layer: 5
-  m_Name: BtnText
-  m_TagString: Untagged
+  m_Name: BtnStaticTxt
+  m_TagString: UneditedButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52961,7 +53098,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1885203396
 MonoBehaviour:
@@ -52983,7 +53120,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Pan American World Airways
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -53015,8 +53152,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -53230,7 +53367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 21
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1891438346
 GameObject:
   m_ObjectHideFlags: 0
@@ -53413,7 +53550,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1892666729
 MonoBehaviour:
@@ -53435,7 +53572,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Larry Melkin
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -53467,8 +53604,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -53571,7 +53708,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1897246850
 MonoBehaviour:
@@ -53593,7 +53730,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: "A sweet pad in Moscow and a chance to remake \u201CRed Dawn\u201D from
+    the Russian perspective"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -53625,8 +53763,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -53840,7 +53978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 42
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1916913155
 GameObject:
   m_ObjectHideFlags: 0
@@ -54310,7 +54448,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1920516435
 MonoBehaviour:
@@ -54332,7 +54470,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: M, Q, V
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -54364,8 +54502,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -54626,7 +54764,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1935242044
 MonoBehaviour:
@@ -54648,7 +54786,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Larry is trying to turn the humanoids into killers for the KGB
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -54680,8 +54818,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -55001,7 +55139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 41
-  IsCorrect: 1
+  IsCorrect: 0
 --- !u!1 &1941638486
 GameObject:
   m_ObjectHideFlags: 0
@@ -55448,7 +55586,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1954273130
 MonoBehaviour:
@@ -55502,8 +55640,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -55712,7 +55850,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960533058
 MonoBehaviour:
@@ -55734,7 +55872,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: Second catches short
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -55766,8 +55904,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -55976,7 +56114,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962856247
 MonoBehaviour:
@@ -55998,7 +56136,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Set the humanoids free
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -56030,8 +56168,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -56134,7 +56272,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1980410073
 MonoBehaviour:
@@ -56156,7 +56294,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 1
+  m_text: "Rhonda \u201CRed\u201D Herring"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -56188,8 +56326,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -56403,7 +56541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 31
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &1984601848
 GameObject:
   m_ObjectHideFlags: 0
@@ -56701,7 +56839,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1991324183
 MonoBehaviour:
@@ -56723,7 +56861,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Video camcorder
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -56755,8 +56893,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -56970,7 +57108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 42
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &2006015568
 GameObject:
   m_ObjectHideFlags: 0
@@ -57028,7 +57166,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: Who does Larry use as a cipher key to hide his escape plan?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -57396,7 +57534,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2011779478
 MonoBehaviour:
@@ -57450,8 +57588,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -57554,7 +57692,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2012455164
 MonoBehaviour:
@@ -57576,7 +57714,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: As an American performance art troupe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -57608,8 +57746,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -57712,7 +57850,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2012635709
 MonoBehaviour:
@@ -57734,7 +57872,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Pose them as roadies for Metallica
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -57766,8 +57904,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -57870,7 +58008,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2019083825
 MonoBehaviour:
@@ -57924,8 +58062,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -58281,7 +58419,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2024686493
 MonoBehaviour:
@@ -58303,7 +58441,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: 3, in the barn
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -58335,8 +58473,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -58550,7 +58688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 51
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &2029602670
 GameObject:
   m_ObjectHideFlags: 0
@@ -58744,7 +58882,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2036061435
 MonoBehaviour:
@@ -58766,7 +58904,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: "The Great American Smoker\u2019s Club"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -58798,8 +58936,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -59049,7 +59187,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040472120
 MonoBehaviour:
@@ -59071,7 +59209,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Walter Melkin
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -59103,8 +59241,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -59318,7 +59456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 14
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &2050895391
 GameObject:
   m_ObjectHideFlags: 0
@@ -59461,7 +59599,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2053599327
 MonoBehaviour:
@@ -59483,7 +59621,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 3
+  m_text: Using humanoids as special ops soldiers for USA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -59515,8 +59653,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -59620,7 +59758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 513.6357, y: -30.405}
+  m_AnchoredPosition: {x: 589.35, y: -30.405}
   m_SizeDelta: {x: 108.7, y: 42.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2068467103
@@ -59898,7 +60036,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083157614
 MonoBehaviour:
@@ -59920,7 +60058,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: A hot date with Russian model Yelena Metyolkina
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -59952,8 +60090,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -60203,7 +60341,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2093205714
 MonoBehaviour:
@@ -60225,7 +60363,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: June 22nd
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -60257,8 +60395,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -60383,7 +60521,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Your question is supposed to go here.
+  m_text: Who likely hid the video tape under the stairs?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -60992,7 +61130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 54
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &2120960154
 GameObject:
   m_ObjectHideFlags: 0
@@ -61028,7 +61166,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2120960156
 MonoBehaviour:
@@ -61050,7 +61188,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: Fall of the Berlin Wall
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -61082,8 +61220,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -61308,7 +61446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Id: 45
-  IsCorrect: 0
+  IsCorrect: 1
 --- !u!1 &2134439327
 GameObject:
   m_ObjectHideFlags: 0
@@ -61344,7 +61482,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2134439329
 MonoBehaviour:
@@ -61366,7 +61504,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Christmas Eve
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -61398,8 +61536,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -61608,7 +61746,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2136752917
 MonoBehaviour:
@@ -61630,7 +61768,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 4
+  m_text: Uncle Walt
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -61662,8 +61800,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514
@@ -61766,7 +61904,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100.2, y: 28.6}
+  m_SizeDelta: {x: 191.8, y: 28.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2146822919
 MonoBehaviour:
@@ -61788,7 +61926,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Answer 2
+  m_text: 2, in the cellar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -61820,8 +61958,8 @@ MonoBehaviour:
   m_fontSize: 17.47
   m_fontSizeBase: 17.47
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 11.5
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_textAlignment: 514

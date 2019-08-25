@@ -65,6 +65,7 @@ public class DialogManager : MonoBehaviour
 
     public void DisableDialogue()
     {
+        AudioManager.Instance.StopAudio();
         SecondDialogueBtn.onClick.RemoveAllListeners();
         SecondDialogueBtn.gameObject.SetActive(false);
         DialogueBtn.onClick.RemoveAllListeners();
@@ -75,6 +76,7 @@ public class DialogManager : MonoBehaviour
     {
         if (enableBackgroundClick)
         {
+            AudioManager.Instance.StopAudio();
             DialogueBtn.onClick.RemoveAllListeners();
             DialogueHolder.SetActive(false);
         }

@@ -32,6 +32,7 @@ public class QrManager : MonoBehaviour
         {
             if (!qrScannedDictionary["Entrance"] && formattedString[0] != "Entrance")
             {
+                AudioManager.Instance.PlayAudio(2);
                 DialogManager.Instance.EnableDialogue("Thats the incorrect Qr Code", "You need to play the correct tone on the keyboard to open the door.", "OK", false,
                     () =>
                     {
@@ -44,8 +45,8 @@ public class QrManager : MonoBehaviour
             
             if (formattedString[0] == "Entrance" && !qrScannedDictionary["Entrance"])
             {
-                //
-                DialogManager.Instance.EnableDialogue("Excellent!", "You just scored 100 points for scanning your first QR code!\nAnytime you find a QR, click on the \"Scan Qr\" tab again to adjust your score. Now click the level 1 tab to begin collecting data.", "OK", false,
+                AudioManager.Instance.PlayAudio(3);
+                DialogManager.Instance.EnableDialogue("Excellent!", "You just scored 300 points for scanning your first QR code!\nAnytime you find a QR, click on the \"Scan Qr\" tab again to adjust your score. Now click the level 1 tab to begin collecting data.", "OK", false,
                     () =>
                     {
                         qrScannedDictionary["Entrance"] = true;
@@ -70,21 +71,34 @@ public class QrManager : MonoBehaviour
                     if (!AnswerManager.Instance.FinalQuestionAnswered)
                     {
                         DialogManager.Instance.DisableDialogue();
-
+                        AudioManager.Instance.PlayAudio(10);
                         DialogManager.Instance.EnableDoubleDialogue("Exit Code Success",
                             "You are awarded points for solving the exit code. Do you wish to exit now and end the simulation or do you wish to continue collecting data to add to your score? Click continue to play further or click the end button to end simulation.\nNOTE: Each minute your remain in the simulation costs 25 points from your score. But you can gain many more points by continuing!",
                             "Continue", "Exit", false,
                             () => { DialogManager.Instance.DisableDialogue(); },
                             () =>
                             {
-                                NavigationManager.Instance.ActivateGameEndScreen();
-                                print("GAME END");
                                 DialogManager.Instance.DisableDialogue();
+                                AudioManager.Instance.PlayAudio(11);
+                                DialogManager.Instance.EnableDoubleDialogue("You're about to end it all", "Are you sure you want to end the simulation?\n\nMake sure you're balancing data collection and time used wisely", "Yes, end the simulation", "No, we'll stay here", false,
+                                    () =>
+                                    {
+                                        NavigationManager.Instance.ActivateGameEndScreen();
+                                        print("GAME END");
+                                        DialogManager.Instance.DisableDialogue();
+                                    },
+                                    () =>
+                                    {
+                                        DialogManager.Instance.DisableDialogue();
+                                    }
+                                    
+                                    );
                             });
 
                     }
                     else
                     {
+                        AudioManager.Instance.PlayAudio(8);
                         DialogManager.Instance.EnableDialogue("Simulation Terminated",
                             "You have made your decision and successfully unlocked the escape door. Please exit the simulation arena and await final instructions.",
                             "End", false, () =>
@@ -104,6 +118,7 @@ public class QrManager : MonoBehaviour
                     {
                         DialogManager.Instance.DisableDialogue();
 
+                        AudioManager.Instance.PlayAudio(10);
                         DialogManager.Instance.EnableDoubleDialogue("Exit Code Success",
                             "You have scanned the exit code. Do you wish to exit now and end the simulation or do you wish to continue collecting data to add to your score? Click continue to play further or click the end button to end simulation.\nNOTE: Each minute your remain in the simulation costs 25 points from your score. But you can gain many more points by continuing!",
                             "Continue", "Exit", false,
@@ -118,6 +133,7 @@ public class QrManager : MonoBehaviour
                     }
                     else
                     {
+                        AudioManager.Instance.PlayAudio(8);
                         DialogManager.Instance.EnableDialogue("Simulation Terminated",
                             "You have made your decision and successfully unlocked the escape door. Please exit the simulation arena and await final instructions.",
                             "End", false, () =>

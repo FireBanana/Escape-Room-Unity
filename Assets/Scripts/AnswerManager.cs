@@ -46,7 +46,7 @@ public class AnswerManager : MonoBehaviour
         }
         
         MainGameManager.Instance.Score = Score;
-        MainGameManager.Instance.NetworkHandlerInstance.SendPointsUpdate(MainGameManager.Instance.TeamName, Score, false);
+        MainGameManager.Instance.NetworkHandlerInstance.SendPointsUpdate(MainGameManager.Instance.TeamName, Score, !ab.IsCorrect);
     }
     
 
@@ -57,6 +57,7 @@ public class AnswerManager : MonoBehaviour
         DialogManager.Instance.DisableDialogue();
         if (QrManager.Instance.IsExitCodeScanned())
         {
+            AudioManager.Instance.PlayAudio(9);
             DialogManager.Instance.EnableDialogue("Simulation Terminated", "You have made your final decision and successfully unlocked the escape door. Please exit the simulation area and await final instructions.",
                 "OK", false, () =>
                 {
@@ -66,6 +67,7 @@ public class AnswerManager : MonoBehaviour
         }
         else
         {
+            AudioManager.Instance.PlayAudio(9);
             DialogManager.Instance.EnableDialogue("Enter the exit code", "You have made your final decision, but you still need to enter the 5-digit exit code, then scan the QR above it to successfully terminate the simulation",
                 "OK", true,() =>
                 {

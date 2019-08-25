@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 
 public class MainGameManager : MonoBehaviour
 {
-    public const int MAXIMUM_TIME = 180;
+    public const int MAXIMUM_TIME = 3600;
     
     public static MainGameManager Instance;
     [HideInInspector] public NetworkHandler NetworkHandlerInstance;
@@ -31,6 +31,8 @@ public class MainGameManager : MonoBehaviour
     private bool timerStarted;
     private bool gamePaused;
 
+    [HideInInspector] public bool GameEnded;
+
     private void Awake()
     {
         Instance = this;
@@ -46,6 +48,9 @@ public class MainGameManager : MonoBehaviour
 
     private void Update()
     {
+        if(GameEnded)
+            return;
+        
         if (timerStarted && !gamePaused)
         {
             if (ElapsedTime < MAXIMUM_TIME)
@@ -57,9 +62,11 @@ public class MainGameManager : MonoBehaviour
                 if (mins > previousMinute)
                 {
                     previousMinute = mins;
-                    
-                    if(ElapsedTime < MAXIMUM_TIME)
+
+                    if (ElapsedTime < MAXIMUM_TIME)
                         StartCoroutine(SendPointUpdateWithDelay(-25));
+                    else
+                        Score -= 25;
                 }
 
                 if (Mathf.FloorToInt(ElapsedTime) > previousSecond)
@@ -72,6 +79,7 @@ public class MainGameManager : MonoBehaviour
             {
                 //UpdatePoints(-25, false);
                 timerStarted = false;
+                AudioManager.Instance.PlayAudio(12);
                 NavigationManager.Instance.ActivateGameEndScreen();
                 print("GAME END");
                 DialogManager.Instance.DisableDialogue();
@@ -106,10 +114,9 @@ public class MainGameManager : MonoBehaviour
             {
                 TeamName = AuthenticationInputField.text;
                 NavigationManager.Instance.ActivateInitalScreen();
+                StartCoroutine(StartDelay());
+                print("Callback received");
             });
-
-            StartCoroutine(StartDelay());
-            print("Callback received");
         });
     }
 
