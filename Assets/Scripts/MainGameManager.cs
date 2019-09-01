@@ -7,6 +7,7 @@ using System.Text;
 using Newtonsoft.Json;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 
 public class MainGameManager : MonoBehaviour
@@ -44,6 +45,7 @@ public class MainGameManager : MonoBehaviour
         Score = 1500;
         StartCoroutine(CallbackQueueRoutine());
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
+       
     }
 
     private void Update()
@@ -97,6 +99,8 @@ public class MainGameManager : MonoBehaviour
     IEnumerator StartDelay()
     {
         yield return new WaitForSeconds(3);
+        UnityWebRequest req = UnityWebRequest.Get(new Uri("http://192.168.1.17:14999/start"));
+        req.SendWebRequest(); 
         timerStarted = true;
     }
 

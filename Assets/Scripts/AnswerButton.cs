@@ -6,4 +6,5 @@ public class AnswerButton : MonoBehaviour
 {
     public int Id;
     public bool IsCorrect;
+    public GameObject QuestionHeader;
 }
