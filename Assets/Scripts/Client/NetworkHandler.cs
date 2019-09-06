@@ -219,6 +219,11 @@ public class NetworkHandler
         client.GetStream().Write(buff, 0, buff.Length);
     }
 
+    void SendData(byte[] data)
+    {
+        
+    }
+
     public void Dispose()
     {
         SendDisconnect(MainGameManager.Instance.TeamName);
