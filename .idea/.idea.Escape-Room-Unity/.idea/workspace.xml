@@ -12,7 +12,7 @@
     <session id="-663232784">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="40" />
+          <entry key="project.closed" value="41" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="6" />
           <entry key="project.open.time.12" value="6" />
@@ -513,12 +513,12 @@
       <workItem from="1567359281716" duration="2217000" />
       <workItem from="1567717059547" duration="2412000" />
       <workItem from="1567778925459" duration="312000" />
-      <workItem from="1568223649692" duration="918000" />
+      <workItem from="1568223649692" duration="1515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136570000" />
+    <option name="totallyTimeSpent" value="137167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,7 +531,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18255034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
