@@ -38,7 +38,7 @@ public class AnswerManager : MonoBehaviour
 
         if (ab.IsCorrect)
         {
-            ab.QuestionHeader.SetActive(false);
+            ab.QuestionHeader.transform.Find("QuestionCheck").gameObject.SetActive(true);
             DialogManager.Instance.EnableDialogue("Congratulations!", "You got 100 points", "OK", true, DialogManager.Instance.DisableDialogue);
         }
         else

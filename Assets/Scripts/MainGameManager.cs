@@ -60,6 +60,7 @@ public class MainGameManager : MonoBehaviour
                 //save min
                 ElapsedTime += Time.deltaTime;
                 var mins = Utilities.GetMinutes((int)ElapsedTime);
+                UpdatePoints(1, false);
 
                 if (mins > previousMinute)
                 {
