@@ -191,7 +191,7 @@ public class NetworkHandler
         client.GetStream().Write(buff, 0, buff.Length);
     }
 
-    public void SendGameEnd(string teamName, string finalChoice, string finalTime, int finalScore)
+    public void SendGameEnd(string teamName, string finalChoice, int finalTime, int finalScore)
     {
         if (isDebug)
             return;
@@ -211,7 +211,7 @@ public class NetworkHandler
         client.GetStream().Write(buff, 0, buff.Length);
     }
 
-    public void SendTimerHeartBeat(string teamName, string time)
+    public void SendTimerHeartBeat(string teamName, int time)
     {
         var packet = new ClientTimePacket(teamName, time);
         var serializedPacket = JsonConvert.SerializeObject(packet);

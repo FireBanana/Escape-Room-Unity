@@ -74,7 +74,7 @@ public class MainGameManager : MonoBehaviour
                 if (Mathf.FloorToInt(ElapsedTime) > previousSecond)
                 {
                     previousSecond = Mathf.FloorToInt(ElapsedTime);
-                    NetworkHandlerInstance.SendTimerHeartBeat(TeamName, Utilities.SecondsToFormattedString(previousSecond));
+                    NetworkHandlerInstance.SendTimerHeartBeat(TeamName, previousSecond);
                 }
             }
             else
