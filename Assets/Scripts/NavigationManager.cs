@@ -67,7 +67,7 @@ public class NavigationManager : MonoBehaviour
 
         var span = TimeSpan.FromSeconds(MainGameManager.Instance.ElapsedTime);
 
-        MainGameManager.Instance.NetworkHandlerInstance.SendGameEnd(MainGameManager.Instance.TeamName, AnswerManager.Instance.FinalChoice, ((int)MainGameManager.Instance.ElapsedTime).ToString(), MainGameManager.Instance.Score);
+        MainGameManager.Instance.NetworkHandlerInstance.SendGameEnd(MainGameManager.Instance.TeamName, AnswerManager.Instance.FinalChoice, ((int)MainGameManager.Instance.ElapsedTime), MainGameManager.Instance.Score);
         
         ScoreText.text = "Your final score is: " + MainGameManager.Instance.Score;
         TimeText.text = "Your final time is: " + Utilities.SecondsToFormattedString((int)MainGameManager.Instance.ElapsedTime);
