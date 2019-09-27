@@ -50,43 +50,43 @@ public class MainGameManager : MonoBehaviour
 
     private void Update()
     {
-        if(GameEnded)
-            return;
+        //if(GameEnded)
+        //    return;
         
-        if (timerStarted && !gamePaused)
-        {
-            if (ElapsedTime < MAXIMUM_TIME)
-            {
-                //save min
-                ElapsedTime += Time.deltaTime;
-                var mins = Utilities.GetMinutes((int)ElapsedTime);
+        //if (timerStarted && !gamePaused)
+        //{
+        //    if (ElapsedTime < MAXIMUM_TIME)
+        //    {
+        //        //save min
+        //        ElapsedTime += Time.deltaTime;
+        //        var mins = Utilities.GetMinutes((int)ElapsedTime);
 
-                if (mins > previousMinute)
-                {
-                    previousMinute = mins;
+        //        if (mins > previousMinute)
+        //        {
+        //            previousMinute = mins;
 
-                    if (ElapsedTime < MAXIMUM_TIME)
-                        StartCoroutine(SendPointUpdateWithDelay(-25));
-                    else
-                        Score -= 25;
-                }
+        //            if (ElapsedTime < MAXIMUM_TIME)
+        //                StartCoroutine(SendPointUpdateWithDelay(-25));
+        //            else
+        //                Score -= 25;
+        //        }
 
-                if (Mathf.FloorToInt(ElapsedTime) > previousSecond)
-                {
-                    previousSecond = Mathf.FloorToInt(ElapsedTime);
-                    NetworkHandlerInstance.SendTimerHeartBeat(TeamName, previousSecond);
-                }
-            }
-            else
-            {
-                //UpdatePoints(-25, false);
-                timerStarted = false;
-                AudioManager.Instance.PlayAudio(12);
-                NavigationManager.Instance.ActivateGameEndScreen();
-                print("GAME END");
-                DialogManager.Instance.DisableDialogue();
-            }
-        }
+        //        if (Mathf.FloorToInt(ElapsedTime) > previousSecond)
+        //        {
+        //            previousSecond = Mathf.FloorToInt(ElapsedTime);
+        //            NetworkHandlerInstance.SendTimerHeartBeat(TeamName, previousSecond);
+        //        }
+        //    }
+        //    else
+        //    {
+        //        //UpdatePoints(-25, false);
+        //        timerStarted = false;
+        //        AudioManager.Instance.PlayAudio(12);
+        //        NavigationManager.Instance.ActivateGameEndScreen();
+        //        print("GAME END");
+        //        DialogManager.Instance.DisableDialogue();
+        //    }
+        //}
     }
 
     IEnumerator SendPointUpdateWithDelay(int points)
@@ -146,7 +146,7 @@ public class MainGameManager : MonoBehaviour
     public void UpdatePoints(int points, bool isHidden)
     {
         Score += points;
-        NetworkHandlerInstance.SendPointsUpdate(TeamName, Score, isHidden);
+        NetworkHandlerInstance.SendPointsUpdate(TeamName, points, isHidden);
     }
 
     IEnumerator CallbackQueueRoutine()

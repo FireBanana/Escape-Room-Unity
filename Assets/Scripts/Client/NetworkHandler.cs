@@ -44,81 +44,94 @@ public class NetworkHandler
 
     public void StartPacketListener(TcpClient client)
     {
-       networkTask = Task.Factory.StartNew(() =>
-            {
-                while (true)
-                {
-                    if (PacketListenerCancellationSource.Token.IsCancellationRequested)
-                    {
-                        Debug.Log("Cancelling");
-                        break;
-                    }
+        networkTask = Task.Factory.StartNew(() =>
+             {
+                 while (true)
+                 {
+                     if (PacketListenerCancellationSource.Token.IsCancellationRequested)
+                     {
+                         Debug.Log("Cancelling");
+                         break;
+                     }
 
 
-                    if (client.Connected)
-                    {
-                        try
-                        {
-                            if (!client.GetStream().DataAvailable)
-                                continue;
+                     if (client.Connected)
+                     {
+                         try
+                         {
+                             if (!client.GetStream().DataAvailable)
+                                 continue;
 
-                            var buffer = new byte[client.ReceiveBufferSize];
+                             var buffer = new byte[client.ReceiveBufferSize];
 
-                            client.GetStream().Read(buffer, 0, buffer.Length);
-                            try
-                            {
-                                var packet = JsonConvert.DeserializeObject<Packet>(Encoding.ASCII.GetString(buffer));
+                             client.GetStream().Read(buffer, 0, buffer.Length);
+                             try
+                             {
+                                 var packet = JsonConvert.DeserializeObject<Packet>(Encoding.ASCII.GetString(buffer));
 
-                                switch (packet.PacketId)
-                                {
-                                    case "pauseGame":
-                                        var pausePacket =
-                                            JsonConvert.DeserializeObject<PauseGamePacket>(
-                                                Encoding.ASCII.GetString(buffer));
-                                        MainGameManager.Instance.AddToCallbackQueue(() =>
-                                        {
-                                            MainGameManager.Instance.ToggleGame(pausePacket.IsPaused);
-                                        });
-                                        break;
-                                    case "hintResponse":
-                                        var hintResponsePacket =
-                                            JsonConvert.DeserializeObject<HintResponsePacket>(
-                                                Encoding.ASCII.GetString(buffer));
-                                        MainGameManager.Instance.AddToCallbackQueue(() =>
-                                        {
-                                            DialogManager.Instance.EnableDialogue("Hint Received!",
-                                                hintResponsePacket.Hint, "OK", true,
-                                                DialogManager.Instance.DisableDialogue);
-                                        });
+                                 switch (packet.PacketId)
+                                 {
+                                     case "pauseGame":
+                                         var pausePacket =
+                                             JsonConvert.DeserializeObject<PauseGamePacket>(
+                                                 Encoding.ASCII.GetString(buffer));
+                                         MainGameManager.Instance.AddToCallbackQueue(() =>
+                                         {
+                                             MainGameManager.Instance.ToggleGame(pausePacket.IsPaused);
+                                         });
+                                         break;
+                                     case "hintResponse":
+                                         var hintResponsePacket =
+                                             JsonConvert.DeserializeObject<HintResponsePacket>(
+                                                 Encoding.ASCII.GetString(buffer));
+                                         MainGameManager.Instance.AddToCallbackQueue(() =>
+                                         {
+                                             DialogManager.Instance.EnableDialogue("Hint Received!",
+                                                 hintResponsePacket.Hint, "OK", true,
+                                                 DialogManager.Instance.DisableDialogue);
+                                         });
 
-                                        break;
-                                }
-                            }
-                            catch (Exception e)
-                            {
-                                Debug.LogError(e.ToString());
-                                break;
-                            }
-                        }
-                        catch (Exception e)
-                        {
-                            Debug.LogError(e.ToString());
-                            break;
-                        }
-                    }
-                    else
-                    {
-                        Debug.Log("Not Connected");
-                    }
-                }
+                                         break;
 
-                Debug.Log("ended");
-                client.GetStream().Close();
-                client.Close();
-                
-            }, PacketListenerCancellationSource.Token, TaskCreationOptions.None,
-            TaskScheduler.Default
-        );
+                                     case "gameEndRequest":
+                                         var gameEndRequestPacket = JsonConvert.DeserializeObject<GameEndRequestPacket>(
+                                                 Encoding.ASCII.GetString(buffer));
+                                         MainGameManager.Instance.AddToCallbackQueue(() =>
+                                         {
+                                             MainGameManager.Instance.Score = gameEndRequestPacket.Score;
+                                             AudioManager.Instance.PlayAudio(12);
+                                             NavigationManager.Instance.ActivateGameEndScreen();
+                                             DialogManager.Instance.DisableDialogue();
+                                         }
+                                         );
+                                         break;
+                                 }
+                             }
+                             catch (Exception e)
+                             {
+                                 Debug.LogError(e.ToString());
+                                 break;
+                             }
+                         }
+                         catch (Exception e)
+                         {
+                             Debug.LogError(e.ToString());
+                             break;
+                         }
+                     }
+                     else
+                     {
+                         Debug.Log("Not Connected");
+                     }
+                 }
+
+                 Debug.Log("ended");
+                 client.GetStream().Close();
+                 client.Close();
+
+             }, PacketListenerCancellationSource.Token, TaskCreationOptions.None,
+             TaskScheduler.Default
+         );
     }
 
     public void SendAuthentication(string teamName, AuthenticationCallback callback)
@@ -221,7 +234,7 @@ public class NetworkHandler
 
     void SendData(byte[] data)
     {
-        
+
     }
 
     public void Dispose()

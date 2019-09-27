@@ -47,7 +47,7 @@ public class AnswerManager : MonoBehaviour
         }
         
         MainGameManager.Instance.Score = Score;
-        MainGameManager.Instance.NetworkHandlerInstance.SendPointsUpdate(MainGameManager.Instance.TeamName, Score, !ab.IsCorrect);
+        MainGameManager.Instance.NetworkHandlerInstance.SendPointsUpdate(MainGameManager.Instance.TeamName, ab.IsCorrect ? 100 : -200, false);
     }
     
 
