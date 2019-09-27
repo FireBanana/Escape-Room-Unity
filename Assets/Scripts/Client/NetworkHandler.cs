@@ -15,7 +15,7 @@ public class NetworkHandler
 {
     const int PORT = 2000;
 
-    private string ipAddress = "192.168.1.4";
+    private string ipAddress = "192.168.1.17";
     TcpClient client;
 
     private CancellationTokenSource PacketListenerCancellationSource = new CancellationTokenSource();
