@@ -5606,7 +5606,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Greg, Marsha, Cindy
+  m_text: July 4th
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -7777,7 +7777,7 @@ MonoBehaviour:
   m_pageToDisplay: 1
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
-    textComponent: {fileID: 0}
+    textComponent: {fileID: 235577064}
     characterCount: 18
     spriteCount: 0
     spaceCount: 3
@@ -11261,7 +11261,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: August 10th
+  m_text: M, Q, V
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -13271,7 +13271,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Steve Wosniak
+  m_text: Doug Hooper, under the stairs
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -14283,7 +14283,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Steve Jobs
+  m_text: The Society, under the mailbox
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -17925,7 +17925,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Paul Allen
+  m_text: Sheriff Cronenberg, under the mailbox
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -19781,7 +19781,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Bill Gates
+  m_text: Uncle Walt, in the key lockbox
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -20013,7 +20013,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: X, Y, Z
+  m_text: Christmas Eve
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -20395,7 +20395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &627926717
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22983,7 +22983,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Bono, Madonna, Joan
+  m_text: June 22nd
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -26801,7 +26801,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: What code names has Larry assigned to the humanoids?
+  m_text: What is the date that Brenda gave as a cut-off when she would contact authorities?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -28672,7 +28672,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: July 4th
+  m_text: Greg, Marsha, Cindy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -35833,7 +35833,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1136109755
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37380,7 +37380,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Brenda Roswel
+  m_text: Brenda Roswell
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -42247,14 +42247,15 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1736724511}
   m_Father: {fileID: 1136109755}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -8}
-  m_SizeDelta: {x: 665.7, y: 219}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 500, y: -8}
+  m_SizeDelta: {x: 665.7, y: -363}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1357564427
 MonoBehaviour:
@@ -42276,12 +42277,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-    culpa qui officia deserunt mollit anim id est laborum
+  m_text: "Welcome to The Fifth Wall Society\r recruitment training simulation. This\r
+    mobile device will help us measure your\r\nanalytical and decision making skills.\r
+    Throughout the simulation, you will\r answer questions and scan QR codes that\r
+    relate to this 1986 case file. But\r first, you\u2019ll need to calibrate the\r
+    system. To do this, replicate the\r following tone using the synthesizer\r\nprovided."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -42316,7 +42316,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_textAlignment: 257
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -42351,21 +42351,21 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1357564427}
-    characterCount: 444
+    characterCount: 388
     spriteCount: 0
-    spaceCount: 68
-    wordCount: 69
+    spaceCount: 58
+    wordCount: 59
     linkCount: 0
-    lineCount: 7
+    lineCount: 3
     pageCount: 1
-    materialCount: 1
+    materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
   m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1736724512}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -42381,7 +42381,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357564425}
-  m_CullTransparentMesh: 0
+  m_CullTransparentMesh: 1
 --- !u!1 &1367711509
 GameObject:
   m_ObjectHideFlags: 0
@@ -51730,7 +51730,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: What is the date that Brenda gave as a cut-off when she would contact authorities?
+  m_text: What code names has Larry assigned to the humanoids?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -52086,6 +52086,80 @@ MonoBehaviour:
   Id: 33
   IsCorrect: 0
   QuestionHeader: {fileID: 602081640}
+--- !u!1 &1736724510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736724511}
+  - component: {fileID: 1736724513}
+  - component: {fileID: 1736724512}
+  m_Layer: 5
+  m_Name: TMP SubMeshUI [NationalPark-Regular SDF Material + LiberationSans SDF Atlas]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1736724511
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736724510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1357564426}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1736724512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736724510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_spriteAsset: {fileID: 0}
+  m_material: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
+  m_isDefaultMaterial: 0
+  m_padding: 1.25
+  m_canvasRenderer: {fileID: 1736724513}
+  m_TextComponent: {fileID: 1357564427}
+  m_materialReferenceIndex: 1
+--- !u!222 &1736724513
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736724510}
+  m_CullTransparentMesh: 0
 --- !u!1 &1752523906
 GameObject:
   m_ObjectHideFlags: 0
@@ -53888,7 +53962,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: REPLAY TONE
+  m_text: PLAY TONE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -53957,8 +54031,8 @@ MonoBehaviour:
   m_pageToDisplay: 1
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
-    textComponent: {fileID: 0}
-    characterCount: 11
+    textComponent: {fileID: 1815471714}
+    characterCount: 9
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
@@ -56836,7 +56910,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: M, Q, V
+  m_text: August 10th
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -59615,7 +59689,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Who does Larry use as a cipher key to hide his escape plan?
+  m_text: Where did and for whom did Brenda leave her locker key?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -63042,7 +63116,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: June 22nd
+  m_text: Bono, Madonna, Joan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
@@ -64186,7 +64260,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Christmas Eve
+  m_text: X, Y, Z
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f45993b3116498a4096ed63e31596442, type: 2}
   m_sharedMaterial: {fileID: 21756053541861082, guid: f45993b3116498a4096ed63e31596442,
