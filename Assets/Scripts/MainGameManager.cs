@@ -50,6 +50,8 @@ public class MainGameManager : MonoBehaviour
 
     private void Update()
     {
+        NetworkHandlerInstance.Poll();
+
         if (GameEnded)
             return;
 

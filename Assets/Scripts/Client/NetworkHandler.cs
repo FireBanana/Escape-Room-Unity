@@ -24,13 +24,14 @@ public class NetworkHandler
     // ------------------------------------------
 
     private string ipAddress = "192.168.2.4";
-    TcpClient client;
+    NetPeer peer;
 
     private CancellationTokenSource PacketListenerCancellationSource = new CancellationTokenSource();
     private Task networkTask;
     private bool isDebug;
 
     public delegate void AuthenticationCallback();
+    AuthenticationCallback authCallback;
 
     public NetworkHandler(bool debug)
     {
@@ -46,25 +47,28 @@ public class NetworkHandler
         newClient = new NetManager(eventListener);
 
         newClient.Start();
-        newClient.Connect(ipAddress, PORT, "key");
+        peer = newClient.Connect(ipAddress, PORT, "key");        
 
         eventListener.NetworkReceiveEvent += (fromPeer, dataReader, deliveryMethod) => 
         {
-            var buffer = new byte[dataReader.RawDataSize];
-            dataReader.GetBytes(buffer, dataReader.RawDataSize);
+            var buffer = new byte[dataReader.AvailableBytes];
+            dataReader.GetBytes(buffer, dataReader.AvailableBytes);
 
             var packet = JsonConvert.DeserializeObject<Packet>(Encoding.ASCII.GetString(buffer));
 
             ParsePacket(packet, buffer);
+            dataReader.Recycle();
         };
-
-        newClient.PollEvents();
     }
 
     public void ParsePacket(Packet packet, byte[] buffer)
     {
         switch (packet.PacketId)
         {
+            case "authenticationResponse":
+                Debug.Log("response");
+                authCallback();
+                break;
             case "pauseGame":
                 var pausePacket =
                     JsonConvert.DeserializeObject<PauseGamePacket>(
@@ -102,6 +106,10 @@ public class NetworkHandler
         }
     }
 
+    public void Poll()
+    {
+        newClient.PollEvents();
+    }
     //public void StartPacketListener(TcpClient client)
     //{
     //    networkTask = Task.Factory.StartNew(() =>
@@ -167,29 +175,30 @@ public class NetworkHandler
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);
-        client.GetStream().Write(buff, 0, buff.Length);
+        peer.Send(buff, DeliveryMethod.ReliableUnordered);
+        authCallback = callback;
 
-        Task.Run(() =>
-        {
-            while (true)
-            {
-                try
-                {
-                    var buffer = new byte[client.ReceiveBufferSize];
-                    client.GetStream().Read(buffer, 0, buffer.Length);
-                    var callbackData =
-                        JsonConvert.DeserializeObject<AuthenticationResponsePacket>(Encoding.ASCII.GetString(buffer));
+        //Task.Run(() =>
+        //{
+        //    while (true)
+        //    {
+        //        try
+        //        {
+        //            var buffer = new byte[client.ReceiveBufferSize];
+        //            client.GetStream().Read(buffer, 0, buffer.Length);
+        //            var callbackData =
+        //                JsonConvert.DeserializeObject<AuthenticationResponsePacket>(Encoding.ASCII.GetString(buffer));
 
-                    callback.Invoke();
-                    return;
-                }
-                catch (Exception e)
-                {
-                    Debug.LogError("Authentication Callback Error\n\n" + e.ToString());
-                    break;
-                }
-            }
-        });
+        //            callback.Invoke();
+        //            return;
+        //        }
+        //        catch (Exception e)
+        //        {
+        //            Debug.LogError("Authentication Callback Error\n\n" + e.ToString());
+        //            break;
+        //        }
+        //    }
+        //});
     }
 
     public void SendHintRequest(string teamName)
@@ -201,7 +210,7 @@ public class NetworkHandler
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);
-        client.GetStream().Write(buff, 0, buff.Length);
+        peer.Send(buff, DeliveryMethod.ReliableUnordered);
     }
 
     public void SendHelpRequest(string teamName)
@@ -213,7 +222,7 @@ public class NetworkHandler
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);
-        client.GetStream().Write(buff, 0, buff.Length);
+        peer.Send(buff, DeliveryMethod.ReliableUnordered);
     }
 
     public void SendPointsUpdate(string teamName, int points, bool isHidden)
@@ -225,7 +234,7 @@ public class NetworkHandler
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);
-        client.GetStream().Write(buff, 0, buff.Length);
+        peer.Send(buff, DeliveryMethod.ReliableUnordered);
     }
 
     public void SendGameEnd(string teamName, string finalChoice, int finalTime, int finalScore)
@@ -237,7 +246,7 @@ public class NetworkHandler
 
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);
-        client.GetStream().Write(buff, 0, buff.Length);
+        peer.Send(buff, DeliveryMethod.ReliableUnordered);
     }
 
     public void SendDisconnect(string teamName)
@@ -245,7 +254,7 @@ public class NetworkHandler
         var packet = new GameQuitPacket(teamName);
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);
-        client.GetStream().Write(buff, 0, buff.Length);
+        peer.Send(buff, DeliveryMethod.ReliableUnordered);
     }
 
     public void SendTimerHeartBeat(string teamName, int time)
@@ -253,7 +262,7 @@ public class NetworkHandler
         var packet = new ClientTimePacket(teamName, time);
         var serializedPacket = JsonConvert.SerializeObject(packet);
         var buff = Encoding.ASCII.GetBytes(serializedPacket);
-        client.GetStream().Write(buff, 0, buff.Length);
+        peer.Send(buff, DeliveryMethod.ReliableUnordered);
     }
 
     void SendData(byte[] data)
