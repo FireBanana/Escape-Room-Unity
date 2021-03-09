@@ -12,7 +12,7 @@ public class LevelManager : MonoBehaviour
         Instance = this;
     }
 
-    public List<QuestionHolder> QuestionHolderList;
+    public QuestionHolder QuestionHolderRef;
     public List<Button> LevelButtons;
     public GameObject QrHolder;
     public GameObject QrMask;
@@ -22,33 +22,13 @@ public class LevelManager : MonoBehaviour
     
     List<int> openedLevel = new List<int>();
 
-    public void SelectLevel(int levelIndex)
+    public void SelectLevel(int levelIndex) //NOTE: Removed voice from here
     {
         if(levelIndex == currentSelectedLevel)
             return;
 
         if (levelIndex == 0 && !firstTimeSelected)
-        {
             firstTimeSelected = true;
-            AudioManager.Instance.PlayAudio(4);
-            DialogManager.Instance.EnableDialogue("Super Duper",
-                "Each level has 5 question. Get the answer correct and you will be rewarded 100 points. Get the answer wrong and you will lose 200 points.\n\nAnswer the fifth question correctly in the current level to unlock the next level",
-                "Got It", false, () =>
-                {
-                    DialogManager.Instance.DisableDialogue();
-                    AudioManager.Instance.PlayAudio(5);
-                    DialogManager.Instance.EnableDialogue("Finally...",
-                        "If you need them, your team will be provided three free hints if you get stuck in the simulation. These are represented by the stars below.\n\nUse all three, and each additional hint you request will cost your team 50 points.\n\nTo use a hint, click the \"Hint\" button, then wait for the hintbot to display the \"Ready for Hint\" text on your simulation scoreboard located above the window.\n\nThen clearly speak your question.\n\nFor non-simulation assistance, click the \"Help\" button.",
-                        "Sheesh, is that it?", false, () =>
-                        {
-                            DialogManager.Instance.DisableDialogue();
-                            AudioManager.Instance.PlayAudio(6);
-                            DialogManager.Instance.EnableDialogue("Holy Mackerel",
-                                "You sure are itchin' to go at it, huh?\n\nOkay then, you should probably start by turning on the power in the cabin. You can't collect the data in the dark...",
-                                "Thanks Captain Obvious", true, DialogManager.Instance.DisableDialogue);
-                        });
-                });
-        }
 
         if (currentSelectedLevel == -1)
         {
@@ -57,7 +37,7 @@ public class LevelManager : MonoBehaviour
             NavigationManager.Instance.DeactivateQr();
         }
         else if(currentSelectedLevel >= 0)
-            QuestionHolderList[currentSelectedLevel].gameObject.SetActive(false);
+            QuestionHolderRef.gameObject.SetActive(false);
         
         if (levelIndex == -2)
         {
@@ -65,26 +45,26 @@ public class LevelManager : MonoBehaviour
         }
         
         currentSelectedLevel = levelIndex;
-        QuestionHolderList[currentSelectedLevel].gameObject.SetActive(true);
+        QuestionHolderRef.gameObject.SetActive(true);
     }
 
-    public void UnlockLevel(int level)
-    {
-        if(openedLevel.Contains(level))
-            return;
+    //public void UnlockLevel(int level)
+    //{
+    //    if(openedLevel.Contains(level))
+    //        return;
         
-        openedLevel.Add(level);
+    //    openedLevel.Add(level);
         
-        if (level == 5)
-        {
-            //DialogManager.Instance.EnableDialogue("Simulation Terminated", "", "OK", DialogManager.Instance.DisableDialogue);
-            return;
-        }
+    //    if (level == 5)
+    //    {
+    //        //DialogManager.Instance.EnableDialogue("Simulation Terminated", "", "OK", DialogManager.Instance.DisableDialogue);
+    //        return;
+    //    }
         
-        AudioManager.Instance.PlayAudio(7);
-        LevelButtons[level].interactable = true;
-        DialogManager.Instance.EnableDialogue("Level Unlocked!", "You have unlocked a new level!", "OK", true, DialogManager.Instance.DisableDialogue);
-    }
+    //    AudioManager.Instance.PlayAudio(7);
+    //    LevelButtons[level].interactable = true;
+    //    DialogManager.Instance.EnableDialogue("Level Unlocked!", "You have unlocked a new level!", "OK", true, DialogManager.Instance.DisableDialogue);
+    //}
 
     public void SelectQr()
     {
@@ -95,7 +75,7 @@ public class LevelManager : MonoBehaviour
         }
         
         if(currentSelectedLevel >= 0)
-            QuestionHolderList[currentSelectedLevel].gameObject.SetActive(false);
+            QuestionHolderRef.gameObject.SetActive(false);
         currentSelectedLevel = -1;
         QrMask.SetActive(true);
         QrHolder.SetActive(true);

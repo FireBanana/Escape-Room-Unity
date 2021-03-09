@@ -8,7 +8,10 @@ public class AnswerManager : MonoBehaviour
 {
     public static AnswerManager Instance;
     private bool finalQuestionAnswered;
+    public GameObject FinalQuestion;
+    public int TotalQuestions;
     [HideInInspector] public string FinalChoice;
+    int questionCounter = 0;
 
     private List<int> usedButtonIds = new List<int>();
     
@@ -38,6 +41,7 @@ public class AnswerManager : MonoBehaviour
 
         if (ab.IsCorrect)
         {
+            questionCounter++;
             ab.QuestionHeader.transform.Find("QuestionCheck").gameObject.SetActive(true);
             DialogManager.Instance.EnableDialogue("Congratulations!", "You got 100 points", "OK", true, DialogManager.Instance.DisableDialogue);
         }
@@ -48,8 +52,17 @@ public class AnswerManager : MonoBehaviour
         
         MainGameManager.Instance.Score = Score;
         MainGameManager.Instance.NetworkHandlerInstance.SendPointsUpdate(MainGameManager.Instance.TeamName, ab.IsCorrect ? 100 : -200, false);
+
+        if(HasAnsweredAll())
+        {
+            FinalQuestion.SetActive(true);
+        }
     }
     
+    public bool HasAnsweredAll()
+    {
+        return questionCounter == TotalQuestions - 1 ? true : false;
+    }
 
     public void AnswerFinalQuestion(string value)
     {

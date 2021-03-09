@@ -50,7 +50,7 @@ public class QrManager : MonoBehaviour
                     () =>
                     {
                         qrScannedDictionary["Entrance"] = true;
-                        LevelManager.Instance.UnlockLevel(0);
+                        //LevelManager.Instance.UnlockLevel(0);
                         MainGameManager.Instance.UpdatePoints(qrDictionary["Entrance"], false);
                         DialogManager.Instance.DisableDialogue();
                     });
