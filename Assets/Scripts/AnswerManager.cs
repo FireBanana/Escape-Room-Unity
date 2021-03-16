@@ -8,7 +8,10 @@ public class AnswerManager : MonoBehaviour
 {
     public static AnswerManager Instance;
     private bool finalQuestionAnswered;
-    public GameObject FinalQuestion;
+
+    public GameObject FinalQuestion, FinalBody;
+
+
     public int TotalQuestions;
     [HideInInspector] public string FinalChoice;
     int questionCounter = 0;
@@ -56,12 +59,13 @@ public class AnswerManager : MonoBehaviour
         if(HasAnsweredAll())
         {
             FinalQuestion.SetActive(true);
+            FinalBody.SetActive(true);
         }
     }
     
     public bool HasAnsweredAll()
     {
-        return questionCounter == TotalQuestions - 1 ? true : false;
+        return questionCounter == TotalQuestions ? true : false;
     }
 
     public void AnswerFinalQuestion(string value)

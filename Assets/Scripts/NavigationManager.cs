@@ -18,6 +18,7 @@ public class NavigationManager : MonoBehaviour
     public TextMeshProUGUI TimeText;
 
     public GameObject MainBackground;
+    public GameObject QuestionHolder;
 
     private DialogManager dialogManager;
 
@@ -77,12 +78,14 @@ public class NavigationManager : MonoBehaviour
     public void ActivateQr()
     {
         MainBackground.SetActive(false);
+        QuestionHolder.SetActive(false);
         LevelManager.Instance.SelectQr();
     }
 
     public void DeactivateQr()
     {
         MainBackground.SetActive(true);
+        QuestionHolder.SetActive(true);
         LevelManager.Instance.DeselectQr();
     }
 }

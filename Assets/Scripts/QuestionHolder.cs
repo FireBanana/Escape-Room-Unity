@@ -10,8 +10,10 @@ public class QuestionHolder : MonoBehaviour
     public List<Button> FinalButtons;
     private int currentActiveBodyId = -1;
 
+    /// Deprecated
     public void SelectQuestion(int id)
     {
+        return;
         if (currentActiveBodyId == id)
         {
             MinimizeBody(id);
