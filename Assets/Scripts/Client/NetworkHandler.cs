@@ -23,10 +23,9 @@ public class NetworkHandler
 
     // ------------------------------------------
 
-    private string ipAddress = "192.168.2.4";
+    private string ipAddress = "192.168.1.17";
     NetPeer peer;
 
-    private CancellationTokenSource PacketListenerCancellationSource = new CancellationTokenSource();
     private Task networkTask;
     private bool isDebug;
 
@@ -273,6 +272,5 @@ public class NetworkHandler
     public void Dispose()
     {
         SendDisconnect(MainGameManager.Instance.TeamName);
-        PacketListenerCancellationSource.Cancel();
     }
 }

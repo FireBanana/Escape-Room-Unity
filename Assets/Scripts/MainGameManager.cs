@@ -13,7 +13,7 @@ using UnityEngine.SceneManagement;
 public class MainGameManager : MonoBehaviour
 {
     public const int MAXIMUM_TIME = 3600;
-    
+
     public static MainGameManager Instance;
     [HideInInspector] public NetworkHandler NetworkHandlerInstance;
     [HideInInspector] public string TeamName;
@@ -22,11 +22,11 @@ public class MainGameManager : MonoBehaviour
     private ConcurrentQueue<Action> CallbackQueue = new ConcurrentQueue<Action>();
 
     [Header("Fields")] public TMP_InputField AuthenticationInputField;
-    
+
     [Space] public GameObject PauseScreen;
     public bool IsDebug;
 
-    [HideInInspector]public float ElapsedTime;
+    [HideInInspector] public float ElapsedTime;
     private int previousMinute;
     private int previousSecond;
     private bool timerStarted;
@@ -45,7 +45,7 @@ public class MainGameManager : MonoBehaviour
         Score = 1500;
         StartCoroutine(CallbackQueueRoutine());
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
-       
+
     }
 
     private void Update()
@@ -102,12 +102,13 @@ public class MainGameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         UnityWebRequest req = UnityWebRequest.Get(new Uri("http://192.168.1.17:14999/start"));
-        req.SendWebRequest(); 
+        req.SendWebRequest();
         timerStarted = true;
     }
 
     public void AuthenticateTeam()
     {
+
         if (AuthenticationInputField.text == "" || string.IsNullOrWhiteSpace(AuthenticationInputField.text))
         {
             Debug.LogError("No team name");
@@ -134,7 +135,7 @@ public class MainGameManager : MonoBehaviour
     public void ToggleGame(bool isPaused)
     {
         gamePaused = isPaused;
-        
+
         if (isPaused)
         {
             PauseScreen.SetActive(true);
@@ -170,7 +171,7 @@ public class MainGameManager : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
+    private void OnApplicationQuit()
     {
         NetworkHandlerInstance.Dispose();
     }
